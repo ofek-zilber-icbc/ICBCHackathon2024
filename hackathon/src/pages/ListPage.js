@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "../App.css";
 import Card from '../component/Card';
 import Header from '../component/Header';
@@ -7,6 +7,26 @@ import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/
 const ListPage = () => {
     const [summaryDialogOpen, setSummaryDialogOpen] = useState(false);
     const [summaryText, setSummaryText] = useState('');
+    const [searchValues, setSearchValues] = useState({
+        representativeName: '',
+        customerName: '',
+        date: '',
+        flag: '',
+    });
+    const [data, setData] = useState([]); // State variable to store the list of data
+    const [filteredData, setFilteredData] = useState([]); // State variable to store the filtered data
+
+    // Sample data
+    const sampleData = [
+        { representativeName: 'John Doe', customerName: 'Alice Smith', startTime: '2024-04-22 10:00 AM', endTime: '2024-04-22 10:30 AM', duration: '30 minutes', flag: 'Negative' },
+        // Add more sample data as needed
+    ];
+
+    useEffect(() => {
+        // Initialize data when component mounts
+        setData(sampleData);
+        setFilteredData(sampleData);
+    }, []);
 
     const openSummaryDialog = (text) => {
         console.log("open")
@@ -18,62 +38,117 @@ const ListPage = () => {
         console.log("close")
         setSummaryDialogOpen(false);
     };
+
+    const searchTable = () => {
+        const filtered = data.filter(item => {
+            // Filter by representative name
+            if (searchValues.representativeName !== '' && !item.representativeName.toLowerCase().includes(searchValues.representativeName.toLowerCase())) {
+                return false;
+            }
+            // Filter by customer name
+            if (searchValues.customerName !== '' && !item.customerName.toLowerCase().includes(searchValues.customerName.toLowerCase())) {
+                return false;
+            }
+            // Filter by date
+            if (searchValues.date !== '' && item.startTime.split(' ')[0] !== searchValues.date) {
+                return false;
+            }
+            // Filter by flag
+            if (searchValues.flag !== '' && item.flag !== searchValues.flag) {
+                return false;
+            }
+            return true;
+        });
+        setFilteredData(filtered);
+    };
+
+    const handleInputChange = (event) => {
+        const { name, value } = event.target;
+        setSearchValues({ ...searchValues, [name]: value });
+    };
+
     return (
         <>
             <Header/>
-                <Card>
-                        <form id="filterForm" className="card-content">
-                            <div className="form-group">
-                                <label  className="form-label">Representative Name:</label>
-                                <input type="text" id="name" className="form-input" placeholder="Enter name" />
-                            </div>
-                            <div className="form-group">
-                                <label  className="form-label">Customer Name:</label>
-                                <input type="text" id="name" className="form-input" placeholder="Enter name" />
-                            </div>
-                            <div className="form-group">
-                                <label  className="form-label">Date:</label>
-                                <input type="date" id="date" className="form-input" />
-                            </div>
-                            <div className="form-group">
-                                <label  className="form-label">Flag:</label>
-                                <select id="type" className="form-select">
-                                    <option value="1">positive</option>
-                                    <option value="2">negative</option>
-                                    <option value="3">neutral</option>
-                                </select>
-                            </div>
-                            <button type="submit" className="submit-btn">Search</button>
-                        </form>
-                </Card>
             <Card>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Representative Name</th>
-                                <th>Customer Name</th>
-                                <th>Start Time</th>
-                                <th>End Time</th>
-                                <th>Duration</th>
-                                <th>Flag</th>
-                                <th>Recording</th>
-                                <th>Summary</th>
-                                <th>Flag1</th>
-                                <th>Flag2</th>
-                                <th>Flag3</th>
-                                <th>Flag4</th>
-                                <th>Flag5</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {/* Sample data rows */}
-                            <tr>
-                                <td>John Doe</td>
-                                <td>Alice Smith</td>
-                                <td>2024-04-22 10:00 AM</td>
-                                <td>2024-04-22 10:30 AM</td>
-                                <td>30 minutes</td>
-                                <td className="negative-flag">Negative</td>
+                <form id="filterForm" className="card-content">
+                    <div className="form-group">
+                        <label className="form-label">Representative Name:</label>
+                        <input 
+                            type="text" 
+                            name="representativeName" 
+                            className="form-input" 
+                            placeholder="Enter name" 
+                            value={searchValues.representativeName} 
+                            onChange={handleInputChange} 
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Customer Name:</label>
+                        <input 
+                            type="text" 
+                            name="customerName" 
+                            className="form-input" 
+                            placeholder="Enter name" 
+                            value={searchValues.customerName} 
+                            onChange={handleInputChange} 
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Date:</label>
+                        <input 
+                            type="date" 
+                            name="date" 
+                            className="form-input" 
+                            value={searchValues.date} 
+                            onChange={handleInputChange} 
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Flag:</label>
+                        <select 
+                            name="flag" 
+                            className="form-select" 
+                            value={searchValues.flag} 
+                            onChange={handleInputChange}
+                        >
+                            <option value="">All</option>
+                            <option value="positive">Positive</option>
+                            <option value="negative">Negative</option>
+                            <option value="neutral">Neutral</option>
+                        </select>
+                    </div>
+                    <button type="button" className="submit-btn" onClick={searchTable}>Search</button>
+                </form>
+            </Card>
+            <Card>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Representative Name</th>
+                            <th>Customer Name</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                            <th>Duration</th>
+                            <th>Flag</th>
+                            <th>Recording</th>
+                            <th>Summary</th>
+                            <th>Flag1</th>
+                            <th>Flag2</th>
+                            <th>Flag3</th>
+                            <th>Flag4</th>
+                            <th>Flag5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {filteredData.map((item, index) => (
+                            <tr key={index}>
+                                <td>{item.representativeName}</td>
+                                <td>{item.customerName}</td>
+                                <td>{item.startTime}</td>
+                                <td>{item.endTime}</td>
+                                <td>{item.duration}</td>
+                                <td className={item.flag === 'Negative' ? 'negative-flag' : ''}>{item.flag}</td>
                                 <td><a href="#">Listen</a></td>
                                 <td
                                     className="summary"
@@ -87,11 +162,10 @@ const ListPage = () => {
                                 <td className="flag4"><a href="#">Flag 4</a></td>
                                 <td className="flag5"><a href="#">Flag 5</a></td>
                             </tr>
-                            {/* Add more rows as needed */}
-                        </tbody>
-                    </table>
-
-            {/* Summary Dialog */}
+                        ))}
+                    </tbody>
+                </table>
+            </Card>
             <Dialog open={summaryDialogOpen}>
                 <DialogTitle>Summary</DialogTitle>
                 <DialogContent>
@@ -101,8 +175,7 @@ const ListPage = () => {
                     <Button onClick={closeSummaryDialog}>Close</Button>
                 </DialogActions>
             </Dialog>
-            </Card>
-        </> 
+        </>
     );
 };
 
