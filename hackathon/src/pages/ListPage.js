@@ -14,7 +14,9 @@ const ListPage = () => {
         flag: '',
     });
     const [data, setData] = useState([]); // State variable to store the list of data
-    const [filteredData, setFilteredData] = useState([]); // State variable to store the filtered data
+    const [filteredData, setFilteredData] = useState([]); 
+    const [showNoDataMessage, setShowNoDataMessage] = useState(false);
+
 
     // Sample data
     const sampleData = [
@@ -54,11 +56,16 @@ const ListPage = () => {
                 return false;
             }
             // Filter by flag
-            if (searchValues.flag !== '' && item.flag !== searchValues.flag) {
+            if (searchValues.flag !== '' && searchValues.flag !== 'All' && item.flag.toLowerCase() !== searchValues.flag.toLowerCase()) {
                 return false;
             }
             return true;
         });
+        if (filtered.length === 0) {
+            setShowNoDataMessage(true);
+        } else {
+            setShowNoDataMessage(false);
+        }
         setFilteredData(filtered);
     };
 
@@ -66,6 +73,22 @@ const ListPage = () => {
         const { name, value } = event.target;
         setSearchValues({ ...searchValues, [name]: value });
     };
+    const getCurrentDate = () => {
+        const today = new Date();
+        const year = today.getFullYear();
+        let month = today.getMonth() + 1;
+        let day = today.getDate();
+    
+        if (month < 10) {
+            month = '0' + month;
+        }
+        if (day < 10) {
+            day = '0' + day;
+        }
+    
+        return `${year}-${month}-${day}`;
+    };
+    
 
     return (
         <>
@@ -101,7 +124,8 @@ const ListPage = () => {
                             name="date" 
                             className="form-input" 
                             value={searchValues.date} 
-                            onChange={handleInputChange} 
+                            onChange={handleInputChange}
+                            max={getCurrentDate()}  
                         />
                     </div>
                     <div className="form-group">
@@ -121,6 +145,9 @@ const ListPage = () => {
                     <button type="button" className="submit-btn" onClick={searchTable}>Search</button>
                 </form>
             </Card>
+            {showNoDataMessage ? (
+                <div className="no-data-message">No data matching the selected criteria.</div>
+            ) : (
             <Card>
                 <table>
                     <thead>
@@ -134,10 +161,6 @@ const ListPage = () => {
                             <th>Recording</th>
                             <th>Summary</th>
                             <th>Flag1</th>
-                            <th>Flag2</th>
-                            <th>Flag3</th>
-                            <th>Flag4</th>
-                            <th>Flag5</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -156,16 +179,13 @@ const ListPage = () => {
                                 >
                                     <a href="#">Summary</a>
                                 </td>
-                                <td className="flag1"><a href="#">Flag 1</a></td>
-                                <td className="flag2"><a href="#">Flag 2</a></td>
-                                <td className="flag3"><a href="#">Flag 3</a></td>
-                                <td className="flag4"><a href="#">Flag 4</a></td>
-                                <td className="flag5"><a href="#">Flag 5</a></td>
+                                <td className="flag"><a href="#">Flag </a></td>
                             </tr>
                         ))}
                     </tbody>
                 </table>
             </Card>
+     )}
             <Dialog open={summaryDialogOpen}>
                 <DialogTitle>Summary</DialogTitle>
                 <DialogContent>

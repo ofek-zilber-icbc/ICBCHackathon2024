@@ -4,6 +4,10 @@
 .LOGO {
   margin-left: 55px;
   margin-top:2px;
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; 
+  width: 50px;
+  height: 50px; 
 }
 
 .Title {
@@ -13,7 +17,10 @@
   font-family: 'Arial', sans-serif; 
   font-weight: bold;
   font-size: 30px;
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust margin-bottom as needed */
 }
+
 .text {
   color: white;
 }
@@ -22,7 +29,7 @@
   display: flex;
   justify-content: space-between; /* Distribute items evenly along the main axis */
   align-items: center; /* Align items vertically in the center */
-  background-color: #0049B0;
+  background-color: #00ADEF;
 }
 
 .left-divs {
@@ -88,11 +95,14 @@
 }
 
 .submit-btn {
-  background-color: #0049B0;
+  background-color: #8526FF;
   color: white;
   border: 0;
   border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
 }
+
 
  /* CSS for table styling */
  table {
@@ -101,7 +111,7 @@
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: none;
   padding: 8px;
   text-align: center;
 }
@@ -115,7 +125,27 @@ tr:hover {
 }
 
 .negative-flag {
-  background-color: #ffcccc; /* Red for negative flag */
+  background-color: #C41E3A; /* Red for negative flag */
+  color: #fff;
+  font-weight: normal;
+  border: 5px solid transparent;
+  border-radius: 5px;
+}
+.positive-flag {
+  background-color: #4CBB17; /* Red for negative flag */
+  color: #fff;
+  font-weight: normal;
+  margin: 5px;
+  border: 9px solid transparent;
+  border-radius: 10px;
+}
+.nuetral-flag {
+  background-color: #FFC000; /* Red for negative flag */
+  color: #fff;
+  font-weight: normal;
+  margin: 5px;
+  border: 9px solid transparent;
+  border-radius: 10px;
 }
 
 /* Additional styles for summary popup */
