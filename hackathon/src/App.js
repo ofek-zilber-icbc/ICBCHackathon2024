@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <ListPage/>
       <ApiCallTest/>
-      {/* <DetailsPage/> */}
+      <DetailsPage/>
     </div>
   );
 }
