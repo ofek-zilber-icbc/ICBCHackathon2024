@@ -9,6 +9,25 @@ import DataTable from './data-table';
 
 
 const ListPage = () => {
+
+    const[records, setRecords] = useState([])
+
+    // useEffect(() => {
+    //     fetch('https://hackathonintegrarion.azurewebsites.net/api/httpintegration?code=qFOvl6g0buD_FfrqyA1SqhQQ07DlPsHj3ca_v_WEQRjvAzFudoirjw%3D%3D')
+    //     .then(res => res.json())
+    //     .then(data => {
+    //         setRecords(data.calls)
+    //     })
+    // }, [])
+
+    useEffect(() => {
+        fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
+        .then(res => res.json())
+        .then(data => {
+            setRecords(data)
+        })
+    }, [])
+
     const [summaryDialogOpen, setSummaryDialogOpen] = useState(false);
     const [summaryText, setSummaryText] = useState('');
     const [searchValues, setSearchValues] = useState({
@@ -153,7 +172,7 @@ const ListPage = () => {
                 <div className="no-data-message">No data matching the selected criteria.</div>
             ) : (
                 <Card>
-                    <DataTable/>
+                    <DataTable records={records}/>
                     <Dialog open={summaryDialogOpen}>
                         <DialogTitle>Summary</DialogTitle>
                         <DialogContent>
