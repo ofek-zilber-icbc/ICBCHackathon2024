@@ -13,7 +13,23 @@ def recognize_from_audiofile():
     speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
     audio_config = speechsdk.AudioConfig(filename="PositiveSpecialistNegativeCustomer.wav")
 
-    speech_config.enable_audio_logging()
+    # try:
+    #     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_config)
+    #     result = speech_recognizer.recognize_once()
+
+    #     if result.reason == speechsdk.ResultReason.RecognizedSpeech:
+    #         print("Transcription:", result.text)
+    #     elif result.reason == speechsdk.ResultReason.NoMatch:
+    #         print("No speech could be recognized")
+    #     elif result.reason == speechsdk.ResultReason.Canceled:
+    #         cancellation_details = result.cancellation_details
+    #         print("Speech Recognition canceled:", cancellation_details.reason)
+    #         if cancellation_details.reason == speechsdk.CancellationReason.Error:
+    #             print("Error details:", cancellation_details.error_details)
+    # except Exception as ex:
+    #     print("Exception:", ex)
+
+    # speech_config.enable_audio_logging()
 
     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, 
                                                    audio_config=audio_config,
@@ -42,7 +58,7 @@ def recognize_from_audiofile():
     # speech_recognizer.session_stopped.connect(stop_cb)
     # print("added stop_cb")
 
-    speech_recognizer.recognizing.connect(lambda evt: print('RECOGNIZING: {}'.format(evt)))  
+    # speech_recognizer.recognizing.connect(lambda evt: print('RECOGNIZING: {}'.format(evt)))  
     speech_recognizer.recognized.connect(lambda evt: print('RECOGNIZED: {}'.format(evt)))  
     speech_recognizer.session_started.connect(lambda evt: print('SESSION STARTED: {}'.format(evt)))  
     speech_recognizer.session_stopped.connect(lambda evt: print('SESSION STOPPED {}'.format(evt)))  
@@ -63,25 +79,11 @@ def recognize_from_audiofile():
         print("sleeping")
         time.sleep(0.5)
 
-    speech_recognizer.start_continuous_recognition()
+    speech_recognizer.stop_continuous_recognition()
 
 recognize_from_audiofile()
 
-    # try:
-    #     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_config)
-    #     result = speech_recognizer.recognize_once()
-
-    #     if result.reason == speechsdk.ResultReason.RecognizedSpeech:
-    #         print("Transcription:", result.text)
-    #     elif result.reason == speechsdk.ResultReason.NoMatch:
-    #         print("No speech could be recognized")
-    #     elif result.reason == speechsdk.ResultReason.Canceled:
-    #         cancellation_details = result.cancellation_details
-    #         print("Speech Recognition canceled:", cancellation_details.reason)
-    #         if cancellation_details.reason == speechsdk.CancellationReason.Error:
-    #             print("Error details:", cancellation_details.error_details)
-    # except Exception as ex:
-    #     print("Exception:", ex)
+    
 
 
     

@@ -53,11 +53,11 @@ def conversation_transcription():
     wave_format = speechsdk.audio.AudioStreamFormat(samples_per_second, bits_per_sample, channels)
     stream = speechsdk.audio.PushAudioInputStream(stream_format=wave_format)
     # Read the whole wave files at once and stream it to sdk
-    _, wav_data = wavfile.read(conversationfilename)
-    stream.write(wav_data.tobytes())
-    stream.close()
-    audio_config = speechsdk.audio.AudioConfig(stream=stream)
-    # audio_config = speechsdk.AudioConfig(filename="call2.wav")
+    # _, wav_data = wavfile.read(conversationfilename)
+    # stream.write(wav_data.tobytes())
+    # stream.close()
+    # audio_config = speechsdk.audio.AudioConfig(stream=stream)
+    audio_config = speechsdk.AudioConfig(filename=conversationfilename)
 
     transcriber = speechsdk.transcription.ConversationTranscriber(speech_config, audio_config)
 
@@ -68,9 +68,25 @@ def conversation_transcription():
         print('CLOSING {}'.format(evt))
         nonlocal done
         done = True
+    
+
+    conversation = []
+
+
+    def add_to_conversation(evt):
+        # print("add_to_conversation called")
+        # nonlocal conversation
+        curr = {
+            "speaker": evt.result.speaker_id,
+            "text": evt.result.text
+        }
+        print("curr speaker: {}".format(curr))
+        conversation.append(curr)
+        print("conversation: {}".format(conversation))
 
     # Subscribe to the events fired by the conversation transcriber
-    transcriber.transcribed.connect(lambda evt: print('TRANSCRIBED: {}'.format(evt)))
+    # transcriber.transcribing.connect(lambda evt: print("TRANSCRIBING: {}".format(evt.result)))
+    transcriber.transcribed.connect(lambda evt: add_to_conversation(evt))
     transcriber.session_started.connect(lambda evt: print('SESSION STARTED: {}'.format(evt)))
     transcriber.session_stopped.connect(lambda evt: print('SESSION STOPPED {}'.format(evt)))
     transcriber.canceled.connect(lambda evt: print('CANCELED {}'.format(evt)))
@@ -84,11 +100,13 @@ def conversation_transcription():
     
     i = 0
     while not done:
-        print("sleeping " + str(i))
+        # print("sleeping " + str(i))
         i += 1
         time.sleep(.5)
 
     result = transcriber.stop_transcribing_async()
     print("stopped: {}".format(result))
+    return conversation
 
-conversation_transcription()
+full_conv = conversation_transcription()
+print("full conversation: {}".format(full_conv))
