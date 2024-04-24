@@ -203,9 +203,12 @@ def merge_sentiment_confidence_scores_into_transcription(transcription : Dict, s
             best_item["sentiment"] = sentiment_confidence_scores[id]
     return transcription
 
-def transcription_phrases_to_conversation_items(phrases : List[TranscriptionPhrase]) -> List[Dict] :
-    return [{
+def transcription_phrases_to_conversation_items(transcription : Dict, phrases : List[TranscriptionPhrase]) -> List[Dict] :
+    durationInTicks = transcription["durationInTicks"]
+    conversation_array = [{
         "id" : phrase.id,
+        "offset": phrase.offset,
+        "offset_in_ticks": phrase.offset_in_ticks,
         "text" : phrase.text,
         "itn" : phrase.itn,
         "lexical" : phrase.lexical,
@@ -213,9 +216,12 @@ def transcription_phrases_to_conversation_items(phrases : List[TranscriptionPhra
         "role" : "Agent" if 0 == phrase.speaker_number else "Customer",
         "participantId" : phrase.speaker_number
     } for phrase in phrases]
+    return {"durationInTicks": durationInTicks, "conversations": conversation_array}
+
 
 def request_conversation_analysis(conversation_items : List[Dict], user_config : helper.Read_Only_Dict) -> str :
     uri = f"https://{user_config['language_endpoint']}{CONVERSATION_ANALYSIS_PATH}{CONVERSATION_ANALYSIS_QUERY}"
+    print("===============================================", uri)
     content = {
         "displayName" : f"call_center_{datetime.now()}",
         "analysisInput" : {
@@ -254,6 +260,7 @@ def request_conversation_analysis(conversation_items : List[Dict], user_config :
         ]
     }
     response = rest_helper.send_post(uri=uri, content=content, key=user_config["language_subscription_key"], expected_status_codes=[HTTPStatus.ACCEPTED])
+
     return response["headers"]["operation-location"]
 
 def get_conversation_analysis_status(conversation_analysis_url : str, user_config : helper.Read_Only_Dict) -> bool :
@@ -344,13 +351,9 @@ def get_conversation_analysis_for_full_output(phrases : List[TranscriptionPhrase
         }
     }
 
-def print_full_output(output_file_path : str, transcription : Dict, sentiment_confidence_scores : List[Dict], phrases : List[TranscriptionPhrase], conversation_analysis : Dict) -> None :
-    results = {
-        "transcription" : merge_sentiment_confidence_scores_into_transcription(transcription, sentiment_confidence_scores),
-        "conversationAnalyticsResults" : get_conversation_analysis_for_full_output(phrases, conversation_analysis)
-    }
+def print_full_output(output_file_path : str, conversation_analysis : Dict) -> None :
     with open(output_file_path, mode = "w", newline = "") as f :
-        f.write(dumps(results, indent=2))
+        f.write(dumps(conversation_analysis, indent=2))
 
 def run() -> None :
     usage = """python call_center.py [...]
@@ -406,16 +409,8 @@ def run() -> None :
         # For stereo audio, the phrases are sorted by channel number, so resort them by offset.
         transcription["recognizedPhrases"] = sorted(transcription["recognizedPhrases"], key=lambda phrase : phrase["offsetInTicks"])
         phrases = get_transcription_phrases(transcription, user_config)
-        sentiment_analysis_results = get_sentiment_analysis(phrases, user_config)
-        sentiment_confidence_scores = get_sentiment_confidence_scores(sentiment_analysis_results)
-        conversation_items = transcription_phrases_to_conversation_items(phrases)
-        # NOTE: Conversation summary is currently in gated public preview. You can sign up here:
-        # https://aka.ms/applyforconversationsummarization/
-        conversation_analysis_url = request_conversation_analysis(conversation_items, user_config)
-        wait_for_conversation_analysis(conversation_analysis_url, user_config)
-        conversation_analysis = get_conversation_analysis(conversation_analysis_url, user_config)
-        print_simple_output(phrases, sentiment_analysis_results, conversation_analysis, user_config)
+        conversation_items = transcription_phrases_to_conversation_items(transcription, phrases)
         if user_config["output_file_path"] is not None :
-            print_full_output(user_config["output_file_path"], transcription, sentiment_confidence_scores, phrases, conversation_analysis)
+            print_full_output(user_config["output_file_path"], conversation_items)
 
 run()
