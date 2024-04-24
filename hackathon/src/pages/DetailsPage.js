@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import "../App.css";
 import Card from '../component/Card';
 import Header from '../component/Header';
-import { Typography, Grid, IconButton, Button} from '@mui/material';
+import { Typography, Grid, IconButton, Button,Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
 import { PersonOutline, AccessTimeOutlined, FlagOutlined } from '@mui/icons-material';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import axios from 'axios';
@@ -12,7 +12,8 @@ const DetailsPage = () => {
     const [transcriptData, setTranscriptData] = useState([]);
     const [transcriptExpanded, setTranscriptExpanded] = useState(false); 
     const [callScore, setCallScore] = useState(0); 
-    const effectRan = useRef(false)
+    const effectRan = useRef(false);
+    const [showDialog, setShowDialog] = useState(false);
     let location = useLocation();
     console.log("location", location.state.representativeName)
     useEffect(() => {
@@ -56,6 +57,9 @@ const DetailsPage = () => {
     };
     const handleBackButtonClick = () => {
     };
+    const handleReprocessButtonClick = () => {
+        setShowDialog(true);
+    };
     const toggleTranscript = () => {
         setTranscriptExpanded(!transcriptExpanded);
     };
@@ -78,13 +82,13 @@ const DetailsPage = () => {
                         Call Details
                     </Typography>
                 </Grid>
-                <Grid item style={{ fontWeight: 'bold', marginBottom: '10px' }}>
+                {/* <Grid item style={{ fontWeight: 'bold', marginBottom: '10px' }}>
                     <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px'}}>
                         <Typography variant="h7" color="white" style={{ background: "#8526FF", padding: "10px", borderRadius: "10px" }}>
                             Call Score: {callScore}
                         </Typography>
                     </div> 
-                </Grid>
+                </Grid> */}
                 <Grid container spacing={0.5} alignItems="center">
                     <Grid item>
                         <IconButton style={{ color: '#8526FF' }}>
@@ -93,7 +97,6 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"15px"}>
-                        {/* John Doe */}
                         {location.state.representativeName}
                         </Typography>
                     </Grid>
@@ -124,9 +127,9 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"10px"}>
-                            Negative
+                            {location.state.flags.length == 0 ? "No flags" : `Flags: ${location.state.flags.length}`}
                         </Typography> 
-                    </Grid> 
+                    </Grid>
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant="h6" gutterBottom marginTop={"30px"} fontWeight={"bold"}>
@@ -136,6 +139,11 @@ const DetailsPage = () => {
                     A representative contacted the customer regarding their treatment and injury claim. They discussed the importance of following up with their physiotherapist and adhering to the treatment plan. The customer acknowledged the need for action and agreed to contact the physiotherapist. The representative emphasized timely communication and urged the customer to call back promptly. The conversation concluded with the customer committing to follow up and thanking the representative for their assistance.
                     </Typography>
                 </Grid>
+                <Grid container spacing={0.5} alignItems="center">
+                    <Typography>
+                    {/* {location.state.flags[0].timestamp} */}
+                    </Typography>
+                    </Grid>
             </Card>
             <Card>
                 <div>
@@ -171,7 +179,7 @@ const DetailsPage = () => {
                 )}
                 </div>  
             </Card>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px' }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px', background:"#EFEFEF",paddingTop:"40px", paddingBottom:"100px", paddingRight:"40px" }}>
             <Button 
                 type="button" 
                 onClick={handleBackButtonClick} 
@@ -189,7 +197,35 @@ const DetailsPage = () => {
             >
                 Back
             </Button>
-            </div>       
+            <Button 
+                type="button" 
+                onClick={handleReprocessButtonClick} 
+                sx={{
+                    bgcolor: '#8526FF',
+                    color: 'white',
+                    '&:hover': {
+                     bgcolor: '#5d1a9e',
+                    },
+                borderRadius: '30px',
+                padding: '5px 50px',
+                margin: '5px',
+                border: '2px solid #8526FF', 
+                }}
+            >
+                Reprocess this call
+            </Button>
+            </div> 
+            <Dialog open={showDialog} onClose={() => setShowDialog(false)}>
+                <DialogTitle>Reprocess Call</DialogTitle>
+                <DialogContent>
+                    <Typography>We have sent your request to reprocess this call.</Typography>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={() => setShowDialog(false)} color="primary" autoFocus>
+                        OK
+                    </Button>
+                </DialogActions>
+            </Dialog>      
         </> 
     );
 };
