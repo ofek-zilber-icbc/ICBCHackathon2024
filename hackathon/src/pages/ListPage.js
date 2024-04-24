@@ -12,84 +12,80 @@ const ListPage = () => {
 
     const[records, setRecords] = useState([])
 
+
     // useEffect(() => {
-    //     fetch('https://hackathonintegrarion.azurewebsites.net/api/httpintegration?code=qFOvl6g0buD_FfrqyA1SqhQQ07DlPsHj3ca_v_WEQRjvAzFudoirjw%3D%3D')
+    //     fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
     //     .then(res => res.json())
     //     .then(data => {
-    //         setRecords(data.calls)
+    //         setRecords(data)
     //     })
     // }, [])
-
-    useEffect(() => {
-        fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
-        .then(res => res.json())
-        .then(data => {
-            setRecords(data)
-        })
-    }, [])
 
     const [summaryDialogOpen, setSummaryDialogOpen] = useState(false);
     const [summaryText, setSummaryText] = useState('');
     const [searchValues, setSearchValues] = useState({
         representativeName: '',
         customerName: '',
-        date: '',
-        flag: '',
+         date: '',
+        flags: '',
     });
-    const [data, setData] = useState([]); // State variable to store the list of data
+    //const [data, setData] = useState([]); // State variable to store the list of data
     const [filteredData, setFilteredData] = useState([]); 
     const [showNoDataMessage, setShowNoDataMessage] = useState(false);
 
-
-    // Sample data
-    const sampleData = [
-        { representativeName: 'John Doe', customerName: 'Alice Smith', startTime: '2024-04-22 10:00 AM', endTime: '2024-04-22 10:30 AM', duration: '30 minutes', flag: 'Negative' },
-        // Add more sample data as needed
-    ];
-
     useEffect(() => {
-        // Initialize data when component mounts
-        setData(sampleData);
-        setFilteredData(sampleData);
-    }, []);
+        fetch('https://hackathonintegrarion.azurewebsites.net/api/httpintegration?code=qFOvl6g0buD_FfrqyA1SqhQQ07DlPsHj3ca_v_WEQRjvAzFudoirjw%3D%3D')
+        .then(res => res.json())
+        .then(data => {
+            setRecords(data.calls)
+            //setData(data.calls); // Update sample data with fetched data
+            setFilteredData(data.calls)
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+    }, [])
+
+
+    // // Sample data
+    // const sampleData = [
+    //     { representativeName: 'John Doe', customerName: 'Alice Smith', startTime: '2024-04-22 10:00 AM', endTime: '2024-04-22 10:30 AM', duration: '30 minutes', flag: 'Negative' },
+    //     // Add more sample data as needed
+    // ];
+
+    // useEffect(() => {
+    //     // Initialize data when component mounts
+    //     setData(sampleData);
+    //     setFilteredData(sampleData);
+    // }, []);
 
     const openSummaryDialog = (text) => {
-        console.log("open")
         setSummaryText(text);
         setSummaryDialogOpen(true);
     };
 
     const closeSummaryDialog = () => {
-        console.log("close")
         setSummaryDialogOpen(false);
     };
 
     const searchTable = () => {
-        const filtered = data.filter(item => {
-            // Filter by representative name
-            if (searchValues.representativeName !== '' && !item.representativeName.toLowerCase().includes(searchValues.representativeName.toLowerCase())) {
-                return false;
-            }
-            // Filter by customer name
+        const filtered = records.filter(item => {
             if (searchValues.customerName !== '' && !item.customerName.toLowerCase().includes(searchValues.customerName.toLowerCase())) {
                 return false;
             }
-            // Filter by date
-            if (searchValues.date !== '' && item.startTime.split(' ')[0] !== searchValues.date) {
+            if (searchValues.representativeName !== '' && !item.representativeName.toLowerCase().includes(searchValues.representativeName.toLowerCase())) {
                 return false;
             }
-            // Filter by flag
-            if (searchValues.flag !== '' && searchValues.flag !== 'All' && item.flag.toLowerCase() !== searchValues.flag.toLowerCase()) {
-                return false;
+            if (searchValues.date !== '') {
+                const selectedDate = new Date(searchValues.date);
+                const itemDate = new Date(item.date);
+                // Compare only year, month, and day (ignore time)
+                return selectedDate.toISOString().slice(0, 10) === itemDate.toISOString().slice(0, 10);
             }
             return true;
         });
-        if (filtered.length === 0) {
-            setShowNoDataMessage(true);
-        } else {
-            setShowNoDataMessage(false);
-        }
         setFilteredData(filtered);
+        setShowNoDataMessage(filtered.length === 0);
     };
 
     const handleInputChange = (event) => {
@@ -172,7 +168,7 @@ const ListPage = () => {
                 <div className="no-data-message">No data matching the selected criteria.</div>
             ) : (
                 <Card>
-                    <DataTable records={records}/>
+                    <DataTable records={filteredData}/>
                     <Dialog open={summaryDialogOpen}>
                         <DialogTitle>Summary</DialogTitle>
                         <DialogContent>

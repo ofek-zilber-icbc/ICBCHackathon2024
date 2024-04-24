@@ -104,7 +104,12 @@
 }
 
 .submit-btn:hover {
-  background-color: #4328a9;
+  background-color: white;
+  color: #8526FF;
+  border: 1px #8526FF solid;
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
 }
 
  /* CSS for table styling */
@@ -154,8 +159,11 @@ tr:hover {
   background-color: #C41E3A; /* Red for negative flag */
   color: #fff;
   font-weight: normal;
-  border: 5px solid transparent;
+  border: 2px solid white;
+  padding: 3px;
+  padding-top: 3px;
   border-radius: 5px;
+  margin: 5px;
 }
 .positive-flag {
   background-color: #4CBB17; /* Red for negative flag */
@@ -165,13 +173,15 @@ tr:hover {
   border: 9px solid transparent;
   border-radius: 10px;
 }
-.nuetral-flag {
+.non-negative-flag {
   background-color: #FFC000; /* Red for negative flag */
   color: #fff;
   font-weight: normal;
+  border: 2px solid white;
+  padding: 3px;
+  padding-top: 3px;
+  border-radius: 5px;
   margin: 5px;
-  border: 9px solid transparent;
-  border-radius: 10px;
 }
 
 /* Additional styles for summary popup */
