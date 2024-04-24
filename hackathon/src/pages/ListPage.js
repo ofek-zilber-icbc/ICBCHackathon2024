@@ -96,7 +96,7 @@ const ListPage = () => {
 
     return (
         <>
-            <Header/>
+             <Header/>
             <Card>
                 <form id="filterForm" className="card-content">
                     <div className="form-group">
@@ -152,17 +152,20 @@ const ListPage = () => {
             {showNoDataMessage ? (
                 <div className="no-data-message">No data matching the selected criteria.</div>
             ) : (
-            <Card>
-                <DataTable/>
-            <Dialog open={summaryDialogOpen}>
-                <DialogTitle>Summary</DialogTitle>
-                <DialogContent>
-                    <p>{summaryText}</p>
-                </DialogContent>
-                <DialogActions>
-                    <Button onClick={closeSummaryDialog}>Close</Button>
-                </DialogActions>
-            </Dialog>
+                <Card>
+                    <DataTable/>
+                    <Dialog open={summaryDialogOpen}>
+                        <DialogTitle>Summary</DialogTitle>
+                        <DialogContent>
+                            <p>{summaryText}</p>
+                        </DialogContent>
+                        <DialogActions>
+                            <Button onClick={closeSummaryDialog}>Close</Button>
+                        </DialogActions>
+                    </Dialog>
+                </Card>
+            
+            )}
         </>
     );
 };
