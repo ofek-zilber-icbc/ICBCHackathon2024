@@ -3,6 +3,10 @@ import "../App.css";
 import Card from '../component/Card';
 import Header from '../component/Header';
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
+import DataTable from './data-table';
+
+
+
 
 const ListPage = () => {
     const [summaryDialogOpen, setSummaryDialogOpen] = useState(false);
@@ -149,43 +153,7 @@ const ListPage = () => {
                 <div className="no-data-message">No data matching the selected criteria.</div>
             ) : (
             <Card>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Representative Name</th>
-                            <th>Customer Name</th>
-                            <th>Start Time</th>
-                            <th>End Time</th>
-                            <th>Duration</th>
-                            <th>Flag</th>
-                            <th>Recording</th>
-                            <th>Summary</th>
-                            <th>Flag1</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {filteredData.map((item, index) => (
-                            <tr key={index}>
-                                <td>{item.representativeName}</td>
-                                <td>{item.customerName}</td>
-                                <td>{item.startTime}</td>
-                                <td>{item.endTime}</td>
-                                <td>{item.duration}</td>
-                                <td className={item.flag === 'Negative' ? 'negative-flag' : ''}>{item.flag}</td>
-                                <td><a href="#">Listen</a></td>
-                                <td
-                                    className="summary"
-                                    onClick={() => openSummaryDialog('This is a summary of the conversation.')}
-                                >
-                                    <a href="#">Summary</a>
-                                </td>
-                                <td className="flag"><a href="#">Flag </a></td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </Card>
-     )}
+                <DataTable/>
             <Dialog open={summaryDialogOpen}>
                 <DialogTitle>Summary</DialogTitle>
                 <DialogContent>
