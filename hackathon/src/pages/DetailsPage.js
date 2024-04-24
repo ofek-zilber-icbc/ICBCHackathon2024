@@ -9,6 +9,7 @@ import axios from 'axios';
 
 const DetailsPage = () => {
     const [transcriptData, setTranscriptData] = useState([]);
+    const effectRan = useRef(false)
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -17,11 +18,12 @@ const DetailsPage = () => {
                 const newDisplayWords = recognizedPhrases.reduce((acc, phrase) => {
                     if (phrase.nBest[0].displayWords !== undefined) {
                         const newWords = phrase.nBest[0].displayWords;
+                        console.log("new word", newWords)
                         return [...acc, ...newWords];
                     }
                     return acc;
                 }, []);
-    
+                console.log("END!!!!!!!!!!!!!")
                 setTranscriptData(newDisplayWords);
             } catch (error) {
                 console.error('Error fetching JSON:', error);

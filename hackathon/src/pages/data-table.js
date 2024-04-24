@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import "../App.css";
+import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const DataTable = (props) => {
@@ -10,6 +12,7 @@ const DataTable = (props) => {
                 <thead>
                     <tr>
                         <th>Representative Name</th>
+                        <th>Transcription</th>
                         <th>Customer Name</th>
                         {/* <th>Transcription</th> */}
                         <th>Summary</th>
@@ -32,12 +35,11 @@ const DataTable = (props) => {
                             <tr key={i}>
                                 <td>{record.representativeName}</td>
                                 <td>{record.customerName}</td>
-                                {/* <td>{record.transcription}</td> */}
-                                <td>{record.summary}</td>
+                                <td>{record.summary}</td>                                  
                                 <td>{record.date}</td>
-                                {/* <td className={record.flag === 'Negative' ? 'negative-flag' : ''}>{record.flag}</td>    */}
                                 <td>{record.callLength + "mins"}</td>
                                 <td className={getFlagClassName(record.flags)}>{getFlagText(record.flags)}</td>
+                                <td><Link to='/details'>Show details</Link></td> 
                             </tr>)
                         })
                     }

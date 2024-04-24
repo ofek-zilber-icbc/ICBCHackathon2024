@@ -15,8 +15,10 @@ const ListPage = () => {
 
     // useEffect(() => {
     //     fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
+    //     fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
     //     .then(res => res.json())
     //     .then(data => {
+    //         setRecords(data)
     //         setRecords(data)
     //     })
     // }, [])
