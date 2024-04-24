@@ -1,0 +1,158 @@
+.Header {
+  background-color: #0049B0;
+}
+.LOGO {
+  margin-left: 55px;
+  margin-top:2px;
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; 
+  width: 50px;
+  height: 50px; 
+}
+
+.Title {
+  display: flex;
+  color: white;
+  align-items: center; /* Vertically center items */
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust margin-bottom as needed */
+}
+
+.text {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Align items vertically in the center */
+  background-color: #00ADEF;
+}
+
+.left-divs {
+  display: flex;
+  flex: 1; /* Equal width for left divs */
+  justify-content: flex-start; /* Align items to the start of the container */
+  gap:30px;
+}
+
+.right-divs {
+  display: flex;
+  flex: 1; /* Equal width for right divs */
+  justify-content: flex-end; /* Align items to the end of the container */
+  gap: 30px;
+}
+
+/* Additional styles for divs */
+.left-div, .right-div {
+  margin: 5px; /* Add margin for spacing between divs */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  /* height: 100vh; Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0; /* Background color for demonstration */
+}
+
+.card {
+  width: 90%; /* Set card width */
+  padding: 20px; /* Add padding for content */
+  background-color: #fff; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin: 20px; /* Add margin for spacing */
+}
+
+
+.card-content {
+  font-size: 1rem; /* Content font size */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ /* Styles for form elements */
+ .form-group {
+  margin-right: 10px; /* Add margin between form elements */
+  display: flex;
+  align-items: center;
+}
+
+.form-label {
+  margin-right: 5px; /* Add margin to the right of labels */
+}
+
+.form-input {
+  padding: 5px; /* Add padding for input elements */
+}
+
+.form-select {
+  padding: 5px; /* Add padding for select elements */
+}
+
+.submit-btn {
+  background-color: #8526FF;
+  color: white;
+  border: 0;
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
+}
+
+
+ /* CSS for table styling */
+ table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: none;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.negative-flag {
+  background-color: #C41E3A; /* Red for negative flag */
+  color: #fff;
+  font-weight: normal;
+  border: 5px solid transparent;
+  border-radius: 5px;
+}
+.positive-flag {
+  background-color: #4CBB17; /* Red for negative flag */
+  color: #fff;
+  font-weight: normal;
+  margin: 5px;
+  border: 9px solid transparent;
+  border-radius: 10px;
+}
+.nuetral-flag {
+  background-color: #FFC000; /* Red for negative flag */
+  color: #fff;
+  font-weight: normal;
+  margin: 5px;
+  border: 9px solid transparent;
+  border-radius: 10px;
+}
+
+/* Additional styles for summary popup */
+.summary-popup {
+  position: absolute;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: none;
+}
