@@ -108,7 +108,16 @@ def conversation_transcription():
     print("stopped: {}".format(result))
     return conversation
 
+def set_speakers(conversation, agent, customer):
+    for sentence in conversation:
+        if sentence['speaker'] == 'Guest-1':
+            sentence['speaker'] = agent
+        if sentence['speaker'] == 'Guest-2':
+            sentence['speaker'] = customer
+
 full_conv = conversation_transcription()
+
+set_speakers(full_conv, "Eddie", "Emily")
 
 with open("full_transcription_" + conversationfilename.replace(".wav", "") + ".txt", 'w') as f:
     f.write(str(full_conv))
