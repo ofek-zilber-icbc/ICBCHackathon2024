@@ -39,7 +39,7 @@ const DataTable = (props) => {
                                 <td>{record.date}</td>
                                 <td>{record.callLength + "mins"}</td>
                                 <td className={getFlagClassName(record.flags)}>{getFlagText(record.flags)}</td>
-                                <td><Link to='/details'>Show details</Link></td> 
+                                <td><Link to='/details' state={record}>Show details</Link></td> 
                             </tr>)
                         })
                     }
