@@ -6,10 +6,13 @@ import { Typography, Grid, IconButton } from '@mui/material';
 import { PersonOutline, AccessTimeOutlined, FlagOutlined } from '@mui/icons-material';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import axios from 'axios';
+import { useLocation } from 'react-router-dom';
 
 const DetailsPage = () => {
     const [transcriptData, setTranscriptData] = useState([]);
     const effectRan = useRef(false)
+    let location = useLocation();
+    console.log("location", location.state.representativeName)
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -61,7 +64,8 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1">
-                        John Doe
+                        {/* John Doe */}
+                        {location.state.representativeName}
                         </Typography>
                     </Grid>
                     <Grid item>
@@ -71,7 +75,7 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1">
-                        Alice Smith
+                        {location.state.customerName}
                         </Typography>
                     </Grid>
                     <Grid item>
@@ -81,7 +85,7 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1">
-                        2 hours
+                        {location.state.callLength} mins
                         </Typography>
                     </Grid>
                     <Grid item>
@@ -94,7 +98,7 @@ const DetailsPage = () => {
                             Negative
                         </Typography>
                     </Grid>
-                    
+                    <button type="button" className="submit-btn" align='right'>Re-process</button>
                 </Grid>
             </Card>
             <Card>
