@@ -18,28 +18,33 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     response = {
-        "representative": "Adrian Smith",
+        "calls": [
+            {
+                "representative": "Adrian Smith",
         "transcription": '"Speaker0": Hi there. I\'m caller from ICBC. My name is Eddie. I\'m just here looking for Bobby, please. "Speaker1": Hi, Eddie, this is Bobby speaking.',
         "customerName": "Bobby",
         "summary": "Call the customer to check status of treatment plan",
         "callLength": 15,
         "flags": [
-            {
-                "isCustomer": True,
-                "isRepresentative": False,
-                "timestamp": 2
-            },
-            {
-                "isCustomer": True,
-                "isRepresentative": True,
-                "timestamp": 4
-            },
-            {
-                "isCustomer": False,
-                "isRepresentative": True,
-                "timestamp": 10
+                {
+                    "isCustomer": True,
+                    "isRepresentative": False,
+                    "timestamp": 2
+                },
+                {
+                    "isCustomer": True,
+                    "isRepresentative": True,
+                    "timestamp": 4
+                },
+                {
+                    "isCustomer": False,
+                    "isRepresentative": True,
+                    "timestamp": 10
+                }
+            ]
             }
         ]
+        
     }
 
     return func.HttpResponse(json.dumps(response),
