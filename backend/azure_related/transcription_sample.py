@@ -12,7 +12,7 @@ import os
 import uuid
 
 from scipy.io import wavfile
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 try:
     import azure.cognitiveservices.speech as speechsdk
@@ -30,13 +30,13 @@ except ImportError:
 # Replace with your own subscription key and service region (e.g., "centralus").
 # See the limitations in supported regions,
 # https://docs.microsoft.com/azure/cognitive-services/speech-service/how-to-use-conversation-transcription
-load_dotenv()
-speech_key = os.getenv('SPEECH_KEY')
-service_region = os.getenv('SPEECH_REGION')
+# load_dotenv()
+speech_key = os.environ.get('SPEECH_KEY')
+service_region = os.environ.get('SPEECH_REGION')
 
 # This sample uses a wavfile which is captured using a supported Speech SDK devices (8 channel, 16kHz, 16-bit PCM)
 # See https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-devices-sdk-microphone
-conversationfilename = "C:\Git_Repository\case2.wav"
+conversationfilename = "PositiveSpecialistNegativeCustomer.wav"
 
 
 # This sample demonstrates how to use conversation transcription.
@@ -52,7 +52,12 @@ def conversation_transcription():
     # Create audio configuration using the push stream
     wave_format = speechsdk.audio.AudioStreamFormat(samples_per_second, bits_per_sample, channels)
     stream = speechsdk.audio.PushAudioInputStream(stream_format=wave_format)
+    # Read the whole wave files at once and stream it to sdk
+    _, wav_data = wavfile.read(conversationfilename)
+    stream.write(wav_data.tobytes())
+    stream.close()
     audio_config = speechsdk.audio.AudioConfig(stream=stream)
+    # audio_config = speechsdk.AudioConfig(filename="call2.wav")
 
     transcriber = speechsdk.transcription.ConversationTranscriber(speech_config, audio_config)
 
@@ -73,15 +78,17 @@ def conversation_transcription():
     transcriber.session_stopped.connect(stop_cb)
     transcriber.canceled.connect(stop_cb)
 
-    transcriber.start_transcribing_async()
+    res = transcriber.start_transcribing_async()
+    print("Start response: {}".format(res))
 
-    # Read the whole wave files at once and stream it to sdk
-    _, wav_data = wavfile.read(conversationfilename)
-    stream.write(wav_data.tobytes())
-    stream.close()
+    
+    i = 0
     while not done:
+        print("sleeping " + str(i))
+        i += 1
         time.sleep(.5)
 
-    transcriber.stop_transcribing_async()
+    result = transcriber.stop_transcribing_async()
+    print("stopped: {}".format(result))
 
 conversation_transcription()
