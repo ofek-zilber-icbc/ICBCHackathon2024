@@ -113,6 +113,21 @@
   border-collapse: collapse;
 }
 
+tr:first-child th {
+  color: #ffffff;
+  background-color: #8526FF;
+  border: 1px solid;
+  border-bottom: none;
+}
+
+tr:first-child th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+tr:first-child th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
 th, td {
   border: none;
   padding: 8px;
