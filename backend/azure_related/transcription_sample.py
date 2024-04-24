@@ -36,7 +36,7 @@ service_region = os.environ.get('SPEECH_REGION')
 
 # This sample uses a wavfile which is captured using a supported Speech SDK devices (8 channel, 16kHz, 16-bit PCM)
 # See https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-devices-sdk-microphone
-conversationfilename = "PositiveSpecialistNegativeCustomer.wav"
+conversationfilename = "call3.wav"
 
 
 # This sample demonstrates how to use conversation transcription.
@@ -109,4 +109,8 @@ def conversation_transcription():
     return conversation
 
 full_conv = conversation_transcription()
+
+with open("full_transcription_" + conversationfilename.replace(".wav", "") + ".txt", 'w') as f:
+    f.write(str(full_conv))
+
 print("full conversation: {}".format(full_conv))
