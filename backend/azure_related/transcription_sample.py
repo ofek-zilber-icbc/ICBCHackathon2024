@@ -13,6 +13,7 @@ import uuid
 
 from scipy.io import wavfile
 # from dotenv import load_dotenv
+from sentiment_helper import perform_sentiment_analysis
 
 try:
     import azure.cognitiveservices.speech as speechsdk
@@ -36,7 +37,7 @@ service_region = os.environ.get('SPEECH_REGION')
 
 # This sample uses a wavfile which is captured using a supported Speech SDK devices (8 channel, 16kHz, 16-bit PCM)
 # See https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-devices-sdk-microphone
-conversationfilename = "call3.wav"
+conversationfilename = "call_4.wav"
 
 
 # This sample demonstrates how to use conversation transcription.
@@ -81,8 +82,12 @@ def conversation_transcription():
             "text": evt.result.text
         }
         print("curr speaker: {}".format(curr))
+        sentiment = perform_sentiment_analysis(curr["text"])
+        curr["sentiment"] = sentiment
+        print("snetiment: {}".format(sentiment))
         conversation.append(curr)
         print("conversation: {}".format(conversation))
+
 
     # Subscribe to the events fired by the conversation transcriber
     # transcriber.transcribing.connect(lambda evt: print("TRANSCRIBING: {}".format(evt.result)))
