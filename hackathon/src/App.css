@@ -83,45 +83,64 @@
 }
 
 .form-label {
+  font-weight: 400;
   margin-right: 5px; /* Add margin to the right of labels */
 }
 
 .form-input {
   padding: 5px; /* Add padding for input elements */
+  border-radius: 10px;
+  border: 1px gray solid;
+  margin-right: 10px;
 }
 
 .form-select {
   padding: 5px; /* Add padding for select elements */
+  border-radius: 10px;
+  border: 1px gray solid;
 }
 
 .submit-btn {
   background-color: #8526FF;
   color: white;
   border: 0;
-  border-radius: 4px; /* Rounded corners */
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners */
   padding: 10px 20px; /* Adjust padding as needed */
-  margin: 5px; /* Adjust margin as needed */
+  margin: 15px; /* Adjust margin as needed */
 }
 
 .submit-btn:hover {
   background-color: white;
   color: #8526FF;
-  border: 1px #8526FF solid;
-  border-radius: 4px; /* Rounded corners */
-  padding: 10px 20px; /* Adjust padding as needed */
+  font-weight: bold;
+  border: 2px #8526FF solid;
+  border-radius: 30px; /* Rounded corners */
+  padding: 9px 20px; /* Adjust padding as needed */
   margin: 5px; /* Adjust margin as needed */
+}
+
+.back-btn {
+  background-color: #8526FF;
+  color: white;
+  border: 0;
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 15px; /* Adjust margin as needed */
 }
 
  /* CSS for table styling */
  table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 0px;
 }
 
 tr:first-child th {
   color: #ffffff;
   background-color: #8526FF;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-bottom: none;
 }
 
