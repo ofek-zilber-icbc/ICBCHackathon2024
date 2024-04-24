@@ -103,6 +103,9 @@
   margin: 5px; /* Adjust margin as needed */
 }
 
+.submit-btn:hover {
+  background-color: #4328a9;
+}
 
  /* CSS for table styling */
  table {
