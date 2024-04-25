@@ -1,0 +1,725 @@
+{
+  "durationInTicks": 2938500000,
+  "conversations": [
+    {
+      "id": 0,
+      "offset": "PT3.32S",
+      "offset_in_ticks": 33200000.0,
+      "duration_in_ticks": 4400000.0,
+      "text": "Hi there.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 1,
+      "offset": "PT4.16S",
+      "offset_in_ticks": 41600000.0,
+      "duration_in_ticks": 12800000.0,
+      "text": "I'm calling from ICBC.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 2,
+      "offset": "PT5.44S",
+      "offset_in_ticks": 54400000.0,
+      "duration_in_ticks": 11600000.0,
+      "text": "My name is Eddie.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 3,
+      "offset": "PT6.6S",
+      "offset_in_ticks": 66000000.0,
+      "duration_in_ticks": 17200000.0,
+      "text": "I'm looking for Emily, please.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 4,
+      "offset": "PT7.72S",
+      "offset_in_ticks": 77200000.0,
+      "duration_in_ticks": 5600000.0,
+      "text": "Please.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 5,
+      "offset": "PT8.32S",
+      "offset_in_ticks": 83200000.0,
+      "duration_in_ticks": 9200000.0,
+      "text": "Hey, Emily.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 6,
+      "offset": "PT9.92S",
+      "offset_in_ticks": 99200000.0,
+      "duration_in_ticks": 4800000.0,
+      "text": "Hey, Emily.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 7,
+      "offset": "PT10.4S",
+      "offset_in_ticks": 104000000.0,
+      "duration_in_ticks": 4400000.0,
+      "text": "How are you?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 8,
+      "offset": "PT10.84S",
+      "offset_in_ticks": 108400000.0,
+      "duration_in_ticks": 11200000.0,
+      "text": "I'm OK.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 9,
+      "offset": "PT11.96S",
+      "offset_in_ticks": 119600000.0,
+      "duration_in_ticks": 3600000.0,
+      "text": "How are you?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 10,
+      "offset": "PT12.68S",
+      "offset_in_ticks": 126800000.0,
+      "duration_in_ticks": 10400000.0,
+      "text": "I'm doing pretty good.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 11,
+      "offset": "PT13.72S",
+      "offset_in_ticks": 137200000.0,
+      "duration_in_ticks": 35200000.0,
+      "text": "How How was the oven repair that you had the other day?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 12,
+      "offset": "PT17.44S",
+      "offset_in_ticks": 174400000.0,
+      "duration_in_ticks": 11600000.0,
+      "text": "Did that work out OK?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 13,
+      "offset": "PT18.8S",
+      "offset_in_ticks": 188000000.0,
+      "duration_in_ticks": 32000000.0,
+      "text": "Oh, actually, they weren't able to fix it.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 14,
+      "offset": "PT22S",
+      "offset_in_ticks": 220000000.0,
+      "duration_in_ticks": 22000000.0,
+      "text": "And I have to have them come back another day next week.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 15,
+      "offset": "PT24.6S",
+      "offset_in_ticks": 246000000.0,
+      "duration_in_ticks": 3600000.0,
+      "text": "Oh, no.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 16,
+      "offset": "PT24.96S",
+      "offset_in_ticks": 249600000.0,
+      "duration_in_ticks": 2400000.0,
+      "text": "I hope.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 17,
+      "offset": "PT25.32S",
+      "offset_in_ticks": 253200000.0,
+      "duration_in_ticks": 9600000.0,
+      "text": "Hope that goes well.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 18,
+      "offset": "PT26.28S",
+      "offset_in_ticks": 262800000.0,
+      "duration_in_ticks": 39600000.0,
+      "text": "And yeah, but you know, hopefully it doesn't cost too much or anything.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 19,
+      "offset": "PT30.24S",
+      "offset_in_ticks": 302400000.0,
+      "duration_in_ticks": 46800000.0,
+      "text": "But yeah, hopefully you have a couple of minutes and let's just chat about part of your recovery.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 20,
+      "offset": "PT34.92S",
+      "offset_in_ticks": 349200000.0,
+      "duration_in_ticks": 19600000.0,
+      "text": "And we did get a chance to review your treatment plan.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 21,
+      "offset": "PT36.88S",
+      "offset_in_ticks": 368800000.0,
+      "duration_in_ticks": 6000000.0,
+      "text": "How's that sound?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 22,
+      "offset": "PT37.48S",
+      "offset_in_ticks": 374800000.0,
+      "duration_in_ticks": 1200000.0,
+      "text": "Good.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 23,
+      "offset": "PT38.4S",
+      "offset_in_ticks": 384000000.0,
+      "duration_in_ticks": 2800000.0,
+      "text": "Thanks.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 24,
+      "offset": "PT39.04S",
+      "offset_in_ticks": 390400000.0,
+      "duration_in_ticks": 10000000.0,
+      "text": "Yeah, this is a good time.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 25,
+      "offset": "PT40.12S",
+      "offset_in_ticks": 401200000.0,
+      "duration_in_ticks": 6400000.0,
+      "text": "OK, great.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 26,
+      "offset": "PT40.76S",
+      "offset_in_ticks": 407600000.0,
+      "duration_in_ticks": 41200000.0,
+      "text": "This will probably last maybe 5 minutes or so, maybe even less.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 27,
+      "offset": "PT44.88S",
+      "offset_in_ticks": 448800000.0,
+      "duration_in_ticks": 38400000.0,
+      "text": "But you know, throughout this conversation, just don't hesitate to ask any questions.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 28,
+      "offset": "PT48.72S",
+      "offset_in_ticks": 487200000.0,
+      "duration_in_ticks": 80400000.0,
+      "text": "And like we usually do, but got some interesting news here because we have had a chance to review the treatment that you're going through.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 29,
+      "offset": "PT56.76S",
+      "offset_in_ticks": 567600000.0,
+      "duration_in_ticks": 73600000.0,
+      "text": "And as you know, we've had a couple steps leading up to today and that involved, for example, our medical assessment.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 30,
+      "offset": "PT1M4.56S",
+      "offset_in_ticks": 645600000.0,
+      "duration_in_ticks": 59200000.0,
+      "text": "We've had a chance to speak with your care team as well, really just to take a look at how your recovery is going.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 31,
+      "offset": "PT1M10.48S",
+      "offset_in_ticks": 704800000.0,
+      "duration_in_ticks": 89600000.0,
+      "text": "So just wanted to share about the decision on some of the treatments and how we're going to make your recovery move forward on that.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 32,
+      "offset": "PT1M19.88S",
+      "offset_in_ticks": 798800000.0,
+      "duration_in_ticks": 34400000.0,
+      "text": "Before I go into that, did you have any questions about what we've been doing so far?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 33,
+      "offset": "PT1M24.76S",
+      "offset_in_ticks": 847600000.0,
+      "duration_in_ticks": 9200000.0,
+      "text": "No, that makes sense.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 34,
+      "offset": "PT1M25.68S",
+      "offset_in_ticks": 856800000.0,
+      "duration_in_ticks": 57600000.0,
+      "text": "I'm, I'm curious to know what the next steps are and and you know what the decision is regarding the treatment.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 35,
+      "offset": "PT1M32.68S",
+      "offset_in_ticks": 926800000.0,
+      "duration_in_ticks": 48000000.0,
+      "text": "I'm really happy to go over it and really want to give you as much details as possible on this.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 36,
+      "offset": "PT1M37.48S",
+      "offset_in_ticks": 974800000.0,
+      "duration_in_ticks": 134000000.0,
+      "text": "And basically after our review cycle that we've had, we've had the medical assessment like I mentioned and then talked with the healthcare providers and more recently talking to this healthcare provider that shared the treatment plan.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 37,
+      "offset": "PT1M51.2S",
+      "offset_in_ticks": 1112000000.0,
+      "duration_in_ticks": 21200000.0,
+      "text": "We took took a look at some of the progress.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 38,
+      "offset": "PT1M53.8S",
+      "offset_in_ticks": 1138000000.0,
+      "duration_in_ticks": 31200000.0,
+      "text": "We took a look at some of the limitations that you've had.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 39,
+      "offset": "PT1M57.16S",
+      "offset_in_ticks": 1171600000.0,
+      "duration_in_ticks": 152400000.0,
+      "text": "I think some of the things you mentioned where you weren't able to work on the oven and do some of the repairs, you also had some challenges with raising your arm up above your shoulder and a lot of that has resolved based on what we can see here.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 40,
+      "offset": "PT2M13.04S",
+      "offset_in_ticks": 1330400000.0,
+      "duration_in_ticks": 30400000.0,
+      "text": "You're also able to get back to most of your daily activities.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 41,
+      "offset": "PT2M16.08S",
+      "offset_in_ticks": 1360800000.0,
+      "duration_in_ticks": 37600000.0,
+      "text": "So I think you mentioned something along the lines of playing soccer.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 42,
+      "offset": "PT2M20.12S",
+      "offset_in_ticks": 1401200000.0,
+      "duration_in_ticks": 80800000.0,
+      "text": "You're back to playing about 90% of those games and while there is a little bit of pain, you're you're able to go through all of it.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 43,
+      "offset": "PT2M28.2S",
+      "offset_in_ticks": 1482000000.0,
+      "duration_in_ticks": 76400000.0,
+      "text": "So reviewing all the information there at this point it doesn't look like we can approve further treatment for your physiotherapy.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 44,
+      "offset": "PT2M36.64S",
+      "offset_in_ticks": 1566400000.0,
+      "duration_in_ticks": 118800000.0,
+      "text": "What we can do and and offer is to help get you into something more active just to really help you get to that next level of your recovery and move you, move you past the passive treatments here.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 45,
+      "offset": "PT2M48.52S",
+      "offset_in_ticks": 1685200000.0,
+      "duration_in_ticks": 32000000.0,
+      "text": "How does that sound OK, what do you mean something more active?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 46,
+      "offset": "PT2M53S",
+      "offset_in_ticks": 1730000000.0,
+      "duration_in_ticks": 89200000.0,
+      "text": "Have you, have you had a chance to try kinesiology or any self self-guided training gym programs?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 47,
+      "offset": "PT3M1.92S",
+      "offset_in_ticks": 1819200000.0,
+      "duration_in_ticks": 9200000.0,
+      "text": "Any of those before?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 48,
+      "offset": "PT3M3.8S",
+      "offset_in_ticks": 1838000000.0,
+      "duration_in_ticks": 3200000.0,
+      "text": "No.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 49,
+      "offset": "PT3M4.12S",
+      "offset_in_ticks": 1841200000.0,
+      "duration_in_ticks": 39600000.0,
+      "text": "I think I've seen a sign for it at the clinic I go to, but no, I haven't.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 50,
+      "offset": "PT3M9.84S",
+      "offset_in_ticks": 1898400000.0,
+      "duration_in_ticks": 7200000.0,
+      "text": "Oh, fair enough.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 51,
+      "offset": "PT3M10.56S",
+      "offset_in_ticks": 1905600000.0,
+      "duration_in_ticks": 21200000.0,
+      "text": "And happy to go over some of those details with you.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 52,
+      "offset": "PT3M12.68S",
+      "offset_in_ticks": 1926800000.0,
+      "duration_in_ticks": 47600000.0,
+      "text": "I think there's a couple of things we can definitely do with you and we want to find something that works for you as well.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 53,
+      "offset": "PT3M18.6S",
+      "offset_in_ticks": 1986000000.0,
+      "duration_in_ticks": 27600000.0,
+      "text": "Do you have any actually, because they're part of the soccer team.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 54,
+      "offset": "PT3M21.72S",
+      "offset_in_ticks": 2017200000.0,
+      "duration_in_ticks": 78400000.0,
+      "text": "Do you know anyone on your team that you might want to ask about what might work for you in terms of, you know, transitioning from physiotherapy to something more active?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 55,
+      "offset": "PT3M30.12S",
+      "offset_in_ticks": 2101200000.0,
+      "duration_in_ticks": 9200000.0,
+      "text": "Oh, actually, you know what?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 56,
+      "offset": "PT3M31.04S",
+      "offset_in_ticks": 2110400000.0,
+      "duration_in_ticks": 39200000.0,
+      "text": "I think someone on my team might be a kinesiologist themselves.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 57,
+      "offset": "PT3M34.96S",
+      "offset_in_ticks": 2149600000.0,
+      "duration_in_ticks": 13600000.0,
+      "text": "Yeah, maybe I'll reach out to them.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 58,
+      "offset": "PT3M37.16S",
+      "offset_in_ticks": 2171600000.0,
+      "duration_in_ticks": 8400000.0,
+      "text": "I think that's a great idea.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 59,
+      "offset": "PT3M38S",
+      "offset_in_ticks": 2180000000.0,
+      "duration_in_ticks": 8400000.0,
+      "text": "That's a great start.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 60,
+      "offset": "PT3M38.84S",
+      "offset_in_ticks": 2188400000.0,
+      "duration_in_ticks": 13200000.0,
+      "text": "Kind of see what works for them.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 61,
+      "offset": "PT3M40.8S",
+      "offset_in_ticks": 2208000000.0,
+      "duration_in_ticks": 89200000.0,
+      "text": "And then you can let me know if there's also any equipment or anything that might help you become more independent in your training just to really get you to that final step, your recovery.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 62,
+      "offset": "PT3M49.72S",
+      "offset_in_ticks": 2297200000.0,
+      "duration_in_ticks": 46800000.0,
+      "text": "And once you're done that part, then we can probably look at discharging the claim.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 63,
+      "offset": "PT3M55.48S",
+      "offset_in_ticks": 2354800000.0,
+      "duration_in_ticks": 7200000.0,
+      "text": "How does that sound?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 64,
+      "offset": "PT3M56.2S",
+      "offset_in_ticks": 2362000000.0,
+      "duration_in_ticks": 33600000.0,
+      "text": "Did you want to go check in with your teammate?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 65,
+      "offset": "PT4M0.12S",
+      "offset_in_ticks": 2401200000.0,
+      "duration_in_ticks": 40800000.0,
+      "text": "And then we can have a conversation about, let's say, next Thursday.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 66,
+      "offset": "PT4M4.4S",
+      "offset_in_ticks": 2444000000.0,
+      "duration_in_ticks": 38800000.0,
+      "text": "Maybe I'll call you around the same time and then we can look at some of those options together.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 67,
+      "offset": "PT4M8.28S",
+      "offset_in_ticks": 2482800000.0,
+      "duration_in_ticks": 13600000.0,
+      "text": "Yep, that sounds good.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 68,
+      "offset": "PT4M9.64S",
+      "offset_in_ticks": 2496400000.0,
+      "duration_in_ticks": 73600000.0,
+      "text": "Next Thursday works for me, so we can chat, then maybe we'll get some updates and some good news on repairing your oven as well.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 69,
+      "offset": "PT4M17S",
+      "offset_in_ticks": 2570000000.0,
+      "duration_in_ticks": 53200000.0,
+      "text": "So before I wrap up here though, since you've got me any other questions like anything else I can help you out with?",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 70,
+      "offset": "PT4M23.8S",
+      "offset_in_ticks": 2638000000.0,
+      "duration_in_ticks": 15600000.0,
+      "text": "No, I think that's it for now.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 71,
+      "offset": "PT4M25.36S",
+      "offset_in_ticks": 2653600000.0,
+      "duration_in_ticks": 42000000.0,
+      "text": "I'll talk to them and then I'll try to think of any questions before we speak next Thursday.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 72,
+      "offset": "PT4M30.4S",
+      "offset_in_ticks": 2704000000.0,
+      "duration_in_ticks": 9200000.0,
+      "text": "Absolutely Fantastic.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 73,
+      "offset": "PT4M31.32S",
+      "offset_in_ticks": 2713200000.0,
+      "duration_in_ticks": 108400000.0,
+      "text": "I just want to commend you on how well you've done on your recovery and just seeing that everything that you've participated in, it's a lot about your own journey to recovery and you've done a really great job.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 74,
+      "offset": "PT4M42.16S",
+      "offset_in_ticks": 2821600000.0,
+      "duration_in_ticks": 38000000.0,
+      "text": "And I think we'll get you to that last step and we'll move forward together on that.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 75,
+      "offset": "PT4M45.96S",
+      "offset_in_ticks": 2859600000.0,
+      "duration_in_ticks": 3200000.0,
+      "text": "OK.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 76,
+      "offset": "PT4M46.6S",
+      "offset_in_ticks": 2866000000.0,
+      "duration_in_ticks": 17600000.0,
+      "text": "So we'll chat next week then.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 77,
+      "offset": "PT4M48.68S",
+      "offset_in_ticks": 2886800000.0,
+      "duration_in_ticks": 2400000.0,
+      "text": "OK.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 78,
+      "offset": "PT4M49.72S",
+      "offset_in_ticks": 2897200000.0,
+      "duration_in_ticks": 5200000.0,
+      "text": "Thank you.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 79,
+      "offset": "PT4M50.64S",
+      "offset_in_ticks": 2906400000.0,
+      "duration_in_ticks": 5200000.0,
+      "text": "Bye for now.",
+      "role": "Customer",
+      "participantId": 1
+    }
+  ]
+}

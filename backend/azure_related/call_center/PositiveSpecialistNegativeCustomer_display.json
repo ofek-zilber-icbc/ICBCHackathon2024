@@ -1,0 +1,689 @@
+{
+  "durationInTicks": 2427300000,
+  "conversations": [
+    {
+      "id": 0,
+      "offset": "PT2.88S",
+      "offset_in_ticks": 28800000.0,
+      "duration_in_ticks": 2800000.0,
+      "text": "Hi.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 1,
+      "offset": "PT3.16S",
+      "offset_in_ticks": 31600000.0,
+      "duration_in_ticks": 13600000.0,
+      "text": "May I speak to Emily, please?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 2,
+      "offset": "PT4.68S",
+      "offset_in_ticks": 46800000.0,
+      "duration_in_ticks": 11600000.0,
+      "text": "Yep, this is Emily.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 3,
+      "offset": "PT6.24S",
+      "offset_in_ticks": 62400000.0,
+      "duration_in_ticks": 7200000.0,
+      "text": "Hi, Emily.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 4,
+      "offset": "PT6.96S",
+      "offset_in_ticks": 69600000.0,
+      "duration_in_ticks": 17200000.0,
+      "text": "This is Bobby calling from ICBC.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 5,
+      "offset": "PT8.68S",
+      "offset_in_ticks": 86800000.0,
+      "duration_in_ticks": 7600000.0,
+      "text": "How are you doing?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 6,
+      "offset": "PT10.92S",
+      "offset_in_ticks": 109200000.0,
+      "duration_in_ticks": 4400000.0,
+      "text": "I'm OK.",
+      "role": "Customer",
+      "participantId": 1
+    },
+    {
+      "id": 7,
+      "offset": "PT11.36S",
+      "offset_in_ticks": 113600000.0,
+      "duration_in_ticks": 8400000.0,
+      "text": "I'm kind of busy.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 8,
+      "offset": "PT12.24S",
+      "offset_in_ticks": 122400000.0,
+      "duration_in_ticks": 6400000.0,
+      "text": "What do you need?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 9,
+      "offset": "PT13.64S",
+      "offset_in_ticks": 136400000.0,
+      "duration_in_ticks": 12800000.0,
+      "text": "Oh, I'm sorry to hear that.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 10,
+      "offset": "PT14.92S",
+      "offset_in_ticks": 149200000.0,
+      "duration_in_ticks": 12000000.0,
+      "text": "Is there a better time to reach her?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 11,
+      "offset": "PT16.12S",
+      "offset_in_ticks": 161200000.0,
+      "duration_in_ticks": 20400000.0,
+      "text": "Do you have a few minutes now to talk about your claim?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 12,
+      "offset": "PT18.2S",
+      "offset_in_ticks": 182000000.0,
+      "duration_in_ticks": 24400000.0,
+      "text": "Yeah, I guess we can talk now if we have to.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 13,
+      "offset": "PT21.96S",
+      "offset_in_ticks": 219600000.0,
+      "duration_in_ticks": 5600000.0,
+      "text": "OK.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 14,
+      "offset": "PT22.52S",
+      "offset_in_ticks": 225200000.0,
+      "duration_in_ticks": 20800000.0,
+      "text": "And how are things going with you right now?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 15,
+      "offset": "PT24.8S",
+      "offset_in_ticks": 248000000.0,
+      "duration_in_ticks": 8000000.0,
+      "text": "Not good.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 16,
+      "offset": "PT25.6S",
+      "offset_in_ticks": 256000000.0,
+      "duration_in_ticks": 31200000.0,
+      "text": "Like every morning I wake up, I'm in so much pain.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 17,
+      "offset": "PT29.08S",
+      "offset_in_ticks": 290800000.0,
+      "duration_in_ticks": 71200000.0,
+      "text": "I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 18,
+      "offset": "PT36.2S",
+      "offset_in_ticks": 362000000.0,
+      "duration_in_ticks": 19600000.0,
+      "text": "My doctor agrees I need treatment too.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 19,
+      "offset": "PT38.16S",
+      "offset_in_ticks": 381600000.0,
+      "duration_in_ticks": 8400000.0,
+      "text": "What's going on?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 20,
+      "offset": "PT39.08S",
+      "offset_in_ticks": 390800000.0,
+      "duration_in_ticks": 20400000.0,
+      "text": "I'm actually really sorry to hear that, Emily.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 21,
+      "offset": "PT41.12S",
+      "offset_in_ticks": 411200000.0,
+      "duration_in_ticks": 32000000.0,
+      "text": "I can understand that you'd be frustrated if you haven't heard back.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 22,
+      "offset": "PT45.4S",
+      "offset_in_ticks": 454000000.0,
+      "duration_in_ticks": 35200000.0,
+      "text": "Can I ask, when the last time was that you did hear an update?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 23,
+      "offset": "PT50.6S",
+      "offset_in_ticks": 506000000.0,
+      "duration_in_ticks": 4400000.0,
+      "text": "I don't know.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 24,
+      "offset": "PT51.04S",
+      "offset_in_ticks": 510400000.0,
+      "duration_in_ticks": 32800000.0,
+      "text": "It feels like a really long time, like at least eight weeks or so.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 25,
+      "offset": "PT54.52S",
+      "offset_in_ticks": 545200000.0,
+      "duration_in_ticks": 19600000.0,
+      "text": "OK, Yeah, that that shouldn't happen.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 26,
+      "offset": "PT56.48S",
+      "offset_in_ticks": 564800000.0,
+      "duration_in_ticks": 46000000.0,
+      "text": "And let's look into that right now so we can sort things out for you if you have a few minutes.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 27,
+      "offset": "PT1M1.52S",
+      "offset_in_ticks": 615200000.0,
+      "duration_in_ticks": 64400000.0,
+      "text": "I'm just going to ask you from the last couple of physios that you did, how you felt things were going.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 28,
+      "offset": "PT1M7.96S",
+      "offset_in_ticks": 679600000.0,
+      "duration_in_ticks": 112400000.0,
+      "text": "I'm just looking at your file here and it looks like you were finding that it was a little bit helpful, but I just wanted to check now to see what your thoughts were and see what we can do.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 29,
+      "offset": "PT1M19.68S",
+      "offset_in_ticks": 796800000.0,
+      "duration_in_ticks": 50400000.0,
+      "text": "Honestly, it's been like a year and a half and I don't feel like I've made any progress at all.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 30,
+      "offset": "PT1M25.28S",
+      "offset_in_ticks": 852800000.0,
+      "duration_in_ticks": 24800000.0,
+      "text": "Like I, you know, it's so disruptive to my life.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 31,
+      "offset": "PT1M27.76S",
+      "offset_in_ticks": 877600000.0,
+      "duration_in_ticks": 24400000.0,
+      "text": "I go to treatment three times a week now.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 32,
+      "offset": "PT1M30.2S",
+      "offset_in_ticks": 902000000.0,
+      "duration_in_ticks": 62800000.0,
+      "text": "I've been paying for it out of pocket the last two months and I'm not feeling any better.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 33,
+      "offset": "PT1M36.6S",
+      "offset_in_ticks": 966000000.0,
+      "duration_in_ticks": 9600000.0,
+      "text": "OK, I'm.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 34,
+      "offset": "PT1M37.84S",
+      "offset_in_ticks": 978400000.0,
+      "duration_in_ticks": 52800000.0,
+      "text": "I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 35,
+      "offset": "PT1M43.12S",
+      "offset_in_ticks": 1031200000.0,
+      "duration_in_ticks": 13600000.0,
+      "text": "So let's take care of that for you.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 36,
+      "offset": "PT1M44.48S",
+      "offset_in_ticks": 1044800000.0,
+      "duration_in_ticks": 26800000.0,
+      "text": "I'll get that information from you in a second.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 37,
+      "offset": "PT1M47.16S",
+      "offset_in_ticks": 1071600000.0,
+      "duration_in_ticks": 53200000.0,
+      "text": "But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 38,
+      "offset": "PT1M53.6S",
+      "offset_in_ticks": 1136000000.0,
+      "duration_in_ticks": 73600000.0,
+      "text": "I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 39,
+      "offset": "PT2M1.24S",
+      "offset_in_ticks": 1212400000.0,
+      "duration_in_ticks": 58400000.0,
+      "text": "I'm just wondering why you were thinking you weren't able to go for a reason.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 40,
+      "offset": "PT2M7.28S",
+      "offset_in_ticks": 1272800000.0,
+      "duration_in_ticks": 2800000.0,
+      "text": "Yeah.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 41,
+      "offset": "PT2M7.6S",
+      "offset_in_ticks": 1276000000.0,
+      "duration_in_ticks": 32800000.0,
+      "text": "They told me that the treatment was cut off by ACDC and I had to pay.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 42,
+      "offset": "PT2M11.32S",
+      "offset_in_ticks": 1313200000.0,
+      "duration_in_ticks": 3200000.0,
+      "text": "Sorry.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 43,
+      "offset": "PT2M11.64S",
+      "offset_in_ticks": 1316400000.0,
+      "duration_in_ticks": 2400000.0,
+      "text": "Who?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 44,
+      "offset": "PT2M11.96S",
+      "offset_in_ticks": 1319600000.0,
+      "duration_in_ticks": 8400000.0,
+      "text": "Who told you that?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 45,
+      "offset": "PT2M12.92S",
+      "offset_in_ticks": 1329200000.0,
+      "duration_in_ticks": 11600000.0,
+      "text": "The physiotherapist.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 46,
+      "offset": "PT2M14.4S",
+      "offset_in_ticks": 1344000000.0,
+      "duration_in_ticks": 13600000.0,
+      "text": "I'm really sorry to hear that.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 47,
+      "offset": "PT2M15.76S",
+      "offset_in_ticks": 1357600000.0,
+      "duration_in_ticks": 15600000.0,
+      "text": "OK, we can clear that up with them.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 48,
+      "offset": "PT2M17.32S",
+      "offset_in_ticks": 1373200000.0,
+      "duration_in_ticks": 20400000.0,
+      "text": "But there there are some sessions left.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 49,
+      "offset": "PT2M20.24S",
+      "offset_in_ticks": 1402400000.0,
+      "duration_in_ticks": 7200000.0,
+      "text": "But you know what?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 50,
+      "offset": "PT2M20.96S",
+      "offset_in_ticks": 1409600000.0,
+      "duration_in_ticks": 22000000.0,
+      "text": "I don't want you to have to worry about this.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 51,
+      "offset": "PT2M23.16S",
+      "offset_in_ticks": 1431600000.0,
+      "duration_in_ticks": 10400000.0,
+      "text": "You leave that with me.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 52,
+      "offset": "PT2M24.48S",
+      "offset_in_ticks": 1444800000.0,
+      "duration_in_ticks": 35600000.0,
+      "text": "I will contact your physiotherapist and follow up with you.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 53,
+      "offset": "PT2M28.08S",
+      "offset_in_ticks": 1480800000.0,
+      "duration_in_ticks": 74400000.0,
+      "text": "I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 54,
+      "offset": "PT2M35.92S",
+      "offset_in_ticks": 1559200000.0,
+      "duration_in_ticks": 29200000.0,
+      "text": "Is there anything else that's going on right now that I can help with?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 55,
+      "offset": "PT2M39S",
+      "offset_in_ticks": 1590000000.0,
+      "duration_in_ticks": 20000000.0,
+      "text": "Yeah, I mean, you know, whatever.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 56,
+      "offset": "PT2M41S",
+      "offset_in_ticks": 1610000000.0,
+      "duration_in_ticks": 47200000.0,
+      "text": "If my treatment is going to be cut off, like, you know, that's annoying.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 57,
+      "offset": "PT2M45.72S",
+      "offset_in_ticks": 1657200000.0,
+      "duration_in_ticks": 18400000.0,
+      "text": "It's unfair because I still need treatment.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 58,
+      "offset": "PT2M48.16S",
+      "offset_in_ticks": 1681600000.0,
+      "duration_in_ticks": 66800000.0,
+      "text": "But I guess, you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today?",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 59,
+      "offset": "PT2M56.52S",
+      "offset_in_ticks": 1765200000.0,
+      "duration_in_ticks": 78400000.0,
+      "text": "You know, Emily, I just wanted to clarify, I know we've talked about this before as well, but I just wanted to make sure that you are clear that we actually don't do that.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 60,
+      "offset": "PT3M4.36S",
+      "offset_in_ticks": 1843600000.0,
+      "duration_in_ticks": 71600000.0,
+      "text": "ICBC doesn't supply compensation for your claim since we started with enhanced care.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 61,
+      "offset": "PT3M12S",
+      "offset_in_ticks": 1920000000.0,
+      "duration_in_ticks": 16800000.0,
+      "text": "We talked about this in the beginning of your claim.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 62,
+      "offset": "PT3M13.68S",
+      "offset_in_ticks": 1936800000.0,
+      "duration_in_ticks": 38400000.0,
+      "text": "So I wanted to make sure that you understand and please ask me any questions about it.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 63,
+      "offset": "PT3M17.52S",
+      "offset_in_ticks": 1975200000.0,
+      "duration_in_ticks": 80000000.0,
+      "text": "But overall what it is, is when you are in an accident, we want to make sure that we're doing everything to help you recover and that's including the treatment.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 64,
+      "offset": "PT3M25.8S",
+      "offset_in_ticks": 2058000000.0,
+      "duration_in_ticks": 22400000.0,
+      "text": "You mentioned that you've been going to physio for about a year and a half.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 65,
+      "offset": "PT3M28.04S",
+      "offset_in_ticks": 2080400000.0,
+      "duration_in_ticks": 30400000.0,
+      "text": "So that's part of the benefits that you get with your claim.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 66,
+      "offset": "PT3M31.4S",
+      "offset_in_ticks": 2114000000.0,
+      "duration_in_ticks": 54400000.0,
+      "text": "And I know that we followed up with your doctor as well to check on your recovery and how you're doing.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 67,
+      "offset": "PT3M37.16S",
+      "offset_in_ticks": 2171600000.0,
+      "duration_in_ticks": 22400000.0,
+      "text": "Those are are the things that we want to do to support you.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 68,
+      "offset": "PT3M39.4S",
+      "offset_in_ticks": 2194000000.0,
+      "duration_in_ticks": 20400000.0,
+      "text": "There isn't any compensation amount.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 69,
+      "offset": "PT3M41.52S",
+      "offset_in_ticks": 2215200000.0,
+      "duration_in_ticks": 28400000.0,
+      "text": "What there's no more compensation.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 70,
+      "offset": "PT3M44.8S",
+      "offset_in_ticks": 2248000000.0,
+      "duration_in_ticks": 32400000.0,
+      "text": "So I've been struggling with this injury.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 71,
+      "offset": "PT3M48.04S",
+      "offset_in_ticks": 2280400000.0,
+      "duration_in_ticks": 48400000.0,
+      "text": "I have been wasting all my time going to treatment and I'm not even going to get any money for it.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 72,
+      "offset": "PT3M53.76S",
+      "offset_in_ticks": 2337600000.0,
+      "duration_in_ticks": 18000000.0,
+      "text": "We we don't have compensation anymore.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 73,
+      "offset": "PT3M55.56S",
+      "offset_in_ticks": 2355600000.0,
+      "duration_in_ticks": 12400000.0,
+      "text": "Emily, that is correct.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 74,
+      "offset": "PT3M57.92S",
+      "offset_in_ticks": 2379200000.0,
+      "duration_in_ticks": 12000000.0,
+      "text": "OK, whatever.",
+      "role": "Agent",
+      "participantId": 0
+    },
+    {
+      "id": 75,
+      "offset": "PT3M59.36S",
+      "offset_in_ticks": 2393600000.0,
+      "duration_in_ticks": 3200000.0,
+      "text": "Bye.",
+      "role": "Agent",
+      "participantId": 0
+    }
+  ]
+}
