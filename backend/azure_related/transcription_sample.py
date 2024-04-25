@@ -10,6 +10,7 @@ Conversation transcription samples for the Microsoft Cognitive Services Speech S
 import time
 import os
 import uuid
+import json
 
 from scipy.io import wavfile
 # from dotenv import load_dotenv
@@ -37,7 +38,8 @@ service_region = os.environ.get('SPEECH_REGION')
 
 # This sample uses a wavfile which is captured using a supported Speech SDK devices (8 channel, 16kHz, 16-bit PCM)
 # See https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-devices-sdk-microphone
-conversationfilename = "call_4.wav"
+conversationfilename = "PositiveSpecialistNegativeCustomer.wav"
+
 
 
 # This sample demonstrates how to use conversation transcription.
@@ -72,21 +74,37 @@ def conversation_transcription():
     
 
     conversation = []
-
+    flags = []
+    agent = "Bobby"
+    customer = "Emily"
 
     def add_to_conversation(evt):
+        
         # print("add_to_conversation called")
         # nonlocal conversation
+        
         curr = {
             "speaker": evt.result.speaker_id,
             "text": evt.result.text
         }
-        print("curr speaker: {}".format(curr))
-        sentiment = perform_sentiment_analysis(curr["text"])
-        curr["sentiment"] = sentiment
-        print("snetiment: {}".format(sentiment))
+        set_speakers(curr, agent, customer)
+        print("curr: {}".format(curr))
+        flagged = perform_sentiment_analysis(curr["text"])
+        # print("flagged: {}".format(flagged))
         conversation.append(curr)
-        print("conversation: {}".format(conversation))
+        # print("conversation: {}".format(conversation))
+        for f in flagged:
+            flags.append({
+                'speaker': curr['speaker'],
+                'text': curr['text'],
+                'sentiment': f.sentiment,
+                'confidenceScores': {
+                    'positive': f.confidence_scores.positive,
+                    'negative': f.confidence_scores.negative,
+                    'neutral': f.confidence_scores.neutral
+                }
+            })
+
 
 
     # Subscribe to the events fired by the conversation transcriber
@@ -111,11 +129,28 @@ def conversation_transcription():
 
     result = transcriber.stop_transcribing_async()
     print("stopped: {}".format(result))
-    return conversation
+    return {
+        "audioFile": "/" + conversationfilename,
+        "representativeName": agent,
+        "customerName": customer,
+        "date": "04/20/2024",
+        "callLength": 4,
+        "summary": "This is a call summary",
+        "transcription": conversation,
+        "flags": flags
+    }
 
-full_conv = conversation_transcription()
+def set_speakers(sentence, agent, customer):
+    if sentence['speaker'] == 'Guest-1':
+        sentence['speaker'] = agent
+    if sentence['speaker'] == 'Guest-2':
+        sentence['speaker'] = customer
 
-with open("full_transcription_" + conversationfilename.replace(".wav", "") + ".txt", 'w') as f:
-    f.write(str(full_conv))
+full_conv_flags = conversation_transcription()
 
-print("full conversation: {}".format(full_conv))
+
+with open("full_transcription_flags_" + conversationfilename.replace(".wav", "") + ".json", 'w') as f:
+    f.write(json.dumps(full_conv_flags, indent=4))
+
+print("full conversation: {}".format(full_conv_flags['transcription']))
+print("all flags: {}".format(full_conv_flags['flags']))

@@ -1,0 +1,216 @@
+{
+    "audioFile": "/PositiveSpecialistNegativeCustomer.wav",
+    "representativeName": "Bobby",
+    "customerName": "Emily",
+    "date": "04/20/2024",
+    "callLength": 4,
+    "summary": "This is a call summary",
+    "transcription": [
+        {
+            "speaker": "Bobby",
+            "text": "Hi, may I speak to Emily, please?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Yep, this is Emily."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I'm OK. I'm kind of busy. What do you?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Need. Oh, I'm sorry to hear that. Is there a better time to reach her? Do you have a?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "OK. And how are things going with you right now?"
+        },
+        {
+            "speaker": "Emily",
+            "text": "Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Like, I need treatment. My doctor agrees I need treatment too. What's going on?"
+        },
+        {
+            "speaker": "Emily",
+            "text": "I don't know. It feels like a really long time, like at least eight weeks or so."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "OK. Yeah, that that shouldn't happen. And let's look into that right now so we can sort things out for you if you have a few minutes. I'm just going to ask you from the last couple of physios that you did, how you felt things were going."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I'm just looking at your file here and it looks like you were finding that it was a little bit helpful, but I just wanted to check now to see what your thoughts were and see what we can."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Do Honestly, it's been like a year and a half and I don't feel like I've made any progress at all. Like, I, you know, it's so disruptive to my life. I go to treatment three times a week now. I've been paying for it out of pocket the last two months and I'm not feeling any better."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "OK. I'm, I'm sorry again to hear about the you're paying out of pocket."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "That technically, we that shouldn't be happening. So let's take care of that for you. I'll get that information from you."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "In a second, but also I'm a little concerned for you about your treatment and that you haven't been able to go."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist. I'm just wondering why?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "You were thinking you weren't able to go serve a reason, Yeah."
+        },
+        {
+            "speaker": "Emily",
+            "text": "They told me that the treatment was cut off by ACDC and I had to pay. Sorry, who? Who told you that? The physiotherapist."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I'm really sorry to hear that. OK, we can clear that up with them. But there there are some sessions left. But you know what? I don't want you to have to worry about this. You leave that with me."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I will contact your physiotherapist and follow up with you. I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery. Is there anything else that's going on right now that I?"
+        },
+        {
+            "speaker": "Emily",
+            "text": "Can help with, yeah, I mean, you know, whatever. If my treatment is going to be cut off, like you know, that's annoying. It's unfair because I still need treatment. But I guess, you know, we can also just settle the claim up and and I can have my compensation now."
+        },
+        {
+            "speaker": "Emily",
+            "text": "What? What's your offer today?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "You know, Emily, I just wanted to clarify, I know we've talked about this before as well, but I just wanted to make sure that you were clear that we actually don't do that. ICBC doesn't supply compensation for your claim since we started with enhanced care, We talked about this in the beginning reclaim. So I wanted to make sure that you understand and please ask me any questions about it. But overall, what it is, is when you are in an accident, we want to make sure that we're doing everything to help you recover and that's including the treatment you mentioned that you've been going to physio for about a year and a half. So that's part of the benefits that you get with your claim."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "And I know that we followed up with your doctor as well to check on your recovery and how you're doing. Those are are the things that we want to do to support you. There isn't any compensation amount."
+        },
+        {
+            "speaker": "Emily",
+            "text": "What? There's no more compensation, so I've been struggling with this injury. I have been wasting all my time going to treatment and I'm not even going to get any money for."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "It we we don't have compensation anymore, Emily. That is correct."
+        },
+        {
+            "speaker": "Emily",
+            "text": "OK, whatever. Bye."
+        }
+    ],
+    "flags": [
+        {
+            "speaker": "Bobby",
+            "text": "Need. Oh, I'm sorry to hear that. Is there a better time to reach her? Do you have a?",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.02,
+                "negative": 0.93,
+                "neutral": 0.05
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.98,
+                "neutral": 0.02
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.97,
+                "neutral": 0.03
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "Do Honestly, it's been like a year and a half and I don't feel like I've made any progress at all. Like, I, you know, it's so disruptive to my life. I go to treatment three times a week now. I've been paying for it out of pocket the last two months and I'm not feeling any better.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.94,
+                "neutral": 0.06
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "OK. I'm, I'm sorry again to hear about the you're paying out of pocket.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.04,
+                "negative": 0.85,
+                "neutral": 0.12
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I'm really sorry to hear that. OK, we can clear that up with them. But there there are some sessions left. But you know what? I don't want you to have to worry about this. You leave that with me.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.02,
+                "negative": 0.94,
+                "neutral": 0.04
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "Can help with, yeah, I mean, you know, whatever. If my treatment is going to be cut off, like you know, that's annoying. It's unfair because I still need treatment. But I guess, you know, we can also just settle the claim up and and I can have my compensation now.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.98,
+                "neutral": 0.02
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "Can help with, yeah, I mean, you know, whatever. If my treatment is going to be cut off, like you know, that's annoying. It's unfair because I still need treatment. But I guess, you know, we can also just settle the claim up and and I can have my compensation now.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.91,
+                "neutral": 0.09
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "What? There's no more compensation, so I've been struggling with this injury. I have been wasting all my time going to treatment and I'm not even going to get any money for.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.98,
+                "neutral": 0.02
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "What? There's no more compensation, so I've been struggling with this injury. I have been wasting all my time going to treatment and I'm not even going to get any money for.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.96,
+                "neutral": 0.03
+            }
+        }
+    ]
+}

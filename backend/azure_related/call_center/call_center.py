@@ -212,6 +212,7 @@ def merge_sentiment_confidence_scores_into_transcription(transcription : Dict, s
 def transcription_phrases_to_conversation_items(transcription : Dict, phrases : List[TranscriptionPhrase]) -> List[Dict] :
     durationInTicks = transcription["durationInTicks"]
     conversation_array = [{
+        
         "id" : phrase.id,
         "offset": phrase.offset,
         "offset_in_ticks": phrase.offset_in_ticks,

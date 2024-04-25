@@ -1,0 +1,176 @@
+{
+    "audioFile": "/call2.wav",
+    "representativeName": "Bobby",
+    "customerName": "Emily",
+    "date": "04/22/2024",
+    "callLength": 20,
+    "summary": "This is a call summary",
+    "transcription": [
+        {
+            "speaker": "Bobby",
+            "text": "Hi, this is Bobby calling from ICBC's assembly."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Hi, this is Emily. Yes."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Oh, hi, Emily. I'm glad I got ahold of. It's been really hard to reach you. I've been trying."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "To call you for a."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "While who has it? Yeah, it has. But I guess you're really busy, so I'm glad that I got ahold of you and I wanted to talk to you about your treatment and your injury claim."
+        },
+        {
+            "speaker": "Emily",
+            "text": "OK. What did you want to talk about specifically? Well."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I want to talk to you about how your treatment is going, So I've noticed that."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Been going for to your RMT to massage for a while and last time we talked we talked about also going to your physiotherapist. I see that your doctor had recommended it to before and I want to follow up to see if you've been doing that or if you've talked."
+        },
+        {
+            "speaker": "Emily",
+            "text": "To them, yeah, it's been kind of easier just to go to my massage therapist because I can get appointments. I was hoping I could find a physiotherapist in the same clinic, but I couldn't, so I thought it was just easier to keep going to my massage."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Therapist. OK, well, I want you to know that it's been."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "About a month now and you're not going to notice the difference and you're not going to notice much of improvement if you don't follow the instructions that we talked about last time."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Oh, OK Well, my massage therapist kept booking me in, so I thought I was just good to keep going."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "There. Yeah, I can see that. And we approved the last treatment request that your massage therapy sent in. But to be honest with you, I'm not going to prove the next one. I did talk to you about talking to your physiotherapist and making that call. So you're going to need to do that if you want to keep having treatment."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Provided under your claim."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Well, you mentioned that you're still having problems with your knee and you're fine now. Is that what you're saying?"
+        },
+        {
+            "speaker": "Emily",
+            "text": "Yeah, I mean, it still hurts, but I think, you know, it could be worse. So."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Well, I like I told you before, if you don't follow the advice you were given, it likely could get worse and then you're not going to be able to get any treatment afterwards, so."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "When we talked and I gave you the information I you are expected to follow it. You do have a duty to also go with the treatment and with what's what the guidance is so that you do recover and feel better."
+        },
+        {
+            "speaker": "Emily",
+            "text": "OK, well, I guess I could always talk to my massage therapist and then, yeah, I could try calling around some physiotherapy clinics, but if I don't, it's OK too if I don't get any more."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Treatment. Well, I really want you to reach out and call your physiotherapist since you haven't done it yet and this is the third time you've talked about it. If you could please give me a call back next week."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Let's try to do that so that you're talking to them by then and I would like to get an update from you. If I don't, then I don't think I'll be able to approve any more of."
+        },
+        {
+            "speaker": "Emily",
+            "text": "The massage either OK, So what happens if I need more treatment, though, or if I feel like I'm still in pain or I'm not able to?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Do all of my regular stuff well, if you had been going for the treatment that was recommended in the beginning, then you probably would have noticed you're feeling better by now and you probably wouldn't need to come back. But if you're going to pause and stop treatment, it's going to be really difficult for us to approve any more for you."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Really. I mean, I've talked to you before and I put the notes in your file here that you're not following the advice that."
+        },
+        {
+            "speaker": "Emily",
+            "text": "You were given. Oh, OK. Well, I'm really sorry. I didn't mean to not follow the advice like I I typically do like to follow what you tell me. I just messed up. Forgot. But yeah, OK, I can do what you told me and I'll. I'll try and talk to a physiotherapist and see if I can get in and get some more treatment there. But if not, I guess I just won't bother you anymore."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Well, I've noted that down your file and you've been given all the information, so you know what needs to happen next. Again, if I don't hear back from by next week, then we won't be approving any more."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Treatment."
+        },
+        {
+            "speaker": "Emily",
+            "text": "OK. OK. Well, I'll try to follow up then with the physiotherapist and I'll try to get back to you next week is."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "There anything else that I should be doing? No. You have my number and like I mentioned, I tried to reach you multiple times over the last couple weeks and it's really hard to get a hold of."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "You so you know what time I work, so please give me a call. OK. I'm really sorry about that. Thanks so much for calling me today."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "OK. Bye."
+        }
+    ],
+    "flags": [
+        {
+            "speaker": "Bobby",
+            "text": "Oh, hi, Emily. I'm glad I got ahold of. It's been really hard to reach you. I've been trying.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.93,
+                "neutral": 0.06
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Do all of my regular stuff well, if you had been going for the treatment that was recommended in the beginning, then you probably would have noticed you're feeling better by now and you probably wouldn't need to come back. But if you're going to pause and stop treatment, it's going to be really difficult for us to approve any more for you.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.87,
+                "neutral": 0.11
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "You were given. Oh, OK. Well, I'm really sorry. I didn't mean to not follow the advice like I I typically do like to follow what you tell me. I just messed up. Forgot. But yeah, OK, I can do what you told me and I'll. I'll try and talk to a physiotherapist and see if I can get in and get some more treatment there. But if not, I guess I just won't bother you anymore.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.94,
+                "neutral": 0.05
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "You so you know what time I work, so please give me a call. OK. I'm really sorry about that. Thanks so much for calling me today.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.02,
+                "negative": 0.93,
+                "neutral": 0.05
+            }
+        }
+    ]
+}
