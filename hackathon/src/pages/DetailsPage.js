@@ -225,7 +225,7 @@ const DetailsPage = () => {
             <Dialog open={showDialog} onClose={() => setShowDialog(false)}>
                 <DialogTitle>Reprocess Call</DialogTitle>
                 <DialogContent>
-                    <Typography>We have sent your request to reprocess this call.</Typography>
+                    <Typography>We have sent your request to reapply the analysis for this call.</Typography>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setShowDialog(false)} color="primary" autoFocus>
