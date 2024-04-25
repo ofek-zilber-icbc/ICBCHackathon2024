@@ -7,6 +7,7 @@ import { PersonOutline, AccessTimeOutlined, FlagOutlined } from '@mui/icons-mate
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
  
 const DetailsPage = () => {
     const [transcriptData, setTranscriptData] = useState([]);
@@ -16,6 +17,7 @@ const DetailsPage = () => {
     const [showDialog, setShowDialog] = useState(false);
     const [reviewed, setReviewed] = useState(false);
     let location = useLocation();
+    const navigate = useNavigate();
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -37,8 +39,14 @@ const DetailsPage = () => {
         const handleTimeUpdate = () => {
             setCurrentTime(audioRef.current.currentTime);
         };
+        if (audioRef.current) {
+            audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+        }
         audioRef.current.addEventListener('timeupdate', handleTimeUpdate);
         return () => {
+            if (audioRef.current) {
+                audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+            }
             audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
         };
     }, []);
@@ -51,6 +59,7 @@ const DetailsPage = () => {
         setReviewed(!reviewed);
     }
     const handleBackButtonClick = () => {
+        navigate(-1); // Go back in history
     };
     const handleReprocessButtonClick = () => {
         setShowDialog(true);
@@ -189,6 +198,7 @@ const DetailsPage = () => {
                 borderRadius: '30px',
                 padding: '5px 50px',
                 margin: '5px',
+                border: '2px solid #8526FF',
                 border: '2px solid #8526FF',
                 }}
             >
