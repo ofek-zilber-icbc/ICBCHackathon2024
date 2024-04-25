@@ -38,7 +38,7 @@ const DataTable = (props) => {
                         <th>Call Length</th> 
                         <th>Flag</th>
                         <th>Details</th>
-                        <th>Rviewed</th>
+                        <th>Reviewed</th>
                     </tr>
                 </thead>
                 <tbody>
