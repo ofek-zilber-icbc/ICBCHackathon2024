@@ -140,7 +140,7 @@ const DetailsPage = () => {
                         Summary
                     </Typography>
                     <Typography variant="body1">
-                    A representative contacted the customer regarding their treatment and injury claim. They discussed the importance of following up with their physiotherapist and adhering to the treatment plan. The customer acknowledged the need for action and agreed to contact the physiotherapist. The representative emphasized timely communication and urged the customer to call back promptly. The conversation concluded with the customer committing to follow up and thanking the representative for their assistance.
+                        {location.state.short.summary}
                     </Typography>
                 </Grid>
                 <Grid container spacing={0.5} alignItems="center">
