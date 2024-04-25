@@ -26,7 +26,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
         "representativeName": "Bobby",
         "customerName": "Emily",
         "date": "04/22/2024",
-        "callLength": 20,
+        "callLength": 4,
         "summary": "The discussion revolves around a customer's treatment and injury claim, with emphasis on following recommendations for recovery. The representative sets a deadline for follow-up and stresses the importance of communication for treatment approval.",
         "transcription": [
             {
