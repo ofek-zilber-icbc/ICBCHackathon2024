@@ -83,31 +83,73 @@
 }
 
 .form-label {
+  font-weight: 400;
   margin-right: 5px; /* Add margin to the right of labels */
 }
 
 .form-input {
   padding: 5px; /* Add padding for input elements */
+  border-radius: 10px;
+  border: 1px gray solid;
+  margin-right: 10px;
 }
 
 .form-select {
   padding: 5px; /* Add padding for select elements */
+  border-radius: 10px;
+  border: 1px gray solid;
 }
 
 .submit-btn {
   background-color: #8526FF;
   color: white;
   border: 0;
-  border-radius: 4px; /* Rounded corners */
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners */
   padding: 10px 20px; /* Adjust padding as needed */
+  margin: 15px; /* Adjust margin as needed */
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: #8526FF;
+  font-weight: bold;
+  border: 2px #8526FF solid;
+  border-radius: 30px; /* Rounded corners */
+  padding: 9px 20px; /* Adjust padding as needed */
   margin: 5px; /* Adjust margin as needed */
 }
 
+.back-btn {
+  background-color: #8526FF;
+  color: white;
+  border: 0;
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 15px; /* Adjust margin as needed */
+}
 
  /* CSS for table styling */
  table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 0px;
+}
+
+tr:first-child th {
+  color: #ffffff;
+  background-color: #8526FF;
+  /* border: 1px solid; */
+  border-bottom: none;
+}
+
+tr:first-child th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+tr:first-child th:last-child {
+  border-radius: 0 10px 0 0;
 }
 
 th, td {
@@ -120,6 +162,14 @@ th {
   background-color: #f0f0f0;
 }
 
+tr {
+  border-bottom: 1px solid #f0f0f0;
+}​
+
+tr:last-child { 
+  border-bottom: 0; 
+}
+
 tr:hover {
   background-color: #f9f9f9;
 }
@@ -128,8 +178,11 @@ tr:hover {
   background-color: #C41E3A; /* Red for negative flag */
   color: #fff;
   font-weight: normal;
-  border: 5px solid transparent;
+  border: 2px solid white;
+  padding: 3px;
+  padding-top: 3px;
   border-radius: 5px;
+  margin: 5px;
 }
 .positive-flag {
   background-color: #4CBB17; /* Red for negative flag */
@@ -139,13 +192,15 @@ tr:hover {
   border: 9px solid transparent;
   border-radius: 10px;
 }
-.nuetral-flag {
+.non-negative-flag {
   background-color: #FFC000; /* Red for negative flag */
   color: #fff;
   font-weight: normal;
+  border: 2px solid white;
+  padding: 3px;
+  padding-top: 3px;
+  border-radius: 5px;
   margin: 5px;
-  border: 9px solid transparent;
-  border-radius: 10px;
 }
 
 /* Additional styles for summary popup */
