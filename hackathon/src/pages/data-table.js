@@ -18,6 +18,7 @@ const DataTable = (props) => {
                         <th>Call Length</th> 
                         <th>Flag</th>
                         <th>Details</th>
+                        <th>Rviewed</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -39,6 +40,7 @@ const DataTable = (props) => {
                                 <td>{record.short.callLength + "mins"}</td>
                                 <td className={getFlagClassName(record.short.flags)}>{getFlagText(record.short.flags)}</td>
                                 <td><Link to='/details' state={record}>Show details</Link></td> 
+                                <td>Reviewed</td>
                             </tr>)
                         })
                     }

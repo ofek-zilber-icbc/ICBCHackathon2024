@@ -14,6 +14,7 @@ const DetailsPage = () => {
     const [callScore, setCallScore] = useState(0); 
     const effectRan = useRef(false);
     const [showDialog, setShowDialog] = useState(false);
+    const [reviewed, setReviewed] = useState(false);
     let location = useLocation();
     useEffect(() => {
         const fetchData = async () => {
@@ -51,7 +52,11 @@ const DetailsPage = () => {
 
     const handleTranscriptClick = (startTime) => {
         audioRef.current.currentTime = startTime;
+        console.log(location.state.flags)
     };
+    const handleMarkAsReviewed =() =>{
+        setReviewed(!reviewed);
+    }
     const handleBackButtonClick = () => {
     };
     const handleReprocessButtonClick = () => {
@@ -74,18 +79,18 @@ const DetailsPage = () => {
         <>
          <Header/>
             <Card>
-                <Grid item style={{ fontWeight: 'bold', marginBottom: '10px' }}>
-                    <Typography variant="h5" fontWeight={"bold"}>
-                        Call Details
+            <Grid container justifyContent="space-between" alignItems="center">
+                <Grid item style={{ fontWeight: 'bold' }}>
+                    <Typography variant="h5" style = {{paddingBottom: "10px"}}>
+                         Call Details
                     </Typography>
                 </Grid>
-                {/* <Grid item style={{ fontWeight: 'bold', marginBottom: '10px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px'}}>
-                        <Typography variant="h7" color="white" style={{ background: "#8526FF", padding: "10px", borderRadius: "10px" }}>
-                            Call Score: {callScore}
-                        </Typography>
-                    </div> 
-                </Grid> */}
+            <Grid item style={{ fontWeight: 'bold' }}>
+                    <Button variant="contained" onClick={handleMarkAsReviewed} style={{ borderRadius: "10px", background: reviewed ? "grey" : "#4CBB17" }}>
+                        {reviewed ? "Mark as Needs Review" : "Mark as Reviewed"}
+                    </Button>
+            </Grid>
+            </Grid>
                 <Grid container spacing={0.5} alignItems="center">
                     <Grid item>
                         <IconButton style={{ color: '#8526FF' }}>
@@ -138,7 +143,7 @@ const DetailsPage = () => {
                 </Grid>
                 <Grid container spacing={0.5} alignItems="center">
                     <Typography>
-                    {location.state.short.flags[0].timestamp}
+                        {/* {location.state.flags[1].timestamp} */}
                     </Typography>
                     </Grid>
             </Card>
@@ -155,25 +160,36 @@ const DetailsPage = () => {
                 </div>
 
                 {transcriptExpanded && (
-                    <div>
-                        {transcriptData!== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => (
-                            <span
-                                key={index}
-                                style={{
-                                    backgroundColor:
-                                        currentTime >= word.offsetInTicks / 10000000 &&
-                                        currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
-                                            ? 'yellow'
-                                            : 'transparent',
-                                    cursor: 'pointer',
-                                }}
-                                onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
-                            >
-                                {word.displayText}{' '}
-                            </span>
-                        ))}
-                    </div>
-                )}
+  <div>
+    {transcriptData !== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => {
+      const transcriptText = transcriptData.map(word => word.displayText).join(' ');
+      const containsFlagText = location.state.flags.some(flag => transcriptText.includes(flag.text));
+      console.log("flag text")
+      return (
+        <span
+          key={index}
+          style={{
+            backgroundColor:
+              currentTime >= word.offsetInTicks / 10000000 &&
+              currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
+                  ? 'yellow'
+                  : containsFlagText
+                      ? 'red' 
+                      : 'transparent',
+            cursor: 'pointer',
+          }}
+          onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
+        >
+          {word.displayText}{' '}
+        </span>
+      );
+    })}
+  </div>
+)}
+
+
+
+
                 </div>  
             </Card>
             <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px', background:"#EFEFEF",paddingTop:"40px", paddingBottom:"100px", paddingRight:"40px" }}>
