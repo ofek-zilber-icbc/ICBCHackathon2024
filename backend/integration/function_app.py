@@ -27,8 +27,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
         "customerName": "Emily",
         "date": "04/22/2024",
         "callLength": 20,
-        "summary": "
-The discussion revolves around a customer's treatment and injury claim, with emphasis on following recommendations for recovery. The representative sets a deadline for follow-up and stresses the importance of communication for treatment approval.",
+        "summary": "The discussion revolves around a customer's treatment and injury claim, with emphasis on following recommendations for recovery. The representative sets a deadline for follow-up and stresses the importance of communication for treatment approval.",
         "transcription": [
             {
                 "speaker": "Bobby",
@@ -3356,7 +3355,7 @@ The discussion revolves around a customer's treatment and injury claim, with emp
       "customerName": "Emily",
       "date": "04/15/2024",
       "callLength": 4,
-      "summary": "This is a call summary",
+      "summary": "Eddie discusses Emily's recovery progress and informs her that further physiotherapy treatment may not be approved. Instead, they suggest transitioning to more active programs like kinesiology or self-guided gym training. Emily expresses interest and plans to explore these options, including reaching out to a teammate who is a kinesiologist. They agree to follow up next Thursday and conclude with positive remarks about Emily's recovery journey.",
       "transcription": [
           {
               "speaker": "Eddie",
@@ -6927,7 +6926,7 @@ The discussion revolves around a customer's treatment and injury claim, with emp
       "customerName": "Bobby",
       "date": "04/22/2024",
       "callLength": 5,
-      "summary": "This is a call summary",
+      "summary": "Eddie discusses Bobby's recovery progress, treatment plan, and benefits. They talk about equipment usage, progress with physiotherapy, and Bobby's overall recovery. Eddie informs Bobby that they are ready for discharge from physiotherapy services and outlines the next steps. They agree on follow-up communication via email and phone, ensuring Bobby has all the necessary information for a smooth transition from treatment.",
       "transcription": [
           {
               "speaker": "Eddie",
@@ -11710,7 +11709,7 @@ The discussion revolves around a customer's treatment and injury claim, with emp
       "customerName": "Emily",
       "date": "04/20/2024",
       "callLength": 4,
-      "summary": "This is a call summary",
+      "summary": "Emily is frustrated with the lack of progress in her treatment and the perceived interruption in her sessions. She's also disappointed to learn that ICBC doesn't offer compensation under the enhanced care system. Despite her frustration, Bobby from ICBC assures her that he will follow up with her physiotherapist to resolve the issues with her sessions. Emily ends the call expressing her dissatisfaction.",
       "transcription": [
           {
               "speaker": "Bobby",
