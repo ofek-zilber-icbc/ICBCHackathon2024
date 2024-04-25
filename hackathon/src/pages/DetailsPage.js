@@ -15,8 +15,6 @@ const DetailsPage = () => {
     const effectRan = useRef(false);
     const [showDialog, setShowDialog] = useState(false);
     let location = useLocation();
-    // console.log("location", location.state.representativeName)
-    console.log("wav", location.state.audioFile)
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -25,7 +23,6 @@ const DetailsPage = () => {
                 const newDisplayWords = recognizedPhrases.reduce((acc, phrase) => {
                     if (phrase.nBest[0].displayWords !== undefined) {
                         const newWords = phrase.nBest[0].displayWords;
-                        console.log("new word", newWords)
                         return [...acc, ...newWords];
                     }
                     return acc;
@@ -38,7 +35,6 @@ const DetailsPage = () => {
         };
         fetchData();
     }, []);
-
 
     const [currentTime, setCurrentTime] = useState(0);
     const audioRef = useRef(null);
@@ -98,7 +94,7 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"15px"}>
-                        {location.state.representativeName}
+                        {location.state.short.representativeName}
                         </Typography>
                     </Grid>
                     <Grid item>
@@ -108,7 +104,7 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"15px"}>
-                        {location.state.customerName}
+                        {location.state.short.customerName}
                         </Typography>
                     </Grid>
                     <Grid item>
@@ -118,7 +114,7 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"15px"}>
-                        {location.state.callLength} mins
+                        {location.state.short.callLength} mins
                         </Typography>
                     </Grid>
                     <Grid item>
@@ -128,7 +124,7 @@ const DetailsPage = () => {
                     </Grid>
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"10px"}>
-                            {location.state.flags.length == 0 ? "No flags" : `Flags: ${location.state.flags.length}`}
+                            {location.state.short.flags.length == 0 ? "No flags" : `Flags: ${location.state.short.flags.length}`}
                         </Typography> 
                     </Grid>
                 </Grid>
@@ -142,14 +138,14 @@ const DetailsPage = () => {
                 </Grid>
                 <Grid container spacing={0.5} alignItems="center">
                     <Typography>
-                    {/* {location.state.flags[0].timestamp} */}
+                    {location.state.short.flags[0].timestamp}
                     </Typography>
                     </Grid>
             </Card>
             <Card>
                 <div>
                     <audio ref={audioRef} controls>
-                        <source src={location.state.audioFile} type="audio/wav" />
+                        <source src={location.state.short.audioFile} type="audio/wav" />
                         Your browser does not support the audio element.
                     </audio>
                 <div>
@@ -160,7 +156,7 @@ const DetailsPage = () => {
 
                 {transcriptExpanded && (
                     <div>
-                        {transcriptData!== null && transcriptData.map((word, index) => (
+                        {transcriptData!== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => (
                             <span
                                 key={index}
                                 style={{
