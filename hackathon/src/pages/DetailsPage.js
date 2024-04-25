@@ -19,17 +19,17 @@ const DetailsPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('/batch.json');
-                const recognizedPhrases = response.data.recognizedPhrases || [];
-                const newDisplayWords = recognizedPhrases.reduce((acc, phrase) => {
-                    if (phrase.nBest[0].displayWords !== undefined) {
-                        const newWords = phrase.nBest[0].displayWords;
-                        return [...acc, ...newWords];
-                    }
-                    return acc;
-                }, []);
-                console.log("END!!!!!!!!!!!!!")
-                setTranscriptData(newDisplayWords);
+                const response = await axios.get('/call2_display.json');
+                // const recognizedPhrases = response.data.recognizedPhrases || [];
+                // const newDisplayWords = recognizedPhrases.reduce((acc, phrase) => {
+                //     if (phrase.nBest[0].displayWords !== undefined) {
+                //         const newWords = phrase.nBest[0].displayWords;
+                //         return [...acc, ...newWords];
+                //     }
+                //     return acc;
+                // }, []);
+                // console.log("END!!!!!!!!!!!!!")
+                setTranscriptData( response.data.conversations);
             } catch (error) {
                 console.error('Error fetching JSON:', error);
             }
@@ -150,7 +150,7 @@ const DetailsPage = () => {
             <Card>
                 <div>
                     <audio ref={audioRef} controls>
-                        <source src={location.state.short.audioFile} type="audio/wav" />
+                        <source src="https://github.com/ofek-zilber-icbc/ICBCHackathon2024/raw/main/backend/azure_related/call2.wav" type="audio/wav" />
                         Your browser does not support the audio element.
                     </audio>
                 <div>
@@ -161,21 +161,22 @@ const DetailsPage = () => {
 
                 {transcriptExpanded && (
                 <div>
-                {transcriptData!== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => (
-                <span
+                {transcriptData!== null && transcriptData.map((word, index) => (
+                <div
                     key={index}
                     style={{
                         backgroundColor:
-                        currentTime >= word.offsetInTicks / 10000000 &&
-                        currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
+                        currentTime >= word.offset_in_ticks / 10000000 &&
+                        currentTime <= (word.offset_in_ticks + word.duration_in_ticks) / 10000000
                          ? 'yellow'
                         : 'transparent',
                         cursor: 'pointer',
                     }}
-                    onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
+                    onClick={() => handleTranscriptClick(word.offset_in_ticks / 10000000)}
                 >
-                {word.displayText}{' '}
-                </span>
+                {word.text}{' '}
+                </div>
+                
                  ))}
                 </div>
                 )}

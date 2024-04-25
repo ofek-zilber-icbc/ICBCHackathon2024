@@ -1,0 +1,822 @@
+{
+    "short": {
+        "audioFile": "/call2.wav",
+        "representativeName": "Bobby",
+        "customerName": "Emily",
+        "date": "04/22/2024",
+        "callLength": 20,
+        "summary": "This is a call summary",
+        "transcription": [
+            {
+                "speaker": "Bobby",
+                "text": "Hi, this is Bobby calling from ICBC's assembly."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Hi, this is Emily. Yes."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Oh, hi, Emily. I'm glad I got ahold of. It's been really hard to reach you. I've been trying."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "To call you for a."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "While who has it? Yeah, it has. But I guess you're really busy, so I'm glad that I got ahold of you and I wanted to talk to you about your treatment and your injury claim."
+            },
+            {
+                "speaker": "Emily",
+                "text": "OK. What did you want to talk about specifically? Well."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "I want to talk to you about how your treatment is going, So I've noticed that."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Been going for to your RMT to massage for a while and last time we talked we talked about also going to your physiotherapist. I see that your doctor had recommended it to before and I want to follow up to see if you've been doing that or if you've talked."
+            },
+            {
+                "speaker": "Emily",
+                "text": "To them, yeah, it's been kind of easier just to go to my massage therapist because I can get appointments. I was hoping I could find a physiotherapist in the same clinic, but I couldn't, so I thought it was just easier to keep going to my massage."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Therapist. OK, well, I want you to know that it's been."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "About a month now and you're not going to notice the difference and you're not going to notice much of improvement if you don't follow the instructions that we talked about last time."
+            },
+            {
+                "speaker": "Emily",
+                "text": "Oh, OK Well, my massage therapist kept booking me in, so I thought I was just good to keep going."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "There. Yeah, I can see that. And we approved the last treatment request that your massage therapy sent in. But to be honest with you, I'm not going to prove the next one. I did talk to you about talking to your physiotherapist and making that call. So you're going to need to do that if you want to keep having treatment."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Provided under your claim."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Well, you mentioned that you're still having problems with your knee and you're fine now. Is that what you're saying?"
+            },
+            {
+                "speaker": "Emily",
+                "text": "Yeah, I mean, it still hurts, but I think, you know, it could be worse. So."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Well, I like I told you before, if you don't follow the advice you were given, it likely could get worse and then you're not going to be able to get any treatment afterwards, so."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "When we talked and I gave you the information I you are expected to follow it. You do have a duty to also go with the treatment and with what's what the guidance is so that you do recover and feel better."
+            },
+            {
+                "speaker": "Emily",
+                "text": "OK, well, I guess I could always talk to my massage therapist and then, yeah, I could try calling around some physiotherapy clinics, but if I don't, it's OK too if I don't get any more."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Treatment. Well, I really want you to reach out and call your physiotherapist since you haven't done it yet and this is the third time you've talked about it. If you could please give me a call back next week."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Let's try to do that so that you're talking to them by then and I would like to get an update from you. If I don't, then I don't think I'll be able to approve any more of."
+            },
+            {
+                "speaker": "Emily",
+                "text": "The massage either OK, So what happens if I need more treatment, though, or if I feel like I'm still in pain or I'm not able to?"
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Do all of my regular stuff well, if you had been going for the treatment that was recommended in the beginning, then you probably would have noticed you're feeling better by now and you probably wouldn't need to come back. But if you're going to pause and stop treatment, it's going to be really difficult for us to approve any more for you."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Really. I mean, I've talked to you before and I put the notes in your file here that you're not following the advice that."
+            },
+            {
+                "speaker": "Emily",
+                "text": "You were given. Oh, OK. Well, I'm really sorry. I didn't mean to not follow the advice like I I typically do like to follow what you tell me. I just messed up. Forgot. But yeah, OK, I can do what you told me and I'll. I'll try and talk to a physiotherapist and see if I can get in and get some more treatment there. But if not, I guess I just won't bother you anymore."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Well, I've noted that down your file and you've been given all the information, so you know what needs to happen next. Again, if I don't hear back from by next week, then we won't be approving any more."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Treatment."
+            },
+            {
+                "speaker": "Emily",
+                "text": "OK. OK. Well, I'll try to follow up then with the physiotherapist and I'll try to get back to you next week is."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "There anything else that I should be doing? No. You have my number and like I mentioned, I tried to reach you multiple times over the last couple weeks and it's really hard to get a hold of."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "You so you know what time I work, so please give me a call. OK. I'm really sorry about that. Thanks so much for calling me today."
+            },
+            {
+                "speaker": "Bobby",
+                "text": "OK. Bye."
+            }
+        ],
+        "flags": [
+            {
+                "speaker": "Bobby",
+                "text": "Oh, hi, Emily. I'm glad I got ahold of. It's been really hard to reach you. I've been trying.",
+                "sentiment": "negative",
+                "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.93,
+                    "neutral": 0.06
+                }
+            },
+            {
+                "speaker": "Bobby",
+                "text": "Do all of my regular stuff well, if you had been going for the treatment that was recommended in the beginning, then you probably would have noticed you're feeling better by now and you probably wouldn't need to come back. But if you're going to pause and stop treatment, it's going to be really difficult for us to approve any more for you.",
+                "sentiment": "negative",
+                "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.87,
+                    "neutral": 0.11
+                }
+            },
+            {
+                "speaker": "Emily",
+                "text": "You were given. Oh, OK. Well, I'm really sorry. I didn't mean to not follow the advice like I I typically do like to follow what you tell me. I just messed up. Forgot. But yeah, OK, I can do what you told me and I'll. I'll try and talk to a physiotherapist and see if I can get in and get some more treatment there. But if not, I guess I just won't bother you anymore.",
+                "sentiment": "negative",
+                "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.94,
+                    "neutral": 0.05
+                }
+            },
+            {
+                "speaker": "Bobby",
+                "text": "You so you know what time I work, so please give me a call. OK. I'm really sorry about that. Thanks so much for calling me today.",
+                "sentiment": "negative",
+                "confidenceScores": {
+                    "positive": 0.02,
+                    "negative": 0.93,
+                    "neutral": 0.05
+                }
+            }
+        ]
+    },
+    "long": {
+      "durationInTicks": 2603500000,
+      "conversations": [
+        {
+          "id": 0,
+          "offset": "PT3.6S",
+          "offset_in_ticks": 36000000.0,
+          "duration_in_ticks": 30400000.0,
+          "text": "Hi, this is Bobby calling from ICBCS Assembly.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 1,
+          "offset": "PT6.76S",
+          "offset_in_ticks": 67600000.0,
+          "duration_in_ticks": 9200000.0,
+          "text": "Hi, this is Emily.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 2,
+          "offset": "PT7.68S",
+          "offset_in_ticks": 76800000.0,
+          "duration_in_ticks": 2000000.0,
+          "text": "Yes.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 3,
+          "offset": "PT8.4S",
+          "offset_in_ticks": 84000000.0,
+          "duration_in_ticks": 7600000.0,
+          "text": "Oh, hi, Emily.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 4,
+          "offset": "PT9.16S",
+          "offset_in_ticks": 91600000.0,
+          "duration_in_ticks": 14000000.0,
+          "text": "I'm glad I got a hold of you.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 5,
+          "offset": "PT10.56S",
+          "offset_in_ticks": 105600000.0,
+          "duration_in_ticks": 10000000.0,
+          "text": "It's been really hard to reach you.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 6,
+          "offset": "PT11.56S",
+          "offset_in_ticks": 115600000.0,
+          "duration_in_ticks": 14800000.0,
+          "text": "I've been trying to call you for a while.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 7,
+          "offset": "PT13.48S",
+          "offset_in_ticks": 134800000.0,
+          "duration_in_ticks": 5200000.0,
+          "text": "Oh, has it?",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 8,
+          "offset": "PT14.68S",
+          "offset_in_ticks": 146800000.0,
+          "duration_in_ticks": 8000000.0,
+          "text": "Yeah, it has.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 9,
+          "offset": "PT15.48S",
+          "offset_in_ticks": 154800000.0,
+          "duration_in_ticks": 18800000.0,
+          "text": "But I guess you're really busy.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 10,
+          "offset": "PT17.4S",
+          "offset_in_ticks": 174000000.0,
+          "duration_in_ticks": 16400000.0,
+          "text": "So I'm glad that I got a hold of you.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 11,
+          "offset": "PT19.52S",
+          "offset_in_ticks": 195200000.0,
+          "duration_in_ticks": 44800000.0,
+          "text": "And I wanted to talk to you about your treatment and your injury claim.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 12,
+          "offset": "PT24.56S",
+          "offset_in_ticks": 245600000.0,
+          "duration_in_ticks": 5600000.0,
+          "text": "OK.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 13,
+          "offset": "PT25.56S",
+          "offset_in_ticks": 255600000.0,
+          "duration_in_ticks": 20000000.0,
+          "text": "What did you want to talk about specifically?",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 14,
+          "offset": "PT28.68S",
+          "offset_in_ticks": 286800000.0,
+          "duration_in_ticks": 24400000.0,
+          "text": "Well, I want to talk to you about how your treatment is going.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 15,
+          "offset": "PT31.16S",
+          "offset_in_ticks": 311600000.0,
+          "duration_in_ticks": 111600000.0,
+          "text": "So I've noticed that you've been going for to your RMT to massage for a while, and last time we talked, we talked about also going to your physiotherapist.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 16,
+          "offset": "PT42.32S",
+          "offset_in_ticks": 423200000.0,
+          "duration_in_ticks": 63600000.0,
+          "text": "I see that your doctor had recommended it too before, and I want to follow up to see if you've been doing that or if you've talked to them.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 17,
+          "offset": "PT50S",
+          "offset_in_ticks": 500000000.0,
+          "duration_in_ticks": 44400000.0,
+          "text": "Yeah, it's been kind of easier just to go to my massage therapist, 'cause I can get appointments.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 18,
+          "offset": "PT55.56S",
+          "offset_in_ticks": 555600000.0,
+          "duration_in_ticks": 38400000.0,
+          "text": "I was hoping I could find a physiotherapist in the same clinic, but I couldn't.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 19,
+          "offset": "PT59.4S",
+          "offset_in_ticks": 594000000.0,
+          "duration_in_ticks": 29600000.0,
+          "text": "So I thought it was just easier to keep going to my massage therapist.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 20,
+          "offset": "PT1M3.16S",
+          "offset_in_ticks": 631600000.0,
+          "duration_in_ticks": 114000000.0,
+          "text": "OK, well, I want you to know that it's been about a month now, and you're not going to notice the difference, and you're not going to notice much of improvement if you don't follow the instructions that we talked about last time.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 21,
+          "offset": "PT1M15.96S",
+          "offset_in_ticks": 759600000.0,
+          "duration_in_ticks": 56400000.0,
+          "text": "Oh, OK, Well, my massage therapist kept booking me in, so I thought I was just good to keep going there.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 22,
+          "offset": "PT1M22.24S",
+          "offset_in_ticks": 822400000.0,
+          "duration_in_ticks": 10400000.0,
+          "text": "Yeah, I can see that.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 23,
+          "offset": "PT1M23.28S",
+          "offset_in_ticks": 832800000.0,
+          "duration_in_ticks": 48800000.0,
+          "text": "And we approved the last treatment request that your massage therapist sent in.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 24,
+          "offset": "PT1M28.36S",
+          "offset_in_ticks": 883600000.0,
+          "duration_in_ticks": 21200000.0,
+          "text": "But to be honest with you, I'm not going to approve the next one.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 25,
+          "offset": "PT1M30.88S",
+          "offset_in_ticks": 908800000.0,
+          "duration_in_ticks": 32000000.0,
+          "text": "I did talk to you about talking to your physiotherapist and making that call.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 26,
+          "offset": "PT1M34.28S",
+          "offset_in_ticks": 942800000.0,
+          "duration_in_ticks": 47200000.0,
+          "text": "So you're going to need to do that if you want to keep having treatment provided under your claim.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 27,
+          "offset": "PT1M39.36S",
+          "offset_in_ticks": 993600000.0,
+          "duration_in_ticks": 10400000.0,
+          "text": "OK, that makes sense.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 28,
+          "offset": "PT1M40.76S",
+          "offset_in_ticks": 1007600000.0,
+          "duration_in_ticks": 5600000.0,
+          "text": "I can do that.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 29,
+          "offset": "PT1M41.4S",
+          "offset_in_ticks": 1014000000.0,
+          "duration_in_ticks": 3600000.0,
+          "text": "You know what?",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 30,
+          "offset": "PT1M41.76S",
+          "offset_in_ticks": 1017600000.0,
+          "duration_in_ticks": 47600000.0,
+          "text": "I'm feeling pretty good anyways, so I don't even know if I'm going to need any more treatment.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 31,
+          "offset": "PT1M49.48S",
+          "offset_in_ticks": 1094800000.0,
+          "duration_in_ticks": 54400000.0,
+          "text": "Well, you mentioned that you're still having problems with your knee and you're fine now.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 32,
+          "offset": "PT1M54.92S",
+          "offset_in_ticks": 1149200000.0,
+          "duration_in_ticks": 8400000.0,
+          "text": "Is that what you're saying?",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 33,
+          "offset": "PT1M56.32S",
+          "offset_in_ticks": 1163200000.0,
+          "duration_in_ticks": 3600000.0,
+          "text": "Yeah.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 34,
+          "offset": "PT1M56.68S",
+          "offset_in_ticks": 1166800000.0,
+          "duration_in_ticks": 38400000.0,
+          "text": "I mean, it still hurts, but I think, you know, it could be worse.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 35,
+          "offset": "PT2M0.76S",
+          "offset_in_ticks": 1207600000.0,
+          "duration_in_ticks": 92000000.0,
+          "text": "So well, I like I told you before, if you don't follow the advice you were given, it likely could get worse and then you're not going to be able to get any treatment afterwards.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 36,
+          "offset": "PT2M9.96S",
+          "offset_in_ticks": 1299600000.0,
+          "duration_in_ticks": 52800000.0,
+          "text": "So when we talked and I gave you the information, I you are expected to follow it.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 37,
+          "offset": "PT2M15.24S",
+          "offset_in_ticks": 1352400000.0,
+          "duration_in_ticks": 78400000.0,
+          "text": "You do have a duty to also go with the treatment and with what's what the guidance is so that you do recover and feel better.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 38,
+          "offset": "PT2M23.72S",
+          "offset_in_ticks": 1437200000.0,
+          "duration_in_ticks": 86400000.0,
+          "text": "OK, well, I guess I could always talk to my massage therapist and then, yeah, I could try calling around some physiotherapy clinics, but if I don't, it's OK too.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 39,
+          "offset": "PT2M32.36S",
+          "offset_in_ticks": 1523600000.0,
+          "duration_in_ticks": 53600000.0,
+          "text": "If I don't get any more treatment, well, I really want you to reach out and call your physiotherapist.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 40,
+          "offset": "PT2M37.72S",
+          "offset_in_ticks": 1577200000.0,
+          "duration_in_ticks": 58000000.0,
+          "text": "And since you haven't done it yet, and this is the third time we've talked about it, if you could please give me a call back next week.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 41,
+          "offset": "PT2M43.72S",
+          "offset_in_ticks": 1637200000.0,
+          "duration_in_ticks": 23600000.0,
+          "text": "Let's try to do that so that you're talking to them by then.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 42,
+          "offset": "PT2M46.08S",
+          "offset_in_ticks": 1660800000.0,
+          "duration_in_ticks": 14400000.0,
+          "text": "And I would like to get an update from you.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 43,
+          "offset": "PT2M47.88S",
+          "offset_in_ticks": 1678800000.0,
+          "duration_in_ticks": 50000000.0,
+          "text": "If I don't, then I don't think I'll be able to approve any more of the massage either.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 44,
+          "offset": "PT2M53.44S",
+          "offset_in_ticks": 1734400000.0,
+          "duration_in_ticks": 4400000.0,
+          "text": "OK.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 45,
+          "offset": "PT2M53.88S",
+          "offset_in_ticks": 1738800000.0,
+          "duration_in_ticks": 79200000.0,
+          "text": "So what happens if I need more treatment though, or if I feel like I'm still in pain or I'm not able to do all of my regular stuff?",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 46,
+          "offset": "PT3M2.2S",
+          "offset_in_ticks": 1822000000.0,
+          "duration_in_ticks": 71600000.0,
+          "text": "Well, if you had been going for the treatment that was recommended in the beginning, then you probably would have noticed you're feeling better by now and you probably wouldn't need to come back.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 47,
+          "offset": "PT3M9.36S",
+          "offset_in_ticks": 1893600000.0,
+          "duration_in_ticks": 57200000.0,
+          "text": "But if you're going to pause and stop treatment, it's going to be really difficult for us to approve any more for you.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 48,
+          "offset": "PT3M16.16S",
+          "offset_in_ticks": 1961600000.0,
+          "duration_in_ticks": 3600000.0,
+          "text": "Really.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 49,
+          "offset": "PT3M16.52S",
+          "offset_in_ticks": 1965200000.0,
+          "duration_in_ticks": 53600000.0,
+          "text": "I think I've talked to you before, and I put the notes in your file here that you're not following the advice that you were given.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 50,
+          "offset": "PT3M23S",
+          "offset_in_ticks": 2030000000.0,
+          "duration_in_ticks": 8000000.0,
+          "text": "Oh, OK.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 51,
+          "offset": "PT3M24S",
+          "offset_in_ticks": 2040000000.0,
+          "duration_in_ticks": 14000000.0,
+          "text": "Well, I'm really sorry.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 52,
+          "offset": "PT3M25.4S",
+          "offset_in_ticks": 2054000000.0,
+          "duration_in_ticks": 57600000.0,
+          "text": "I didn't mean to not follow the advice like I I typically do like to follow what you tell me.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 53,
+          "offset": "PT3M31.16S",
+          "offset_in_ticks": 2111600000.0,
+          "duration_in_ticks": 49600000.0,
+          "text": "I just must have forgot, but yeah, OK, I can do what you told me and I'll.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 54,
+          "offset": "PT3M36.12S",
+          "offset_in_ticks": 2161200000.0,
+          "duration_in_ticks": 41200000.0,
+          "text": "I'll try and talk to a physiotherapist and see if I can get in and get some more treatment there.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 55,
+          "offset": "PT3M40.24S",
+          "offset_in_ticks": 2202400000.0,
+          "duration_in_ticks": 42000000.0,
+          "text": "But if not, I guess I just won't bother you anymore.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 56,
+          "offset": "PT3M45.24S",
+          "offset_in_ticks": 2252400000.0,
+          "duration_in_ticks": 44000000.0,
+          "text": "Well, I've noted that down your file and you've been given all the information, so you know what needs to happen next.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 57,
+          "offset": "PT3M49.88S",
+          "offset_in_ticks": 2298800000.0,
+          "duration_in_ticks": 45200000.0,
+          "text": "Again, if I don't hear back from by next week, then we won't be approving any more treatment.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 58,
+          "offset": "PT3M55.6S",
+          "offset_in_ticks": 2356000000.0,
+          "duration_in_ticks": 4800000.0,
+          "text": "OK.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 59,
+          "offset": "PT3M56.24S",
+          "offset_in_ticks": 2362400000.0,
+          "duration_in_ticks": 40400000.0,
+          "text": "OK, well, I'll try to follow up then with a physiotherapist and I'll try to get back to you next week.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 60,
+          "offset": "PT4M0.28S",
+          "offset_in_ticks": 2402800000.0,
+          "duration_in_ticks": 16000000.0,
+          "text": "Is there anything else that I should be doing?",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 61,
+          "offset": "PT4M2.28S",
+          "offset_in_ticks": 2422800000.0,
+          "duration_in_ticks": 2000000.0,
+          "text": "No.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 62,
+          "offset": "PT4M2.48S",
+          "offset_in_ticks": 2424800000.0,
+          "duration_in_ticks": 6800000.0,
+          "text": "You have my number.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 63,
+          "offset": "PT4M3.16S",
+          "offset_in_ticks": 2431600000.0,
+          "duration_in_ticks": 44800000.0,
+          "text": "And like I mentioned, I tried to reach you multiple times over the last couple weeks and it's really hard to get a hold of you.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 64,
+          "offset": "PT4M7.64S",
+          "offset_in_ticks": 2476400000.0,
+          "duration_in_ticks": 19600000.0,
+          "text": "So you know what time I work.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 65,
+          "offset": "PT4M9.6S",
+          "offset_in_ticks": 2496000000.0,
+          "duration_in_ticks": 8800000.0,
+          "text": "So please give me a call.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 66,
+          "offset": "PT4M10.64S",
+          "offset_in_ticks": 2506400000.0,
+          "duration_in_ticks": 4000000.0,
+          "text": "OK.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 67,
+          "offset": "PT4M11.04S",
+          "offset_in_ticks": 2510400000.0,
+          "duration_in_ticks": 10400000.0,
+          "text": "I'm really sorry about that.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 68,
+          "offset": "PT4M12.4S",
+          "offset_in_ticks": 2524000000.0,
+          "duration_in_ticks": 12800000.0,
+          "text": "Thanks so much for calling me today.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 69,
+          "offset": "PT4M14S",
+          "offset_in_ticks": 2540000000.0,
+          "duration_in_ticks": 4000000.0,
+          "text": "OK.",
+          "role": "Agent",
+          "participantId": 0
+        },
+        {
+          "id": 70,
+          "offset": "PT4M14.48S",
+          "offset_in_ticks": 2544800000.0,
+          "duration_in_ticks": 2000000.0,
+          "text": "Bye.",
+          "role": "Agent",
+          "participantId": 0
+        }
+      ]
+    }
+}
