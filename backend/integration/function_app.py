@@ -22,6 +22,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
         "calls": [
             {
     "short": {
+        "transcriptFile": "everything_call2.json",
         "audioFile": "/call2.wav",
         "representativeName": "Bobby",
         "customerName": "Emily",
@@ -3350,6 +3351,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
 },
 {
     "short": {
+      "transcriptFile": "everything_call3.json",
       "audioFile": "/call3.wav",
       "representativeName": "Eddie",
       "customerName": "Emily",
@@ -6921,6 +6923,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
 },
 {
     "short": {
+      "transcriptFile": "everything_call4.json",
       "audioFile": "/call4.wav",
       "representativeName": "Eddie",
       "customerName": "Bobby",
@@ -11704,6 +11707,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
 },
 {
     "short": {
+      "transcriptFile": "everything_PositiveSpecialistNegativeCustomer.json",
       "audioFile": "/PositiveSpecialistNegativeCustomer.wav",
       "representativeName": "Bobby",
       "customerName": "Emily",

@@ -3,54 +3,46 @@ import "../App.css";
 import Card from '../component/Card';
 import Header from '../component/Header';
 import { Typography, Grid, IconButton, Button,Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
-import { PersonOutline, AccessTimeOutlined, FlagOutlined, GolfCourse } from '@mui/icons-material';
+import { PersonOutline, AccessTimeOutlined, FlagOutlined } from '@mui/icons-material';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-
+ 
 const DetailsPage = () => {
-    // const [transcriptData, setTranscriptData] = useState([]);
-    const [transcriptExpanded, setTranscriptExpanded] = useState(false); 
-    const [callScore, setCallScore] = useState(0); 
+    const [transcriptData, setTranscriptData] = useState([]);
+    const [transcriptExpanded, setTranscriptExpanded] = useState(false);
+    const [callScore, setCallScore] = useState(0);
     const effectRan = useRef(false);
     const [showDialog, setShowDialog] = useState(false);
     const [reviewed, setReviewed] = useState(false);
     let location = useLocation();
-    const navigate = useNavigate();
-
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('/'+location.state.short.transcriptFile);
+                const displayArray = response.data.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0);
+                console.log(displayArray)
+                setTranscriptData(displayArray);
+            } catch (error) {
+                console.error('Error fetching JSON:', error);
+            }
+        };
+        fetchData();
+    }, []);
  
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         try {
-    //             const response = await axios.get('/everything_call2.json');
-    //             const displayArray = response.data.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0);
-    //             console.log(displayArray)
-    //             setTranscriptData(displayArray);
-    //         } catch (error) {
-    //             console.error('Error fetching JSON:', error);
-    //         }
-    //     };
-    //     fetchData();
-    // }, []);
-
     const [currentTime, setCurrentTime] = useState(0);
     const audioRef = useRef(null);
-
+ 
     useEffect(() => {
         const handleTimeUpdate = () => {
             setCurrentTime(audioRef.current.currentTime);
         };
-        if (audioRef.current) {
-            audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
-        }
+        audioRef.current.addEventListener('timeupdate', handleTimeUpdate);
         return () => {
-            if (audioRef.current) {
-                audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
-            }
+            audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
         };
     }, []);
-
+ 
     const handleTranscriptClick = (startTime) => {
         audioRef.current.currentTime = startTime;
         console.log(location.state.flags)
@@ -59,7 +51,6 @@ const DetailsPage = () => {
         setReviewed(!reviewed);
     }
     const handleBackButtonClick = () => {
-        navigate(-1); // Go back in history
     };
     const handleReprocessButtonClick = () => {
         setShowDialog(true);
@@ -132,7 +123,7 @@ const DetailsPage = () => {
                     <Grid item>
                         <Typography variant="subtitle1" marginRight={"10px"}>
                             {location.state.short.flags.length == 0 ? "No flags" : `Flags: ${location.state.short.flags.length}`}
-                        </Typography> 
+                        </Typography>
                     </Grid>
                 </Grid>
                 <Grid item xs={12}>
@@ -160,10 +151,10 @@ const DetailsPage = () => {
                         {transcriptExpanded ? 'Collapse Transcript' : 'Expand Transcript'}
                     </Button>
                 </div>
-
+ 
                 {transcriptExpanded && (
                 <div>
-                {location.state.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0).map((word, index) => (
+                {transcriptData!== null && transcriptData.map((word, index) => (
                 <div
                     key={index}
                     style={{
@@ -179,17 +170,16 @@ const DetailsPage = () => {
                 >
                 {word.nBest[0].display}{' '}
                 </div>
-                
-                
+               
                  ))}
                 </div>
                 )}
                 </div>  
             </Card>
             <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px', background:"#EFEFEF",paddingTop:"40px", paddingBottom:"100px", paddingRight:"40px" }}>
-            <Button 
-                type="button" 
-                onClick={handleBackButtonClick} 
+            <Button
+                type="button"
+                onClick={handleBackButtonClick}
                 sx={{
                     bgcolor: 'white',
                     color: '#8526FF',
@@ -199,14 +189,14 @@ const DetailsPage = () => {
                 borderRadius: '30px',
                 padding: '5px 50px',
                 margin: '5px',
-                border: '2px solid #8526FF', 
+                border: '2px solid #8526FF',
                 }}
             >
                 Back
             </Button>
-            <Button 
-                type="button" 
-                onClick={handleReprocessButtonClick} 
+            <Button
+                type="button"
+                onClick={handleReprocessButtonClick}
                 sx={{
                     bgcolor: '#8526FF',
                     color: 'white',
@@ -216,12 +206,12 @@ const DetailsPage = () => {
                 borderRadius: '30px',
                 padding: '5px 50px',
                 margin: '5px',
-                border: '2px solid #8526FF', 
+                border: '2px solid #8526FF',
                 }}
             >
                 Reprocess this call
             </Button>
-            </div> 
+            </div>
             <Dialog open={showDialog} onClose={() => setShowDialog(false)}>
                 <DialogTitle>Reprocess Call</DialogTitle>
                 <DialogContent>
@@ -233,8 +223,8 @@ const DetailsPage = () => {
                     </Button>
                 </DialogActions>
             </Dialog>      
-        </> 
+        </>
     );
 };
-
+ 
 export default DetailsPage;
