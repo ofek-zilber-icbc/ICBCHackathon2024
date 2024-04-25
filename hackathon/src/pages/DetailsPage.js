@@ -15,7 +15,8 @@ const DetailsPage = () => {
     const effectRan = useRef(false);
     const [showDialog, setShowDialog] = useState(false);
     let location = useLocation();
-    console.log("location", location.state.representativeName)
+    // console.log("location", location.state.representativeName)
+    console.log("wav", location.state.audioFile)
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -148,7 +149,7 @@ const DetailsPage = () => {
             <Card>
                 <div>
                     <audio ref={audioRef} controls>
-                        <source src="/call2.m4a" type="audio/mpeg" />
+                        <source src={location.state.audioFile} type="audio/wav" />
                         Your browser does not support the audio element.
                     </audio>
                 <div>
