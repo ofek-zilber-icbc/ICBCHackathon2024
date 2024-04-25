@@ -49,7 +49,7 @@ const DataTable = (props) => {
                             };
                         
                             const getFlagText = (flags) => {
-                                return flags.length === 0 ? 'Non-negative' : 'Negative';
+                                return flags.length === 0 ? 'Not Flagged' : 'Flagged';
                             };
                             return (
                             <tr key={i}>

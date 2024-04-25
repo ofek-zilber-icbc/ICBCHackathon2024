@@ -83,6 +83,17 @@ const ListPage = () => {
                 // Compare only year, month, and day (ignore time)
                 return selectedDate.toISOString().slice(0, 10) === itemDate.toISOString().slice(0, 10);
             }
+            // if (searchValues.flags !== '') {
+                console.log("HII",item.short.flags)
+                console.log("BYE",searchValues.flag)
+
+                if (searchValues.flag.toLowerCase() === 'flagged' && item.short.flags.length === 0) {
+                    return false;
+                }
+                if (searchValues.flag.toLowerCase() === 'not-flagged' && item.short.flags.length !==0) {
+                    return false;
+                }
+            // }
             return true;
         });
         console.log(filtered)
@@ -159,9 +170,9 @@ const ListPage = () => {
                             onChange={handleInputChange}
                         >
                             <option value="">All</option>
-                            <option value="positive">Positive</option>
-                            <option value="negative">Negative</option>
-                            <option value="neutral">Neutral</option>
+                            {/* <option value="positive">Positive</option> */}
+                            <option value="flagged">Flagged</option>
+                            <option value="not-flagged">Not Flagged</option>
                         </select>
                     </div>
                     <button type="button" className="submit-btn" onClick={searchTable}>Search</button>
