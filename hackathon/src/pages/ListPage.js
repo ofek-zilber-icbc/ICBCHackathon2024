@@ -37,6 +37,7 @@ const ListPage = () => {
         fetch('https://hackathonintegrarion.azurewebsites.net/api/httpintegration?code=qFOvl6g0buD_FfrqyA1SqhQQ07DlPsHj3ca_v_WEQRjvAzFudoirjw%3D%3D')
         .then(res => res.json())
         .then(data => {
+            console.log(data)
             setRecords(data.calls)
             //setData(data.calls); // Update sample data with fetched data
             setFilteredData(data.calls)
@@ -95,6 +96,7 @@ const ListPage = () => {
             // }
             return true;
         });
+        console.log(filtered)
         setFilteredData(filtered);
         setShowNoDataMessage(filtered.length === 0);
     };
@@ -181,17 +183,8 @@ const ListPage = () => {
             ) : (
                 <Card>
                     <DataTable records={filteredData}/>
-                    <Dialog open={summaryDialogOpen}>
-                        <DialogTitle>Summary</DialogTitle>
-                        <DialogContent>
-                            <p>{summaryText}</p>
-                        </DialogContent>
-                        <DialogActions>
-                            <Button onClick={closeSummaryDialog}>Close</Button>
-                        </DialogActions>
-                    </Dialog>
+                    
                 </Card>
-            
             )}
         </>
     );

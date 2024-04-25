@@ -3,32 +3,36 @@ import "../App.css";
 import Card from '../component/Card';
 import Header from '../component/Header';
 import { Typography, Grid, IconButton, Button,Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
-import { PersonOutline, AccessTimeOutlined, FlagOutlined } from '@mui/icons-material';
+import { PersonOutline, AccessTimeOutlined, FlagOutlined, GolfCourse } from '@mui/icons-material';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const DetailsPage = () => {
-    const [transcriptData, setTranscriptData] = useState([]);
+    // const [transcriptData, setTranscriptData] = useState([]);
     const [transcriptExpanded, setTranscriptExpanded] = useState(false); 
     const [callScore, setCallScore] = useState(0); 
     const effectRan = useRef(false);
     const [showDialog, setShowDialog] = useState(false);
     const [reviewed, setReviewed] = useState(false);
     let location = useLocation();
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('/everything_call2.json');
-                const displayArray = response.data.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0);
-                console.log(displayArray)
-                setTranscriptData(displayArray);
-            } catch (error) {
-                console.error('Error fetching JSON:', error);
-            }
-        };
-        fetchData();
-    }, []);
+    const navigate = useNavigate();
+
+ 
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await axios.get('/everything_call2.json');
+    //             const displayArray = response.data.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0);
+    //             console.log(displayArray)
+    //             setTranscriptData(displayArray);
+    //         } catch (error) {
+    //             console.error('Error fetching JSON:', error);
+    //         }
+    //     };
+    //     fetchData();
+    // }, []);
 
     const [currentTime, setCurrentTime] = useState(0);
     const audioRef = useRef(null);
@@ -37,9 +41,13 @@ const DetailsPage = () => {
         const handleTimeUpdate = () => {
             setCurrentTime(audioRef.current.currentTime);
         };
-        audioRef.current.addEventListener('timeupdate', handleTimeUpdate);
-        return () => {
+        if (audioRef.current) {
             audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+        }
+        return () => {
+            if (audioRef.current) {
+                audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+            }
         };
     }, []);
 
@@ -51,6 +59,7 @@ const DetailsPage = () => {
         setReviewed(!reviewed);
     }
     const handleBackButtonClick = () => {
+        navigate(-1); // Go back in history
     };
     const handleReprocessButtonClick = () => {
         setShowDialog(true);
@@ -143,7 +152,7 @@ const DetailsPage = () => {
             <Card>
                 <div>
                     <audio ref={audioRef} controls>
-                        <source src="https://github.com/ofek-zilber-icbc/ICBCHackathon2024/raw/main/backend/azure_related/call2.wav" type="audio/wav" />
+                        <source src={location.state.long.transcription.source} type="audio/wav" />
                         Your browser does not support the audio element.
                     </audio>
                 <div>
@@ -154,7 +163,7 @@ const DetailsPage = () => {
 
                 {transcriptExpanded && (
                 <div>
-                {transcriptData!== null && transcriptData.map((word, index) => (
+                {location.state.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0).map((word, index) => (
                 <div
                     key={index}
                     style={{
@@ -170,6 +179,7 @@ const DetailsPage = () => {
                 >
                 {word.nBest[0].display}{' '}
                 </div>
+                
                 
                  ))}
                 </div>
