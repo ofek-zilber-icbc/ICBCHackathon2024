@@ -3,7 +3,6 @@
 # Licensed under the MIT license. See LICENSE.md file in the project root for full license information.
 #
 
-import json
 from datetime import datetime
 from functools import reduce
 from http import HTTPStatus
@@ -14,10 +13,11 @@ from pathlib import Path
 from time import sleep
 from typing import Dict, List, Tuple
 import uuid
-import helper as helper
+import helper
 import rest_helper
 import user_config_helper
-from operator import itemgetter
+import json
+
 
 # This should not change unless you switch to a new version of the Speech REST API.
 SPEECH_TRANSCRIPTION_PATH = "/speechtotext/v3.0/transcriptions"
@@ -33,7 +33,7 @@ CONVERSATION_SUMMARY_MODEL_VERSION = "2022-05-15-preview"
 WAIT_SECONDS = 10
 
 class TranscriptionPhrase(object) :
-    def __init__(self, id : int, text : str, itn : str, lexical : str, speaker_number : int, offset : str, offset_in_ticks : float, duration_in_ticks: float) :
+    def __init__(self, id : int, text : str, itn : str, lexical : str, speaker_number : int, offset : str, offset_in_ticks : float) :
         self.id = id
         self.text = text
         self.itn = itn
@@ -41,7 +41,6 @@ class TranscriptionPhrase(object) :
         self.speaker_number = speaker_number
         self.offset = offset
         self.offset_in_ticks = offset_in_ticks
-        self.duration_in_ticks = duration_in_ticks
         
 class SentimentAnalysisResult(object) :
     def __init__(self, speaker_number : int, offset_in_ticks : float, document : Dict) :
@@ -74,6 +73,11 @@ def get_combined_redacted_content(channel : int) -> Dict :
     }
 
 def create_transcription(user_config : helper.Read_Only_Dict) -> str :
+   
+
+    print("============================================", user_config['speech_endpoint'])
+    print("============================================", user_config['input_audio_url'])
+    print("============================================", user_config['speech_subscription_key'])
     uri = f"https://{user_config['speech_endpoint']}{SPEECH_TRANSCRIPTION_PATH}"
 
     # Create Transcription API JSON request sample and schema:
@@ -90,9 +94,10 @@ def create_transcription(user_config : helper.Read_Only_Dict) -> str :
         "locale" : user_config["locale"],
         "displayName" : f"call_center_{datetime.now()}",
     }
-
+    print("============================================", uri)    
+    print("============================================", content)   
     response = rest_helper.send_post(uri=uri, content=content, key=user_config["speech_subscription_key"], expected_status_codes=[HTTPStatus.CREATED])
-    
+  
     # Create Transcription API JSON response sample and schema:
     # https://westus.dev.cognitive.microsoft.com/docs/services/speech-to-text-api-v3-0/operations/CreateTranscription
     transcription_uri = response["json"]["self"]
@@ -109,7 +114,6 @@ def get_transcription_status(transcription_id : str, user_config : helper.Read_O
     uri = f"https://{user_config['speech_endpoint']}{SPEECH_TRANSCRIPTION_PATH}/{transcription_id}"
     response = rest_helper.send_get(uri=uri, key=user_config["speech_subscription_key"], expected_status_codes=[HTTPStatus.OK])
     if "failed" == response["json"]["status"].lower() :
-        print("Json: " + json.dumps(response['json']))
         raise Exception(f"Unable to transcribe audio input. Response:{linesep}{response['text']}")
     else :
         return "succeeded" == response["json"]["status"].lower()
@@ -152,14 +156,10 @@ def get_transcription_phrases(transcription : Dict, user_config : helper.Read_On
             speaker_number = phrase["channel"]
         else :
             raise Exception(f"nBest item contains neither channel nor speaker attribute.{linesep}{best}")
-        return TranscriptionPhrase(id, best["display"], best["itn"], best["lexical"], speaker_number, phrase["offset"], phrase["offsetInTicks"], phrase["durationInTicks"])
+        return TranscriptionPhrase(id, best["display"], best["itn"], best["lexical"], speaker_number, phrase["offset"], phrase["offsetInTicks"])
     # For stereo audio, the phrases are sorted by channel number, so resort them by offset.
-     # Get every other element starting from index 0
-    filtered_phrases = transcription["recognizedPhrases"][::2]
-    # Map the helper function to the filtered list
-    # return list(map(helper, enumerate(transcription["recognizedPhrases"])))
-    return list(map(helper, enumerate(filtered_phrases)))
-   
+    return list(map(helper, enumerate(transcription["recognizedPhrases"])))
+
 def delete_transcription(transcription_id : str, user_config : helper.Read_Only_Dict) -> None :
     uri = f"https://{user_config['speech_endpoint']}{SPEECH_TRANSCRIPTION_PATH}/{transcription_id}"
     rest_helper.send_delete(uri=uri, key=user_config["speech_subscription_key"], expected_status_codes=[HTTPStatus.NO_CONTENT])
@@ -209,23 +209,16 @@ def merge_sentiment_confidence_scores_into_transcription(transcription : Dict, s
             best_item["sentiment"] = sentiment_confidence_scores[id]
     return transcription
 
-def transcription_phrases_to_conversation_items(transcription : Dict, phrases : List[TranscriptionPhrase]) -> List[Dict] :
-    durationInTicks = transcription["durationInTicks"]
-    conversation_array = [{
-        
+def transcription_phrases_to_conversation_items(phrases : List[TranscriptionPhrase]) -> List[Dict] :
+    return [{
         "id" : phrase.id,
-        "offset": phrase.offset,
-        "offset_in_ticks": phrase.offset_in_ticks,
-        "duration_in_ticks":phrase.duration_in_ticks,
         "text" : phrase.text,
-        # "itn" : phrase.itn,
-        # "lexical" : phrase.lexical,
+        "itn" : phrase.itn,
+        "lexical" : phrase.lexical,
         # The first person to speak is probably the agent.
         "role" : "Agent" if 0 == phrase.speaker_number else "Customer",
         "participantId" : phrase.speaker_number
     } for phrase in phrases]
-    return {"durationInTicks": durationInTicks, "conversations": conversation_array}
-
 
 def request_conversation_analysis(conversation_items : List[Dict], user_config : helper.Read_Only_Dict) -> str :
     uri = f"https://{user_config['language_endpoint']}{CONVERSATION_ANALYSIS_PATH}{CONVERSATION_ANALYSIS_QUERY}"
@@ -267,7 +260,6 @@ def request_conversation_analysis(conversation_items : List[Dict], user_config :
         ]
     }
     response = rest_helper.send_post(uri=uri, content=content, key=user_config["language_subscription_key"], expected_status_codes=[HTTPStatus.ACCEPTED])
-
     return response["headers"]["operation-location"]
 
 def get_conversation_analysis_status(conversation_analysis_url : str, user_config : helper.Read_Only_Dict) -> bool :
@@ -358,9 +350,13 @@ def get_conversation_analysis_for_full_output(phrases : List[TranscriptionPhrase
         }
     }
 
-def print_full_output(output_file_path : str, conversation_analysis : Dict) -> None :
+def print_full_output(output_file_path : str, transcription : Dict, sentiment_confidence_scores : List[Dict], phrases : List[TranscriptionPhrase]) -> None :
+    results = {
+        "transcription" : merge_sentiment_confidence_scores_into_transcription(transcription, sentiment_confidence_scores)
+        # "conversationAnalyticsResults" : get_conversation_analysis_for_full_output(phrases, conversation_analysis)
+    }
     with open(output_file_path, mode = "w", newline = "") as f :
-        f.write(dumps(conversation_analysis, indent=2))
+        f.write(dumps(results, indent=2))
 
 def run() -> None :
     usage = """python call_center.py [...]
@@ -396,8 +392,8 @@ def run() -> None :
         print(usage)
     else :
         user_config = user_config_helper.user_config_from_args(usage)
-        # transcription : Dict
-        # transcription_id : str
+        transcription : Dict
+        transcription_id : str
         if user_config["input_file_path"] is not None :
             with open(user_config["input_file_path"], mode="r") as f :
                 transcription = loads(f.read())
@@ -416,8 +412,16 @@ def run() -> None :
         # For stereo audio, the phrases are sorted by channel number, so resort them by offset.
         transcription["recognizedPhrases"] = sorted(transcription["recognizedPhrases"], key=lambda phrase : phrase["offsetInTicks"])
         phrases = get_transcription_phrases(transcription, user_config)
-        conversation_items = transcription_phrases_to_conversation_items(transcription, phrases)
+        sentiment_analysis_results = get_sentiment_analysis(phrases, user_config)
+        sentiment_confidence_scores = get_sentiment_confidence_scores(sentiment_analysis_results)
+        # conversation_items = transcription_phrases_to_conversation_items(phrases)
+        # NOTE: Conversation summary is currently in gated public preview. You can sign up here:
+        # https://aka.ms/applyforconversationsummarization/
+        # conversation_analysis_url = request_conversation_analysis(conversation_items, user_config)
+        # wait_for_conversation_analysis(conversation_analysis_url, user_config)
+        # conversation_analysis = get_conversation_analysis(conversation_analysis_url, user_config)
+        # print_simple_output(phrases, sentiment_analysis_results, conversation_analysis, user_config)
         if user_config["output_file_path"] is not None :
-            print_full_output(user_config["output_file_path"], conversation_items)
+            print_full_output(user_config["output_file_path"], transcription, sentiment_confidence_scores, phrases)
 
 run()
