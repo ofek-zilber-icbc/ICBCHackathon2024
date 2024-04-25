@@ -143,7 +143,7 @@ const DetailsPage = () => {
             <Card>
                 <div>
                     <audio ref={audioRef} controls>
-                        <source src="https://github.com/ofek-zilber-icbc/ICBCHackathon2024/raw/main/backend/azure_related/call2.wav" type="audio/wav" />
+                        <source src={location.state.long.transcription.source} type="audio/wav" />
                         Your browser does not support the audio element.
                     </audio>
                 <div>
