@@ -22,6 +22,7 @@ def HttpIntegration(req: func.HttpRequest) -> func.HttpResponse:
         "calls": [
             {
     "short": {
+        "audioFile": "/call2.wav",
         "representativeName": "Bobby",
         "customerName": "Emily",
         "date": "04/22/2024",

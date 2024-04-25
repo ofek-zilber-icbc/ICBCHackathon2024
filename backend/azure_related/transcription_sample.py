@@ -130,10 +130,11 @@ def conversation_transcription():
     result = transcriber.stop_transcribing_async()
     print("stopped: {}".format(result))
     return {
+        "audioFile": "/" + conversationfilename,
         "representativeName": agent,
         "customerName": customer,
         "date": "04/22/2024",
-        "callLength": 20,
+        "callLength": 4,
         "summary": "This is a call summary",
         "transcription": conversation,
         "flags": flags
