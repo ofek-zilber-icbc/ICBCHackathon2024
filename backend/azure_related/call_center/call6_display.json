@@ -1,0 +1,2050 @@
+{
+  "transcription": {
+    "source": "https://github.com/ofek-zilber-icbc/ICBCHackathon2024/raw/main/backend/azure_related/call6.wav",
+    "timestamp": "2024-04-25T17:18:22Z",
+    "durationInTicks": 1732500000,
+    "duration": "PT2M53.25S",
+    "combinedRecognizedPhrases": [
+      {
+        "channel": 0,
+        "lexical": "hi can i speak to bobby please hi this is bobby yeah hi bobby just want to let you know the call is recorded this is emily calling from ICDC hi emily hi i'm just calling we received a treatment plan for further massage and you know like sorry what does that mean further massage yeah so i mean you you get treatment the first twelve weeks after your accident and then after those twelve weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required but yeah i mean more massage after twelve weeks is is you know really not required so just wanted to call you to let you know i'm just going to stop you there like are you are you kidding me no emily your is your name emily you mentioned i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there i was in the hospital for a little while i i wouldn't be treating you i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the twelve weeks so we at ICBC we actually don't fund massage past twelve weeks i barely started massage so i don't understand and you mentioned something about those the twelve weeks i again i i have no idea what you're talking about i just started treatment and i'm supposed to be able to get better that's the whole point you guys advertise about caring about customers and things and i i have no clue what you're talking about right now and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started yeah well that's how you feel but that's my decision today if you excuse me to escalate it further you can speak to my manager i'll have my manager call you OK definitely yeah i do want to talk to your manager i'd like to get your manager 's information actually emily OK i'll email it to you no that's not good enough i would like you to give it to me right now i'm getting a pen and paper i'm going to write it down and i want to speak to them and actually no emily if you can transfer me over to them right now that would be even better OK i'll transfer you i'll transfer you through right now",
+        "itn": "hi can i speak to bobby please hi this is bobby yeah hi bobby just want to let you know the call is recorded this is emily calling from ICDC hi emily hi i'm just calling we received a treatment plan for further massage and you know like sorry what does that mean further massage yeah so i mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required but yeah i mean more massage after 12 weeks is is you know really not required so just wanted to call you to let you know i'm just going to stop you there like are you are you kidding me no emily your is your name emily you mentioned i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there i was in the hospital for a little while i i wouldn't be treating you i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks i barely started massage so i don't understand and you mentioned something about those the 12 weeks i again i i have no idea what you're talking about i just started treatment and i'm supposed to be able to get better that's the whole point you guys advertise about caring about customers and things and i i have no clue what you're talking about right now and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started yeah well that's how you feel but that's my decision today if you excuse me to escalate it further you can speak to my manager i'll have my manager call you OK definitely yeah i do want to talk to your manager i'd like to get your manager's information actually emily OK i'll email it to you no that's not good enough i would like you to give it to me right now i'm getting a pen and paper i'm going to write it down and i want to speak to them and actually no emily if you can transfer me over to them right now that would be even better OK i'll transfer you i'll transfer you through right now",
+        "maskedITN": "Hi can I speak to Bobby please Hi this is Bobby Yeah hi Bobby Just want to let you know the call is recorded This is Emily calling from ICDC Hi Emily Hi I'm just calling We received a treatment plan for further massage and you know like sorry what does that mean further massage Yeah So I mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required But yeah I mean more massage after 12 weeks is is you know really not required So just wanted to call you to let you know I'm just going to stop you there Like are you are you kidding me No Emily your is your name Emily you mentioned I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything I've already this talked to somebody before like I mean I was sitting around trying to get better and heal from that and I wasn't The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there I was in the hospital for a little while I I wouldn't be treating you I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks I barely started massage so I don't understand And you mentioned something about those the 12 weeks I again I I have no idea what you're talking about I just started treatment and I'm supposed to be able to get better That's the whole point You guys advertise about caring about customers and things and I I have no clue what you're talking about right now And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started Yeah well that's how you feel But that's my decision today If you excuse me to escalate it further you can speak to my manager I'll have my manager call you OK Definitely Yeah I do want to talk to your manager I'd like to get your manager's information actually Emily OK I'll e-mail it to you No that's not good enough I would like you to give it to me right now I'm getting a pen and paper I'm going to write it down and I want to speak to them And actually no Emily if you can transfer me over to them right now that would be even better OK I'll transfer you I'll transfer you through right now",
+        "display": "Hi, can I speak to Bobby please? Hi, this is Bobby. Yeah, hi Bobby. Just want to let you know the call is recorded. This is Emily calling from ICDC. Hi, Emily. Hi, I'm just calling. We received a treatment plan for further massage and you know, like, sorry, what does that mean, further massage? Yeah. So I mean you, you get treatment the 1st, 12 weeks after your accident and then after those 12 weeks, you know, the treater has to submit a treatment plan to ask for more treatment if they think it's required. But yeah, I mean, more massage after 12 weeks is is, you know, really not required. So just wanted to call you to let you know I'm just going to stop you there. Like, are you are you kidding me? No, Emily, your is your name. Emily you mentioned. I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything. I've already this talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't. The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there. I was in the hospital for a little while I I wouldn't be treating you. I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat. I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks. I barely started massage, so I don't understand. And you mentioned something about those the 12 weeks. I again, I I have no idea what you're talking about. I just started treatment and I'm supposed to be able to get better. That's the whole point. You guys advertise about caring about customers and things, and I I have no clue what you're talking about right now. And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started. Yeah, well, that's how you feel. But that's my decision today. If you excuse me to escalate it further, you can speak to my manager. I'll have my manager call you. OK. Definitely. Yeah. I do want to talk to your manager. I'd like to get your manager's information, actually. Emily. OK, I'll e-mail it to you. No, that's not good enough. I would like you to give it to me right now. I'm getting a pen and paper. I'm going to write it down, and I want to speak to them. And actually, no, Emily, if you can transfer me over to them right now, that would be even better. OK, I'll transfer you. I'll transfer you through right now."
+      },
+      {
+        "channel": 1,
+        "lexical": "hi can i speak to bobby please hi this is bobby yeah hi bobby just want to let you know the call is recorded this is emily calling from ICDC hi emily hi i'm just calling we received a treatment plan for further massage and you know like sorry what does that mean further massage yeah so i mean you you get treatment the first twelve weeks after your accident and then after those twelve weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required but yeah i mean more massage after twelve weeks is is you know really not required so just wanted to call you to let you know i'm just going to stop you there like are you are you kidding me no emily your is your name emily you mentioned i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there i was in the hospital for a little while i i wouldn't be treating you i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the twelve weeks so we at ICBC we actually don't fund massage past twelve weeks i barely started massage so i don't understand and you mentioned something about those the twelve weeks i again i i have no idea what you're talking about i just started treatment and i'm supposed to be able to get better that's the whole point you guys advertise about caring about customers and things and i i have no clue what you're talking about right now and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started yeah well that's how you feel but that's my decision today if you excuse me to escalate it further you can speak to my manager i'll have my manager call you OK definitely yeah i do want to talk to your manager i'd like to get your manager 's information actually emily OK i'll email it to you no that's not good enough i would like you to give it to me right now i'm getting a pen and paper i'm going to write it down and i want to speak to them and actually no emily if you can transfer me over to them right now that would be even better OK i'll transfer you i'll transfer you through right now",
+        "itn": "hi can i speak to bobby please hi this is bobby yeah hi bobby just want to let you know the call is recorded this is emily calling from ICDC hi emily hi i'm just calling we received a treatment plan for further massage and you know like sorry what does that mean further massage yeah so i mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required but yeah i mean more massage after 12 weeks is is you know really not required so just wanted to call you to let you know i'm just going to stop you there like are you are you kidding me no emily your is your name emily you mentioned i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there i was in the hospital for a little while i i wouldn't be treating you i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks i barely started massage so i don't understand and you mentioned something about those the 12 weeks i again i i have no idea what you're talking about i just started treatment and i'm supposed to be able to get better that's the whole point you guys advertise about caring about customers and things and i i have no clue what you're talking about right now and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started yeah well that's how you feel but that's my decision today if you excuse me to escalate it further you can speak to my manager i'll have my manager call you OK definitely yeah i do want to talk to your manager i'd like to get your manager's information actually emily OK i'll email it to you no that's not good enough i would like you to give it to me right now i'm getting a pen and paper i'm going to write it down and i want to speak to them and actually no emily if you can transfer me over to them right now that would be even better OK i'll transfer you i'll transfer you through right now",
+        "maskedITN": "Hi can I speak to Bobby please Hi this is Bobby Yeah hi Bobby Just want to let you know the call is recorded This is Emily calling from ICDC Hi Emily Hi I'm just calling We received a treatment plan for further massage and you know like sorry what does that mean further massage Yeah So I mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required But yeah I mean more massage after 12 weeks is is you know really not required So just wanted to call you to let you know I'm just going to stop you there Like are you are you kidding me No Emily your is your name Emily you mentioned I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything I've already this talked to somebody before like I mean I was sitting around trying to get better and heal from that and I wasn't The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there I was in the hospital for a little while I I wouldn't be treating you I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks I barely started massage so I don't understand And you mentioned something about those the 12 weeks I again I I have no idea what you're talking about I just started treatment and I'm supposed to be able to get better That's the whole point You guys advertise about caring about customers and things and I I have no clue what you're talking about right now And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started Yeah well that's how you feel But that's my decision today If you excuse me to escalate it further you can speak to my manager I'll have my manager call you OK Definitely Yeah I do want to talk to your manager I'd like to get your manager's information actually Emily OK I'll e-mail it to you No that's not good enough I would like you to give it to me right now I'm getting a pen and paper I'm going to write it down and I want to speak to them And actually no Emily if you can transfer me over to them right now that would be even better OK I'll transfer you I'll transfer you through right now",
+        "display": "Hi, can I speak to Bobby please? Hi, this is Bobby. Yeah, hi Bobby. Just want to let you know the call is recorded. This is Emily calling from ICDC. Hi, Emily. Hi, I'm just calling. We received a treatment plan for further massage and you know, like, sorry, what does that mean, further massage? Yeah. So I mean you, you get treatment the 1st, 12 weeks after your accident and then after those 12 weeks, you know, the treater has to submit a treatment plan to ask for more treatment if they think it's required. But yeah, I mean, more massage after 12 weeks is is, you know, really not required. So just wanted to call you to let you know I'm just going to stop you there. Like, are you are you kidding me? No, Emily, your is your name. Emily you mentioned. I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything. I've already this talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't. The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there. I was in the hospital for a little while I I wouldn't be treating you. I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat. I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks. I barely started massage, so I don't understand. And you mentioned something about those the 12 weeks. I again, I I have no idea what you're talking about. I just started treatment and I'm supposed to be able to get better. That's the whole point. You guys advertise about caring about customers and things, and I I have no clue what you're talking about right now. And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started. Yeah, well, that's how you feel. But that's my decision today. If you excuse me to escalate it further, you can speak to my manager. I'll have my manager call you. OK. Definitely. Yeah. I do want to talk to your manager. I'd like to get your manager's information, actually. Emily. OK, I'll e-mail it to you. No, that's not good enough. I would like you to give it to me right now. I'm getting a pen and paper. I'm going to write it down, and I want to speak to them. And actually, no, Emily, if you can transfer me over to them right now, that would be even better. OK, I'll transfer you. I'll transfer you through right now."
+      }
+    ],
+    "recognizedPhrases": [
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1.44S",
+        "duration": "PT1.68S",
+        "offsetInTicks": 14400000.0,
+        "durationInTicks": 16800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9663154,
+            "lexical": "hi can i speak to bobby please",
+            "itn": "hi can i speak to bobby please",
+            "maskedITN": "Hi can I speak to Bobby please",
+            "display": "Hi, can I speak to Bobby please?",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.91,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1.44S",
+        "duration": "PT1.68S",
+        "offsetInTicks": 14400000.0,
+        "durationInTicks": 16800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9676261,
+            "lexical": "hi can i speak to bobby please",
+            "itn": "hi can i speak to bobby please",
+            "maskedITN": "Hi can I speak to Bobby please",
+            "display": "Hi, can I speak to Bobby please?",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.91,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3.72S",
+        "duration": "PT0.96S",
+        "offsetInTicks": 37200000.0,
+        "durationInTicks": 9600000.0,
+        "nBest": [
+          {
+            "confidence": 0.92451626,
+            "lexical": "hi this is bobby",
+            "itn": "hi this is bobby",
+            "maskedITN": "Hi this is Bobby",
+            "display": "Hi, this is Bobby.",
+            "sentiment": {
+              "positive": 0.16,
+              "neutral": 0.81,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3.72S",
+        "duration": "PT0.96S",
+        "offsetInTicks": 37200000.0,
+        "durationInTicks": 9600000.0,
+        "nBest": [
+          {
+            "confidence": 0.932758,
+            "lexical": "hi this is bobby",
+            "itn": "hi this is bobby",
+            "maskedITN": "Hi this is Bobby",
+            "display": "Hi, this is Bobby.",
+            "sentiment": {
+              "positive": 0.16,
+              "neutral": 0.81,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT5.04S",
+        "duration": "PT0.76S",
+        "offsetInTicks": 50400000.0,
+        "durationInTicks": 7600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9417698,
+            "lexical": "yeah hi bobby",
+            "itn": "yeah hi bobby",
+            "maskedITN": "Yeah hi Bobby",
+            "display": "Yeah, hi Bobby.",
+            "sentiment": {
+              "positive": 0.2,
+              "neutral": 0.78,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT5.04S",
+        "duration": "PT0.76S",
+        "offsetInTicks": 50400000.0,
+        "durationInTicks": 7600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9494057,
+            "lexical": "yeah hi bobby",
+            "itn": "yeah hi bobby",
+            "maskedITN": "Yeah hi Bobby",
+            "display": "Yeah, hi Bobby.",
+            "sentiment": {
+              "positive": 0.2,
+              "neutral": 0.78,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT5.8S",
+        "duration": "PT1.6S",
+        "offsetInTicks": 58000000.0,
+        "durationInTicks": 16000000.0,
+        "nBest": [
+          {
+            "confidence": 0.7656951,
+            "lexical": "just want to let you know the call is recorded",
+            "itn": "just want to let you know the call is recorded",
+            "maskedITN": "Just want to let you know the call is recorded",
+            "display": "Just want to let you know the call is recorded.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT5.8S",
+        "duration": "PT1.6S",
+        "offsetInTicks": 58000000.0,
+        "durationInTicks": 16000000.0,
+        "nBest": [
+          {
+            "confidence": 0.7676479,
+            "lexical": "just want to let you know the call is recorded",
+            "itn": "just want to let you know the call is recorded",
+            "maskedITN": "Just want to let you know the call is recorded",
+            "display": "Just want to let you know the call is recorded.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT8.16S",
+        "duration": "PT2S",
+        "offsetInTicks": 81600000.0,
+        "durationInTicks": 20000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8856227,
+            "lexical": "this is emily calling from ICDC",
+            "itn": "this is emily calling from ICDC",
+            "maskedITN": "This is Emily calling from ICDC",
+            "display": "This is Emily calling from ICDC.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.99,
+              "negative": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT8.16S",
+        "duration": "PT2S",
+        "offsetInTicks": 81600000.0,
+        "durationInTicks": 20000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8858242,
+            "lexical": "this is emily calling from ICDC",
+            "itn": "this is emily calling from ICDC",
+            "maskedITN": "This is Emily calling from ICDC",
+            "display": "This is Emily calling from ICDC.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.99,
+              "negative": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT11.4S",
+        "duration": "PT0.76S",
+        "offsetInTicks": 114000000.0,
+        "durationInTicks": 7600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9174463,
+            "lexical": "hi emily",
+            "itn": "hi emily",
+            "maskedITN": "Hi Emily",
+            "display": "Hi, Emily.",
+            "sentiment": {
+              "positive": 0.19,
+              "neutral": 0.76,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT11.4S",
+        "duration": "PT0.76S",
+        "offsetInTicks": 114000000.0,
+        "durationInTicks": 7600000.0,
+        "nBest": [
+          {
+            "confidence": 0.92876244,
+            "lexical": "hi emily",
+            "itn": "hi emily",
+            "maskedITN": "Hi Emily",
+            "display": "Hi, Emily.",
+            "sentiment": {
+              "positive": 0.19,
+              "neutral": 0.76,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT12.76S",
+        "duration": "PT1.44S",
+        "offsetInTicks": 127600000.0,
+        "durationInTicks": 14400000.0,
+        "nBest": [
+          {
+            "confidence": 0.95534515,
+            "lexical": "hi i'm just calling",
+            "itn": "hi i'm just calling",
+            "maskedITN": "Hi I'm just calling",
+            "display": "Hi, I'm just calling.",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.9,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT12.76S",
+        "duration": "PT1.44S",
+        "offsetInTicks": 127600000.0,
+        "durationInTicks": 14400000.0,
+        "nBest": [
+          {
+            "confidence": 0.95574623,
+            "lexical": "hi i'm just calling",
+            "itn": "hi i'm just calling",
+            "maskedITN": "Hi I'm just calling",
+            "display": "Hi, I'm just calling.",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.9,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT15.36S",
+        "duration": "PT10.6S",
+        "offsetInTicks": 153600000.0,
+        "durationInTicks": 106000000.0,
+        "nBest": [
+          {
+            "confidence": 0.87025726,
+            "lexical": "we received a treatment plan for further massage and you know like sorry what does that mean further massage",
+            "itn": "we received a treatment plan for further massage and you know like sorry what does that mean further massage",
+            "maskedITN": "We received a treatment plan for further massage and you know like sorry what does that mean further massage",
+            "display": "We received a treatment plan for further massage and you know, like, sorry, what does that mean, further massage?",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.31,
+              "negative": 0.66
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT15.36S",
+        "duration": "PT10.6S",
+        "offsetInTicks": 153600000.0,
+        "durationInTicks": 106000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8753327,
+            "lexical": "we received a treatment plan for further massage and you know like sorry what does that mean further massage",
+            "itn": "we received a treatment plan for further massage and you know like sorry what does that mean further massage",
+            "maskedITN": "We received a treatment plan for further massage and you know like sorry what does that mean further massage",
+            "display": "We received a treatment plan for further massage and you know, like, sorry, what does that mean, further massage?",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.31,
+              "negative": 0.66
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT26.52S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 265200000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9701663,
+            "lexical": "yeah",
+            "itn": "yeah",
+            "maskedITN": "Yeah",
+            "display": "Yeah.",
+            "sentiment": {
+              "positive": 0.15,
+              "neutral": 0.81,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT26.52S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 265200000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9701663,
+            "lexical": "yeah",
+            "itn": "yeah",
+            "maskedITN": "Yeah",
+            "display": "Yeah.",
+            "sentiment": {
+              "positive": 0.15,
+              "neutral": 0.81,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT26.96S",
+        "duration": "PT12.76S",
+        "offsetInTicks": 269600000.0,
+        "durationInTicks": 127600000.0,
+        "nBest": [
+          {
+            "confidence": 0.928981,
+            "lexical": "so i mean you you get treatment the first twelve weeks after your accident and then after those twelve weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required",
+            "itn": "so i mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required",
+            "maskedITN": "So I mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required",
+            "display": "So I mean you, you get treatment the 1st, 12 weeks after your accident and then after those 12 weeks, you know, the treater has to submit a treatment plan to ask for more treatment if they think it's required.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.9,
+              "negative": 0.09
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT26.96S",
+        "duration": "PT12.76S",
+        "offsetInTicks": 269600000.0,
+        "durationInTicks": 127600000.0,
+        "nBest": [
+          {
+            "confidence": 0.928981,
+            "lexical": "so i mean you you get treatment the first twelve weeks after your accident and then after those twelve weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required",
+            "itn": "so i mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required",
+            "maskedITN": "So I mean you you get treatment the 1st 12 weeks after your accident and then after those 12 weeks you know the treater has to submit a treatment plan to ask for more treatment if they think it's required",
+            "display": "So I mean you, you get treatment the 1st, 12 weeks after your accident and then after those 12 weeks, you know, the treater has to submit a treatment plan to ask for more treatment if they think it's required.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.9,
+              "negative": 0.09
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT39.72S",
+        "duration": "PT8.04S",
+        "offsetInTicks": 397200000.0,
+        "durationInTicks": 80400000.0,
+        "nBest": [
+          {
+            "confidence": 0.940246,
+            "lexical": "but yeah i mean more massage after twelve weeks is is you know really not required",
+            "itn": "but yeah i mean more massage after 12 weeks is is you know really not required",
+            "maskedITN": "But yeah I mean more massage after 12 weeks is is you know really not required",
+            "display": "But yeah, I mean, more massage after 12 weeks is is, you know, really not required.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT39.72S",
+        "duration": "PT8.04S",
+        "offsetInTicks": 397200000.0,
+        "durationInTicks": 80400000.0,
+        "nBest": [
+          {
+            "confidence": 0.940246,
+            "lexical": "but yeah i mean more massage after twelve weeks is is you know really not required",
+            "itn": "but yeah i mean more massage after 12 weeks is is you know really not required",
+            "maskedITN": "But yeah I mean more massage after 12 weeks is is you know really not required",
+            "display": "But yeah, I mean, more massage after 12 weeks is is, you know, really not required.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT47.76S",
+        "duration": "PT3.52S",
+        "offsetInTicks": 477600000.0,
+        "durationInTicks": 35200000.0,
+        "nBest": [
+          {
+            "confidence": 0.8384885,
+            "lexical": "so just wanted to call you to let you know i'm just going to stop you there",
+            "itn": "so just wanted to call you to let you know i'm just going to stop you there",
+            "maskedITN": "So just wanted to call you to let you know I'm just going to stop you there",
+            "display": "So just wanted to call you to let you know I'm just going to stop you there.",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.67,
+              "negative": 0.28
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT47.76S",
+        "duration": "PT3.52S",
+        "offsetInTicks": 477600000.0,
+        "durationInTicks": 35200000.0,
+        "nBest": [
+          {
+            "confidence": 0.8384885,
+            "lexical": "so just wanted to call you to let you know i'm just going to stop you there",
+            "itn": "so just wanted to call you to let you know i'm just going to stop you there",
+            "maskedITN": "So just wanted to call you to let you know I'm just going to stop you there",
+            "display": "So just wanted to call you to let you know I'm just going to stop you there.",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.67,
+              "negative": 0.28
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT51.28S",
+        "duration": "PT1.6S",
+        "offsetInTicks": 512800000.0,
+        "durationInTicks": 16000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8135924,
+            "lexical": "like are you are you kidding me",
+            "itn": "like are you are you kidding me",
+            "maskedITN": "Like are you are you kidding me",
+            "display": "Like, are you are you kidding me?",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.52,
+              "negative": 0.42
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT51.28S",
+        "duration": "PT1.6S",
+        "offsetInTicks": 512800000.0,
+        "durationInTicks": 16000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8135924,
+            "lexical": "like are you are you kidding me",
+            "itn": "like are you are you kidding me",
+            "maskedITN": "Like are you are you kidding me",
+            "display": "Like, are you are you kidding me?",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.52,
+              "negative": 0.42
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT53.56S",
+        "duration": "PT4.2S",
+        "offsetInTicks": 535600000.0,
+        "durationInTicks": 42000000.0,
+        "nBest": [
+          {
+            "confidence": 0.711101,
+            "lexical": "no emily your is your name",
+            "itn": "no emily your is your name",
+            "maskedITN": "No Emily your is your name",
+            "display": "No, Emily, your is your name.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.86,
+              "negative": 0.07
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT53.56S",
+        "duration": "PT4.2S",
+        "offsetInTicks": 535600000.0,
+        "durationInTicks": 42000000.0,
+        "nBest": [
+          {
+            "confidence": 0.711101,
+            "lexical": "no emily your is your name",
+            "itn": "no emily your is your name",
+            "maskedITN": "No Emily your is your name",
+            "display": "No, Emily, your is your name.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.86,
+              "negative": 0.07
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT57.76S",
+        "duration": "PT0.8S",
+        "offsetInTicks": 577600000.0,
+        "durationInTicks": 8000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8342026,
+            "lexical": "emily you mentioned",
+            "itn": "emily you mentioned",
+            "maskedITN": "Emily you mentioned",
+            "display": "Emily you mentioned.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.95,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT57.76S",
+        "duration": "PT0.8S",
+        "offsetInTicks": 577600000.0,
+        "durationInTicks": 8000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8342026,
+            "lexical": "emily you mentioned",
+            "itn": "emily you mentioned",
+            "maskedITN": "Emily you mentioned",
+            "display": "Emily you mentioned.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.95,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT59.08S",
+        "duration": "PT12.76S",
+        "offsetInTicks": 590800000.0,
+        "durationInTicks": 127600000.0,
+        "nBest": [
+          {
+            "confidence": 0.89630705,
+            "lexical": "i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything",
+            "itn": "i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything",
+            "maskedITN": "I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything",
+            "display": "I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.09,
+              "negative": 0.9
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT59.08S",
+        "duration": "PT12.76S",
+        "offsetInTicks": 590800000.0,
+        "durationInTicks": 127600000.0,
+        "nBest": [
+          {
+            "confidence": 0.89630705,
+            "lexical": "i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything",
+            "itn": "i don't know if you've looked at the file but i i've been waiting three months for because i was in the hospital and i had broken my arm and i wasn't able to go for go and do anything",
+            "maskedITN": "I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything",
+            "display": "I don't know if you've looked at the file but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.09,
+              "negative": 0.9
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M12.64S",
+        "duration": "PT6.8S",
+        "offsetInTicks": 726400000.0,
+        "durationInTicks": 68000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8930412,
+            "lexical": "i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't",
+            "itn": "i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't",
+            "maskedITN": "I've already this talked to somebody before like I mean I was sitting around trying to get better and heal from that and I wasn't",
+            "display": "I've already this talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't.",
+            "sentiment": {
+              "positive": 0.12,
+              "neutral": 0.75,
+              "negative": 0.13
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M12.64S",
+        "duration": "PT6.8S",
+        "offsetInTicks": 726400000.0,
+        "durationInTicks": 68000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8930412,
+            "lexical": "i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't",
+            "itn": "i've already this talked to somebody before like i mean i was sitting around trying to get better and heal from that and i wasn't",
+            "maskedITN": "I've already this talked to somebody before like I mean I was sitting around trying to get better and heal from that and I wasn't",
+            "display": "I've already this talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't.",
+            "sentiment": {
+              "positive": 0.12,
+              "neutral": 0.75,
+              "negative": 0.13
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M19.48S",
+        "duration": "PT10.56S",
+        "offsetInTicks": 794800000.0,
+        "durationInTicks": 105600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8733373,
+            "lexical": "the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there",
+            "itn": "the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there",
+            "maskedITN": "The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there",
+            "display": "The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.08,
+              "negative": 0.91
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M19.48S",
+        "duration": "PT10.56S",
+        "offsetInTicks": 794800000.0,
+        "durationInTicks": 105600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8733373,
+            "lexical": "the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there",
+            "itn": "the doctor told me i wasn't able to go for treatment and we knew that we'd wait a couple of months and i finally got my cast off and i've been having problems with my back too with the injuries that you'll probably see there",
+            "maskedITN": "The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there",
+            "display": "The doctor told me I wasn't able to go for treatment and we knew that we'd wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.08,
+              "negative": 0.91
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M30.04S",
+        "duration": "PT3.16S",
+        "offsetInTicks": 900400000.0,
+        "durationInTicks": 31600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8007207,
+            "lexical": "i was in the hospital for a little while i i wouldn't be treating you",
+            "itn": "i was in the hospital for a little while i i wouldn't be treating you",
+            "maskedITN": "I was in the hospital for a little while I I wouldn't be treating you",
+            "display": "I was in the hospital for a little while I I wouldn't be treating you.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.58,
+              "negative": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M30.04S",
+        "duration": "PT3.16S",
+        "offsetInTicks": 900400000.0,
+        "durationInTicks": 31600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8007207,
+            "lexical": "i was in the hospital for a little while i i wouldn't be treating you",
+            "itn": "i was in the hospital for a little while i i wouldn't be treating you",
+            "maskedITN": "I was in the hospital for a little while I I wouldn't be treating you",
+            "display": "I was in the hospital for a little while I I wouldn't be treating you.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.58,
+              "negative": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M33.24S",
+        "duration": "PT13.28S",
+        "offsetInTicks": 932400000.0,
+        "durationInTicks": 132800000.0,
+        "nBest": [
+          {
+            "confidence": 0.86662847,
+            "lexical": "i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat",
+            "itn": "i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat",
+            "maskedITN": "I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat",
+            "display": "I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.01,
+              "negative": 0.98
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M33.24S",
+        "duration": "PT13.28S",
+        "offsetInTicks": 932400000.0,
+        "durationInTicks": 132800000.0,
+        "nBest": [
+          {
+            "confidence": 0.86662847,
+            "lexical": "i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat",
+            "itn": "i'm i'm actually i'm offended with your tone and i'm i'm i'm completely disappointed because i've i've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that i can't treat",
+            "maskedITN": "I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat",
+            "display": "I'm I'm actually I'm offended with your tone and I'm I'm I'm completely disappointed because I've I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to say that I can't treat.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.01,
+              "negative": 0.98
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M46.52S",
+        "duration": "PT9.88S",
+        "offsetInTicks": 1065200000.0,
+        "durationInTicks": 98800000.0,
+        "nBest": [
+          {
+            "confidence": 0.78103346,
+            "lexical": "i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the twelve weeks so we at ICBC we actually don't fund massage past twelve weeks",
+            "itn": "i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks",
+            "maskedITN": "I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks",
+            "display": "I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.56,
+              "negative": 0.43
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M46.52S",
+        "duration": "PT9.88S",
+        "offsetInTicks": 1065200000.0,
+        "durationInTicks": 98800000.0,
+        "nBest": [
+          {
+            "confidence": 0.78103346,
+            "lexical": "i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the twelve weeks so we at ICBC we actually don't fund massage past twelve weeks",
+            "itn": "i i'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks",
+            "maskedITN": "I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks",
+            "display": "I I'm not saying all the treatments cut off but we're not going to pay for any more massage past the 12 weeks so we at ICBC we actually don't fund massage past 12 weeks.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.56,
+              "negative": 0.43
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M56.68S",
+        "duration": "PT2.48S",
+        "offsetInTicks": 1166800000.0,
+        "durationInTicks": 24800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9070523,
+            "lexical": "i barely started massage so i don't understand",
+            "itn": "i barely started massage so i don't understand",
+            "maskedITN": "I barely started massage so I don't understand",
+            "display": "I barely started massage, so I don't understand.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.33,
+              "negative": 0.66
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M56.68S",
+        "duration": "PT2.48S",
+        "offsetInTicks": 1166800000.0,
+        "durationInTicks": 24800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9070523,
+            "lexical": "i barely started massage so i don't understand",
+            "itn": "i barely started massage so i don't understand",
+            "maskedITN": "I barely started massage so I don't understand",
+            "display": "I barely started massage, so I don't understand.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.33,
+              "negative": 0.66
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M59.16S",
+        "duration": "PT2.36S",
+        "offsetInTicks": 1191600000.0,
+        "durationInTicks": 23600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8206356,
+            "lexical": "and you mentioned something about those the twelve weeks",
+            "itn": "and you mentioned something about those the 12 weeks",
+            "maskedITN": "And you mentioned something about those the 12 weeks",
+            "display": "And you mentioned something about those the 12 weeks.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.97,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M59.16S",
+        "duration": "PT2.36S",
+        "offsetInTicks": 1191600000.0,
+        "durationInTicks": 23600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8206356,
+            "lexical": "and you mentioned something about those the twelve weeks",
+            "itn": "and you mentioned something about those the 12 weeks",
+            "maskedITN": "And you mentioned something about those the 12 weeks",
+            "display": "And you mentioned something about those the 12 weeks.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.97,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M1.56S",
+        "duration": "PT2.96S",
+        "offsetInTicks": 1215600000.0,
+        "durationInTicks": 29600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8129635,
+            "lexical": "i again i i have no idea what you're talking about",
+            "itn": "i again i i have no idea what you're talking about",
+            "maskedITN": "I again I I have no idea what you're talking about",
+            "display": "I again, I I have no idea what you're talking about.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.65,
+              "negative": 0.31
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M1.56S",
+        "duration": "PT2.96S",
+        "offsetInTicks": 1215600000.0,
+        "durationInTicks": 29600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8129635,
+            "lexical": "i again i i have no idea what you're talking about",
+            "itn": "i again i i have no idea what you're talking about",
+            "maskedITN": "I again I I have no idea what you're talking about",
+            "display": "I again, I I have no idea what you're talking about.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.65,
+              "negative": 0.31
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M4.52S",
+        "duration": "PT3.2S",
+        "offsetInTicks": 1245200000.0,
+        "durationInTicks": 32000000.0,
+        "nBest": [
+          {
+            "confidence": 0.94745827,
+            "lexical": "i just started treatment and i'm supposed to be able to get better",
+            "itn": "i just started treatment and i'm supposed to be able to get better",
+            "maskedITN": "I just started treatment and I'm supposed to be able to get better",
+            "display": "I just started treatment and I'm supposed to be able to get better.",
+            "sentiment": {
+              "positive": 0.29,
+              "neutral": 0.67,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M4.52S",
+        "duration": "PT3.2S",
+        "offsetInTicks": 1245200000.0,
+        "durationInTicks": 32000000.0,
+        "nBest": [
+          {
+            "confidence": 0.94745827,
+            "lexical": "i just started treatment and i'm supposed to be able to get better",
+            "itn": "i just started treatment and i'm supposed to be able to get better",
+            "maskedITN": "I just started treatment and I'm supposed to be able to get better",
+            "display": "I just started treatment and I'm supposed to be able to get better.",
+            "sentiment": {
+              "positive": 0.29,
+              "neutral": 0.67,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M7.72S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 1277200000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.97493607,
+            "lexical": "that's the whole point",
+            "itn": "that's the whole point",
+            "maskedITN": "That's the whole point",
+            "display": "That's the whole point.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.89,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M7.72S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 1277200000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.97493607,
+            "lexical": "that's the whole point",
+            "itn": "that's the whole point",
+            "maskedITN": "That's the whole point",
+            "display": "That's the whole point.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.89,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M8.56S",
+        "duration": "PT5.36S",
+        "offsetInTicks": 1285600000.0,
+        "durationInTicks": 53600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9443416,
+            "lexical": "you guys advertise about caring about customers and things and i i have no clue what you're talking about right now",
+            "itn": "you guys advertise about caring about customers and things and i i have no clue what you're talking about right now",
+            "maskedITN": "You guys advertise about caring about customers and things and I I have no clue what you're talking about right now",
+            "display": "You guys advertise about caring about customers and things, and I I have no clue what you're talking about right now.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.64,
+              "negative": 0.32
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M8.56S",
+        "duration": "PT5.36S",
+        "offsetInTicks": 1285600000.0,
+        "durationInTicks": 53600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9443416,
+            "lexical": "you guys advertise about caring about customers and things and i i have no clue what you're talking about right now",
+            "itn": "you guys advertise about caring about customers and things and i i have no clue what you're talking about right now",
+            "maskedITN": "You guys advertise about caring about customers and things and I I have no clue what you're talking about right now",
+            "display": "You guys advertise about caring about customers and things, and I I have no clue what you're talking about right now.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.64,
+              "negative": 0.32
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M13.92S",
+        "duration": "PT5.56S",
+        "offsetInTicks": 1339200000.0,
+        "durationInTicks": 55600000.0,
+        "nBest": [
+          {
+            "confidence": 0.84778583,
+            "lexical": "and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started",
+            "itn": "and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started",
+            "maskedITN": "And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started",
+            "display": "And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.21,
+              "negative": 0.78
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M13.92S",
+        "duration": "PT5.56S",
+        "offsetInTicks": 1339200000.0,
+        "durationInTicks": 55600000.0,
+        "nBest": [
+          {
+            "confidence": 0.84778583,
+            "lexical": "and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started",
+            "itn": "and i think it's completely inappropriate that you're telling me that i can't go for treatment when i've just started",
+            "maskedITN": "And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started",
+            "display": "And I think it's completely inappropriate that you're telling me that I can't go for treatment when I've just started.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.21,
+              "negative": 0.78
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M19.6S",
+        "duration": "PT1.24S",
+        "offsetInTicks": 1396000000.0,
+        "durationInTicks": 12400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9103921,
+            "lexical": "yeah well that's how you feel",
+            "itn": "yeah well that's how you feel",
+            "maskedITN": "Yeah well that's how you feel",
+            "display": "Yeah, well, that's how you feel.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.88,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M19.6S",
+        "duration": "PT1.24S",
+        "offsetInTicks": 1396000000.0,
+        "durationInTicks": 12400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9103921,
+            "lexical": "yeah well that's how you feel",
+            "itn": "yeah well that's how you feel",
+            "maskedITN": "Yeah well that's how you feel",
+            "display": "Yeah, well, that's how you feel.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.88,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M20.84S",
+        "duration": "PT1.52S",
+        "offsetInTicks": 1408400000.0,
+        "durationInTicks": 15200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9705857,
+            "lexical": "but that's my decision today",
+            "itn": "but that's my decision today",
+            "maskedITN": "But that's my decision today",
+            "display": "But that's my decision today.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.9,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M20.84S",
+        "duration": "PT1.52S",
+        "offsetInTicks": 1408400000.0,
+        "durationInTicks": 15200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9705857,
+            "lexical": "but that's my decision today",
+            "itn": "but that's my decision today",
+            "maskedITN": "But that's my decision today",
+            "display": "But that's my decision today.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.9,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M22.92S",
+        "duration": "PT4.04S",
+        "offsetInTicks": 1429200000.0,
+        "durationInTicks": 40400000.0,
+        "nBest": [
+          {
+            "confidence": 0.77560735,
+            "lexical": "if you excuse me to escalate it further you can speak to my manager",
+            "itn": "if you excuse me to escalate it further you can speak to my manager",
+            "maskedITN": "If you excuse me to escalate it further you can speak to my manager",
+            "display": "If you excuse me to escalate it further, you can speak to my manager.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.45,
+              "negative": 0.52
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M22.92S",
+        "duration": "PT4.04S",
+        "offsetInTicks": 1429200000.0,
+        "durationInTicks": 40400000.0,
+        "nBest": [
+          {
+            "confidence": 0.77560735,
+            "lexical": "if you excuse me to escalate it further you can speak to my manager",
+            "itn": "if you excuse me to escalate it further you can speak to my manager",
+            "maskedITN": "If you excuse me to escalate it further you can speak to my manager",
+            "display": "If you excuse me to escalate it further, you can speak to my manager.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.45,
+              "negative": 0.52
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M27.12S",
+        "duration": "PT1.12S",
+        "offsetInTicks": 1471200000.0,
+        "durationInTicks": 11200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9381342,
+            "lexical": "i'll have my manager call you",
+            "itn": "i'll have my manager call you",
+            "maskedITN": "I'll have my manager call you",
+            "display": "I'll have my manager call you.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.96,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M27.12S",
+        "duration": "PT1.12S",
+        "offsetInTicks": 1471200000.0,
+        "durationInTicks": 11200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9381342,
+            "lexical": "i'll have my manager call you",
+            "itn": "i'll have my manager call you",
+            "maskedITN": "I'll have my manager call you",
+            "display": "I'll have my manager call you.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.96,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M28.24S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 1482400000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9057706,
+            "lexical": "OK",
+            "itn": "OK",
+            "maskedITN": "OK",
+            "display": "OK.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.9,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M28.24S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 1482400000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9057706,
+            "lexical": "OK",
+            "itn": "OK",
+            "maskedITN": "OK",
+            "display": "OK.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.9,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M29.52S",
+        "duration": "PT0.56S",
+        "offsetInTicks": 1495200000.0,
+        "durationInTicks": 5600000.0,
+        "nBest": [
+          {
+            "confidence": 0.48859358,
+            "lexical": "definitely",
+            "itn": "definitely",
+            "maskedITN": "Definitely",
+            "display": "Definitely.",
+            "sentiment": {
+              "positive": 0.33,
+              "neutral": 0.64,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M29.52S",
+        "duration": "PT0.56S",
+        "offsetInTicks": 1495200000.0,
+        "durationInTicks": 5600000.0,
+        "nBest": [
+          {
+            "confidence": 0.47696462,
+            "lexical": "definitely",
+            "itn": "definitely",
+            "maskedITN": "Definitely",
+            "display": "Definitely.",
+            "sentiment": {
+              "positive": 0.33,
+              "neutral": 0.64,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M30.08S",
+        "duration": "PT0.24S",
+        "offsetInTicks": 1500800000.0,
+        "durationInTicks": 2400000.0,
+        "nBest": [
+          {
+            "confidence": 0.7329588,
+            "lexical": "yeah",
+            "itn": "yeah",
+            "maskedITN": "Yeah",
+            "display": "Yeah.",
+            "sentiment": {
+              "positive": 0.15,
+              "neutral": 0.81,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M30.08S",
+        "duration": "PT0.24S",
+        "offsetInTicks": 1500800000.0,
+        "durationInTicks": 2400000.0,
+        "nBest": [
+          {
+            "confidence": 0.7334701,
+            "lexical": "yeah",
+            "itn": "yeah",
+            "maskedITN": "Yeah",
+            "display": "Yeah.",
+            "sentiment": {
+              "positive": 0.15,
+              "neutral": 0.81,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M30.6S",
+        "duration": "PT1.28S",
+        "offsetInTicks": 1506000000.0,
+        "durationInTicks": 12800000.0,
+        "nBest": [
+          {
+            "confidence": 0.8417821,
+            "lexical": "i do want to talk to your manager",
+            "itn": "i do want to talk to your manager",
+            "maskedITN": "I do want to talk to your manager",
+            "display": "I do want to talk to your manager.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.89,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M30.6S",
+        "duration": "PT1.28S",
+        "offsetInTicks": 1506000000.0,
+        "durationInTicks": 12800000.0,
+        "nBest": [
+          {
+            "confidence": 0.85322374,
+            "lexical": "i do want to talk to your manager",
+            "itn": "i do want to talk to your manager",
+            "maskedITN": "I do want to talk to your manager",
+            "display": "I do want to talk to your manager.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.89,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M33.12S",
+        "duration": "PT1.76S",
+        "offsetInTicks": 1531200000.0,
+        "durationInTicks": 17600000.0,
+        "nBest": [
+          {
+            "confidence": 0.7843603,
+            "lexical": "i'd like to get your manager 's information actually",
+            "itn": "i'd like to get your manager's information actually",
+            "maskedITN": "I'd like to get your manager's information actually",
+            "display": "I'd like to get your manager's information, actually.",
+            "sentiment": {
+              "positive": 0.44,
+              "neutral": 0.52,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M33.12S",
+        "duration": "PT1.76S",
+        "offsetInTicks": 1531200000.0,
+        "durationInTicks": 17600000.0,
+        "nBest": [
+          {
+            "confidence": 0.7612536,
+            "lexical": "i'd like to get your manager 's information actually",
+            "itn": "i'd like to get your manager's information actually",
+            "maskedITN": "I'd like to get your manager's information actually",
+            "display": "I'd like to get your manager's information, actually.",
+            "sentiment": {
+              "positive": 0.44,
+              "neutral": 0.52,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M34.88S",
+        "duration": "PT0.28S",
+        "offsetInTicks": 1548800000.0,
+        "durationInTicks": 2800000.0,
+        "nBest": [
+          {
+            "confidence": 0.8451426,
+            "lexical": "emily",
+            "itn": "emily",
+            "maskedITN": "Emily",
+            "display": "Emily.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.95,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M34.88S",
+        "duration": "PT0.28S",
+        "offsetInTicks": 1548800000.0,
+        "durationInTicks": 2800000.0,
+        "nBest": [
+          {
+            "confidence": 0.83921194,
+            "lexical": "emily",
+            "itn": "emily",
+            "maskedITN": "Emily",
+            "display": "Emily.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.95,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M35.16S",
+        "duration": "PT1.32S",
+        "offsetInTicks": 1551600000.0,
+        "durationInTicks": 13200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9149848,
+            "lexical": "OK i'll email it to you",
+            "itn": "OK i'll email it to you",
+            "maskedITN": "OK I'll e-mail it to you",
+            "display": "OK, I'll e-mail it to you.",
+            "sentiment": {
+              "positive": 0.24,
+              "neutral": 0.74,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M35.16S",
+        "duration": "PT1.32S",
+        "offsetInTicks": 1551600000.0,
+        "durationInTicks": 13200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9177665,
+            "lexical": "OK i'll email it to you",
+            "itn": "OK i'll email it to you",
+            "maskedITN": "OK I'll e-mail it to you",
+            "display": "OK, I'll e-mail it to you.",
+            "sentiment": {
+              "positive": 0.24,
+              "neutral": 0.74,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M36.92S",
+        "duration": "PT1.04S",
+        "offsetInTicks": 1569200000.0,
+        "durationInTicks": 10400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9135371,
+            "lexical": "no that's not good enough",
+            "itn": "no that's not good enough",
+            "maskedITN": "No that's not good enough",
+            "display": "No, that's not good enough.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.03,
+              "negative": 0.97
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M36.92S",
+        "duration": "PT1.04S",
+        "offsetInTicks": 1569200000.0,
+        "durationInTicks": 10400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9148155,
+            "lexical": "no that's not good enough",
+            "itn": "no that's not good enough",
+            "maskedITN": "No that's not good enough",
+            "display": "No, that's not good enough.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.03,
+              "negative": 0.97
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M38S",
+        "duration": "PT1.96S",
+        "offsetInTicks": 1580000000.0,
+        "durationInTicks": 19600000.0,
+        "nBest": [
+          {
+            "confidence": 0.97153103,
+            "lexical": "i would like you to give it to me right now",
+            "itn": "i would like you to give it to me right now",
+            "maskedITN": "I would like you to give it to me right now",
+            "display": "I would like you to give it to me right now.",
+            "sentiment": {
+              "positive": 0.69,
+              "neutral": 0.27,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M38S",
+        "duration": "PT1.96S",
+        "offsetInTicks": 1580000000.0,
+        "durationInTicks": 19600000.0,
+        "nBest": [
+          {
+            "confidence": 0.97278666,
+            "lexical": "i would like you to give it to me right now",
+            "itn": "i would like you to give it to me right now",
+            "maskedITN": "I would like you to give it to me right now",
+            "display": "I would like you to give it to me right now.",
+            "sentiment": {
+              "positive": 0.69,
+              "neutral": 0.27,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M40.48S",
+        "duration": "PT0.92S",
+        "offsetInTicks": 1604800000.0,
+        "durationInTicks": 9200000.0,
+        "nBest": [
+          {
+            "confidence": 0.91392666,
+            "lexical": "i'm getting a pen and paper",
+            "itn": "i'm getting a pen and paper",
+            "maskedITN": "I'm getting a pen and paper",
+            "display": "I'm getting a pen and paper.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M40.48S",
+        "duration": "PT0.92S",
+        "offsetInTicks": 1604800000.0,
+        "durationInTicks": 9200000.0,
+        "nBest": [
+          {
+            "confidence": 0.92156047,
+            "lexical": "i'm getting a pen and paper",
+            "itn": "i'm getting a pen and paper",
+            "maskedITN": "I'm getting a pen and paper",
+            "display": "I'm getting a pen and paper.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M41.4S",
+        "duration": "PT1.8S",
+        "offsetInTicks": 1614000000.0,
+        "durationInTicks": 18000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8909949,
+            "lexical": "i'm going to write it down and i want to speak to them",
+            "itn": "i'm going to write it down and i want to speak to them",
+            "maskedITN": "I'm going to write it down and I want to speak to them",
+            "display": "I'm going to write it down, and I want to speak to them.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.85,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M41.4S",
+        "duration": "PT1.8S",
+        "offsetInTicks": 1614000000.0,
+        "durationInTicks": 18000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8917195,
+            "lexical": "i'm going to write it down and i want to speak to them",
+            "itn": "i'm going to write it down and i want to speak to them",
+            "maskedITN": "I'm going to write it down and I want to speak to them",
+            "display": "I'm going to write it down, and I want to speak to them.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.85,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M43.44S",
+        "duration": "PT4.04S",
+        "offsetInTicks": 1634400000.0,
+        "durationInTicks": 40400000.0,
+        "nBest": [
+          {
+            "confidence": 0.93051535,
+            "lexical": "and actually no emily if you can transfer me over to them right now that would be even better",
+            "itn": "and actually no emily if you can transfer me over to them right now that would be even better",
+            "maskedITN": "And actually no Emily if you can transfer me over to them right now that would be even better",
+            "display": "And actually, no, Emily, if you can transfer me over to them right now, that would be even better.",
+            "sentiment": {
+              "positive": 0.39,
+              "neutral": 0.48,
+              "negative": 0.14
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M43.44S",
+        "duration": "PT4.04S",
+        "offsetInTicks": 1634400000.0,
+        "durationInTicks": 40400000.0,
+        "nBest": [
+          {
+            "confidence": 0.93603885,
+            "lexical": "and actually no emily if you can transfer me over to them right now that would be even better",
+            "itn": "and actually no emily if you can transfer me over to them right now that would be even better",
+            "maskedITN": "And actually no Emily if you can transfer me over to them right now that would be even better",
+            "display": "And actually, no, Emily, if you can transfer me over to them right now, that would be even better.",
+            "sentiment": {
+              "positive": 0.39,
+              "neutral": 0.48,
+              "negative": 0.14
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M47.6S",
+        "duration": "PT0.92S",
+        "offsetInTicks": 1676000000.0,
+        "durationInTicks": 9200000.0,
+        "nBest": [
+          {
+            "confidence": 0.84918094,
+            "lexical": "OK i'll transfer you",
+            "itn": "OK i'll transfer you",
+            "maskedITN": "OK I'll transfer you",
+            "display": "OK, I'll transfer you.",
+            "sentiment": {
+              "positive": 0.13,
+              "neutral": 0.85,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M47.6S",
+        "duration": "PT0.92S",
+        "offsetInTicks": 1676000000.0,
+        "durationInTicks": 9200000.0,
+        "nBest": [
+          {
+            "confidence": 0.8615403,
+            "lexical": "OK i'll transfer you",
+            "itn": "OK i'll transfer you",
+            "maskedITN": "OK I'll transfer you",
+            "display": "OK, I'll transfer you.",
+            "sentiment": {
+              "positive": 0.13,
+              "neutral": 0.85,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M48.88S",
+        "duration": "PT1S",
+        "offsetInTicks": 1688800000.0,
+        "durationInTicks": 10000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8891522,
+            "lexical": "i'll transfer you through right now",
+            "itn": "i'll transfer you through right now",
+            "maskedITN": "I'll transfer you through right now",
+            "display": "I'll transfer you through right now.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.96,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M48.88S",
+        "duration": "PT1.04S",
+        "offsetInTicks": 1688800000.0,
+        "durationInTicks": 10400000.0,
+        "nBest": [
+          {
+            "confidence": 0.89457095,
+            "lexical": "i'll transfer you through right now",
+            "itn": "i'll transfer you through right now",
+            "maskedITN": "I'll transfer you through right now",
+            "display": "I'll transfer you through right now.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.96,
+              "negative": 0.01
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

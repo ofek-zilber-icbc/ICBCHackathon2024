@@ -1,0 +1,132 @@
+{
+    "audioFile": "/call6.wav",
+    "representativeName": "Emily",
+    "customerName": "Bobby",
+    "date": "04/25/2024",
+    "callLength": 3,
+    "summary": "This is a call summary",
+    "transcription": [
+        {
+            "speaker": "Emily",
+            "text": "Hi, can I speak to Bobby, please? Hi, this is Bobby. Yeah, hi, Bobby. Just want to let you know, the call is recorded. This is Emily calling from ICBC."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Hi Emily, Hi. I'm just calling. We received a treatment plan for further massage."
+        },
+        {
+            "speaker": "Emily",
+            "text": "And you know, like."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Sorry, what does that mean further massage?"
+        },
+        {
+            "speaker": "Emily",
+            "text": "Yeah. So I mean you get treatment the 1st, 12 weeks after your accident and then after those 12 weeks, you know the treater has to submit a treatment plan to ask for more treatment if they think it's required, but."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Umm yeah, I mean more massage after 12 weeks is is, you know really not required so just wanted to call you."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "To let you know, I'm just going to stop you there. Like, are you? Are you?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Emily, your is your name. Emily you mentioned. I don't know if you've looked at the file, but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I've already talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't. The doctor told me I wasn't able to go for treatment and we knew that we would wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there was in the hospital for a little while I I wouldn't be treating you. I'm I'm actually, I'm offended with your tone and I'm I'm completely disappointed because I I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Say that I can't treat."
+        },
+        {
+            "speaker": "Emily",
+            "text": "I I'm not saying all the treatments cut off, but we're not going to pay for anymore massage past the 12 weeks. So we at ICBC, we actually don't fund massage past 12."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Weeks. I barely started massage, so I don't understand. And you mentioned something about those. The 12 weeks. Again, I I have no idea what you're talking about. I just started treatment and I'm supposed to be able to get better. That's the whole point. You guys advertise about caring about customers and things and I have no clue what you're talking about right now. And I think it's completely."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Inappropriate that you're telling me that I can't go for treatment when I've."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Just started, Yeah. Well, that's how you feel. But that's my decision today if."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Excuse."
+        },
+        {
+            "speaker": "Emily",
+            "text": "Me to escalate it further, you can speak to my manager. I'll have my manager call you, OK?"
+        },
+        {
+            "speaker": "Bobby",
+            "text": "Definitely, yeah. I do want to talk to your manager. I'd like to get your manager's information, actually, Emily."
+        },
+        {
+            "speaker": "Emily",
+            "text": "OK, I'll e-mail it."
+        },
+        {
+            "speaker": "Bobby",
+            "text": "To you? No, that's not good enough. I would like you to give it to me right now. I'm getting a pen and paper. I'm going to write it down, and I want to speak to them. And actually, no, Emily, if you can transfer me over to them right now, that would be even better."
+        },
+        {
+            "speaker": "Emily",
+            "text": "OK, I'll transfer you. I'll transfer you through right now."
+        }
+    ],
+    "flags": [
+        {
+            "speaker": "Bobby",
+            "text": "Emily, your is your name. Emily you mentioned. I don't know if you've looked at the file, but I I've been waiting three months for because I was in the hospital and I had broken my arm and I wasn't able to go for go and do anything.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.93,
+                "neutral": 0.06
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I've already talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't. The doctor told me I wasn't able to go for treatment and we knew that we would wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there was in the hospital for a little while I I wouldn't be treating you. I'm I'm actually, I'm offended with your tone and I'm I'm completely disappointed because I I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.91,
+                "neutral": 0.08
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "I've already talked to somebody before like, I mean I was sitting around trying to get better and heal from that and I wasn't. The doctor told me I wasn't able to go for treatment and we knew that we would wait a couple of months and I finally got my cast off and I've been having problems with my back too with the injuries that you'll probably see there was in the hospital for a little while I I wouldn't be treating you. I'm I'm actually, I'm offended with your tone and I'm I'm completely disappointed because I I've been waiting to start treatment and now you're telling me that it's cut off and you're calling me out of the blue just to.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.99,
+                "neutral": 0.01
+            }
+        },
+        {
+            "speaker": "Bobby",
+            "text": "To you? No, that's not good enough. I would like you to give it to me right now. I'm getting a pen and paper. I'm going to write it down, and I want to speak to them. And actually, no, Emily, if you can transfer me over to them right now, that would be even better.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "negative": 0.96,
+                "neutral": 0.04
+            }
+        }
+    ]
+}
