@@ -17,6 +17,7 @@ import uuid
 import helper as helper
 import rest_helper
 import user_config_helper
+from operator import itemgetter
 
 # This should not change unless you switch to a new version of the Speech REST API.
 SPEECH_TRANSCRIPTION_PATH = "/speechtotext/v3.0/transcriptions"
@@ -32,7 +33,7 @@ CONVERSATION_SUMMARY_MODEL_VERSION = "2022-05-15-preview"
 WAIT_SECONDS = 10
 
 class TranscriptionPhrase(object) :
-    def __init__(self, id : int, text : str, itn : str, lexical : str, speaker_number : int, offset : str, offset_in_ticks : float) :
+    def __init__(self, id : int, text : str, itn : str, lexical : str, speaker_number : int, offset : str, offset_in_ticks : float, duration_in_ticks: float) :
         self.id = id
         self.text = text
         self.itn = itn
@@ -40,6 +41,7 @@ class TranscriptionPhrase(object) :
         self.speaker_number = speaker_number
         self.offset = offset
         self.offset_in_ticks = offset_in_ticks
+        self.duration_in_ticks = duration_in_ticks
         
 class SentimentAnalysisResult(object) :
     def __init__(self, speaker_number : int, offset_in_ticks : float, document : Dict) :
@@ -150,10 +152,14 @@ def get_transcription_phrases(transcription : Dict, user_config : helper.Read_On
             speaker_number = phrase["channel"]
         else :
             raise Exception(f"nBest item contains neither channel nor speaker attribute.{linesep}{best}")
-        return TranscriptionPhrase(id, best["display"], best["itn"], best["lexical"], speaker_number, phrase["offset"], phrase["offsetInTicks"])
+        return TranscriptionPhrase(id, best["display"], best["itn"], best["lexical"], speaker_number, phrase["offset"], phrase["offsetInTicks"], phrase["durationInTicks"])
     # For stereo audio, the phrases are sorted by channel number, so resort them by offset.
-    return list(map(helper, enumerate(transcription["recognizedPhrases"])))
-
+     # Get every other element starting from index 0
+    filtered_phrases = transcription["recognizedPhrases"][::2]
+    # Map the helper function to the filtered list
+    # return list(map(helper, enumerate(transcription["recognizedPhrases"])))
+    return list(map(helper, enumerate(filtered_phrases)))
+   
 def delete_transcription(transcription_id : str, user_config : helper.Read_Only_Dict) -> None :
     uri = f"https://{user_config['speech_endpoint']}{SPEECH_TRANSCRIPTION_PATH}/{transcription_id}"
     rest_helper.send_delete(uri=uri, key=user_config["speech_subscription_key"], expected_status_codes=[HTTPStatus.NO_CONTENT])
@@ -210,9 +216,10 @@ def transcription_phrases_to_conversation_items(transcription : Dict, phrases : 
         "id" : phrase.id,
         "offset": phrase.offset,
         "offset_in_ticks": phrase.offset_in_ticks,
+        "duration_in_ticks":phrase.duration_in_ticks,
         "text" : phrase.text,
-        "itn" : phrase.itn,
-        "lexical" : phrase.lexical,
+        # "itn" : phrase.itn,
+        # "lexical" : phrase.lexical,
         # The first person to speak is probably the agent.
         "role" : "Agent" if 0 == phrase.speaker_number else "Customer",
         "participantId" : phrase.speaker_number
@@ -222,7 +229,6 @@ def transcription_phrases_to_conversation_items(transcription : Dict, phrases : 
 
 def request_conversation_analysis(conversation_items : List[Dict], user_config : helper.Read_Only_Dict) -> str :
     uri = f"https://{user_config['language_endpoint']}{CONVERSATION_ANALYSIS_PATH}{CONVERSATION_ANALYSIS_QUERY}"
-    print("===============================================", uri)
     content = {
         "displayName" : f"call_center_{datetime.now()}",
         "analysisInput" : {
@@ -390,8 +396,8 @@ def run() -> None :
         print(usage)
     else :
         user_config = user_config_helper.user_config_from_args(usage)
-        transcription : Dict
-        transcription_id : str
+        # transcription : Dict
+        # transcription_id : str
         if user_config["input_file_path"] is not None :
             with open(user_config["input_file_path"], mode="r") as f :
                 transcription = loads(f.read())

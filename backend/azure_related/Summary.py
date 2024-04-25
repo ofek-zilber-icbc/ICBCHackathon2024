@@ -47,4 +47,5 @@ def sample_extractive_summarization(client):
                 " ".join([sentence.text for sentence in extract_summary_result.sentences]))
             )
 
+
 sample_extractive_summarization(client)
