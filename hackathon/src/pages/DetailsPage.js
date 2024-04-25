@@ -160,36 +160,25 @@ const DetailsPage = () => {
                 </div>
 
                 {transcriptExpanded && (
-  <div>
-    {transcriptData !== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => {
-      const transcriptText = transcriptData.map(word => word.displayText).join(' ');
-      const containsFlagText = location.state.flags.some(flag => transcriptText.includes(flag.text));
-      console.log("flag text")
-      return (
-        <span
-          key={index}
-          style={{
-            backgroundColor:
-              currentTime >= word.offsetInTicks / 10000000 &&
-              currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
-                  ? 'yellow'
-                  : containsFlagText
-                      ? 'red' 
-                      : 'transparent',
-            cursor: 'pointer',
-          }}
-          onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
-        >
-          {word.displayText}{' '}
-        </span>
-      );
-    })}
-  </div>
-)}
-
-
-
-
+                <div>
+                {transcriptData!== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => (
+                <span
+                    key={index}
+                    style={{
+                        backgroundColor:
+                        currentTime >= word.offsetInTicks / 10000000 &&
+                        currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
+                         ? 'yellow'
+                        : 'transparent',
+                        cursor: 'pointer',
+                    }}
+                    onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
+                >
+                {word.displayText}{' '}
+                </span>
+                 ))}
+                </div>
+                )}
                 </div>  
             </Card>
             <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '20px', background:"#EFEFEF",paddingTop:"40px", paddingBottom:"100px", paddingRight:"40px" }}>
