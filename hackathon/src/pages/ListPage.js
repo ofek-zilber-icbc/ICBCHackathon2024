@@ -172,6 +172,7 @@ const ListPage = () => {
             ) : (
                 <Card>
                     <DataTable records={filteredData}/>
+                    
                 </Card>
             )}
         </>

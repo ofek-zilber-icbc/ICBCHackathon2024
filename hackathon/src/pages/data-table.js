@@ -15,6 +15,11 @@ const DataTable = (props) => {
         console.log("open")
         setSummaryText(text);
         setSummaryDialogOpen(true);
+
+
+
+
+        
     };
     // Function to close the summary dialog
     const closeSummaryDialog = () => {

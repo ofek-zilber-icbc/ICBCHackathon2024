@@ -180,6 +180,7 @@ const DetailsPage = () => {
                 {word.nBest[0].display}{' '}
                 </div>
                 
+                
                  ))}
                 </div>
                 )}
