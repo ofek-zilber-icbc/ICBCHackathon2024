@@ -15,10 +15,8 @@ const ListPage = () => {
 
     // useEffect(() => {
     //     fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
-    //     fetch('https://66262d51052332d55321e99a.mockapi.io/calls')
     //     .then(res => res.json())
     //     .then(data => {
-    //         setRecords(data)
     //         setRecords(data)
     //     })
     // }, [])
@@ -72,15 +70,15 @@ const ListPage = () => {
 
     const searchTable = () => {
         const filtered = records.filter(item => {
-            if (searchValues.customerName !== '' && !item.customerName.toLowerCase().includes(searchValues.customerName.toLowerCase())) {
+            if (searchValues.customerName !== '' && !item.short.customerName.toLowerCase().includes(searchValues.customerName.toLowerCase())) {
                 return false;
             }
-            if (searchValues.representativeName !== '' && !item.representativeName.toLowerCase().includes(searchValues.representativeName.toLowerCase())) {
+            if (searchValues.representativeName !== '' && !item.short.representativeName.toLowerCase().includes(searchValues.representativeName.toLowerCase())) {
                 return false;
             }
             if (searchValues.date !== '') {
                 const selectedDate = new Date(searchValues.date);
-                const itemDate = new Date(item.date);
+                const itemDate = new Date(item.short.date);
                 // Compare only year, month, and day (ignore time)
                 return selectedDate.toISOString().slice(0, 10) === itemDate.toISOString().slice(0, 10);
             }
