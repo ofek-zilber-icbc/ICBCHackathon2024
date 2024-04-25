@@ -1,8 +1,9 @@
 {
+    "audioFile": "/PositiveSpecialistNegativeCustomer.wav",
     "representativeName": "Bobby",
     "customerName": "Emily",
-    "date": "04/22/2024",
-    "callLength": 20,
+    "date": "04/20/2024",
+    "callLength": 4,
     "summary": "This is a call summary",
     "transcription": [
         {
@@ -27,7 +28,7 @@
         },
         {
             "speaker": "Emily",
-            "text": "Not good like every morning I wake up I'm in so much pain I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything."
+            "text": "Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything."
         },
         {
             "speaker": "Emily",
@@ -123,12 +124,22 @@
         },
         {
             "speaker": "Emily",
-            "text": "Not good like every morning I wake up I'm in so much pain I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything.",
+            "text": "Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything.",
             "sentiment": "negative",
             "confidenceScores": {
                 "positive": 0.0,
-                "negative": 0.99,
-                "neutral": 0.01
+                "negative": 0.98,
+                "neutral": 0.02
+            }
+        },
+        {
+            "speaker": "Emily",
+            "text": "Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything.",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.0,
+                "negative": 0.97,
+                "neutral": 0.03
             }
         },
         {
