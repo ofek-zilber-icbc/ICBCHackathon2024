@@ -3,39 +3,36 @@ import "../App.css";
 import Card from '../component/Card';
 import Header from '../component/Header';
 import { Typography, Grid, IconButton, Button,Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
-import { PersonOutline, AccessTimeOutlined, FlagOutlined } from '@mui/icons-material';
+import { PersonOutline, AccessTimeOutlined, FlagOutlined, GolfCourse } from '@mui/icons-material';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const DetailsPage = () => {
-    const [transcriptData, setTranscriptData] = useState([]);
+    // const [transcriptData, setTranscriptData] = useState([]);
     const [transcriptExpanded, setTranscriptExpanded] = useState(false); 
     const [callScore, setCallScore] = useState(0); 
     const effectRan = useRef(false);
     const [showDialog, setShowDialog] = useState(false);
     const [reviewed, setReviewed] = useState(false);
     let location = useLocation();
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('/batch.json');
-                const recognizedPhrases = response.data.recognizedPhrases || [];
-                const newDisplayWords = recognizedPhrases.reduce((acc, phrase) => {
-                    if (phrase.nBest[0].displayWords !== undefined) {
-                        const newWords = phrase.nBest[0].displayWords;
-                        return [...acc, ...newWords];
-                    }
-                    return acc;
-                }, []);
-                console.log("END!!!!!!!!!!!!!")
-                setTranscriptData(newDisplayWords);
-            } catch (error) {
-                console.error('Error fetching JSON:', error);
-            }
-        };
-        fetchData();
-    }, []);
+    const navigate = useNavigate();
+
+ 
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await axios.get('/everything_call2.json');
+    //             const displayArray = response.data.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0);
+    //             console.log(displayArray)
+    //             setTranscriptData(displayArray);
+    //         } catch (error) {
+    //             console.error('Error fetching JSON:', error);
+    //         }
+    //     };
+    //     fetchData();
+    // }, []);
 
     const [currentTime, setCurrentTime] = useState(0);
     const audioRef = useRef(null);
@@ -44,9 +41,13 @@ const DetailsPage = () => {
         const handleTimeUpdate = () => {
             setCurrentTime(audioRef.current.currentTime);
         };
-        audioRef.current.addEventListener('timeupdate', handleTimeUpdate);
-        return () => {
+        if (audioRef.current) {
             audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+        }
+        return () => {
+            if (audioRef.current) {
+                audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+            }
         };
     }, []);
 
@@ -58,6 +59,7 @@ const DetailsPage = () => {
         setReviewed(!reviewed);
     }
     const handleBackButtonClick = () => {
+        navigate(-1); // Go back in history
     };
     const handleReprocessButtonClick = () => {
         setShowDialog(true);
@@ -150,7 +152,7 @@ const DetailsPage = () => {
             <Card>
                 <div>
                     <audio ref={audioRef} controls>
-                        <source src={location.state.short.audioFile} type="audio/wav" />
+                        <source src={location.state.long.transcription.source} type="audio/wav" />
                         Your browser does not support the audio element.
                     </audio>
                 <div>
@@ -161,8 +163,8 @@ const DetailsPage = () => {
 
                 {transcriptExpanded && (
                 <div>
-                {transcriptData!== null && transcriptData.slice(0, Math.ceil(transcriptData.length / 2)).map((word, index) => (
-                <span
+                {location.state.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0).map((word, index) => (
+                <div
                     key={index}
                     style={{
                         backgroundColor:
@@ -170,12 +172,15 @@ const DetailsPage = () => {
                         currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
                          ? 'yellow'
                         : 'transparent',
+                        color: word.nBest[0].sentiment.negative >= 0.85 ? 'red' : 'inherit', // Change text color to red if sentiment is negative
                         cursor: 'pointer',
                     }}
                     onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
                 >
-                {word.displayText}{' '}
-                </span>
+                {word.nBest[0].display}{' '}
+                </div>
+                
+                
                  ))}
                 </div>
                 )}

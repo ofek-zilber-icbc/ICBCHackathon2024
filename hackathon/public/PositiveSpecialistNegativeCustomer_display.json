@@ -1,0 +1,3370 @@
+{
+  "transcription": {
+    "source": "https://github.com/ofek-zilber-icbc/ICBCHackathon2024/raw/main/backend/azure_related/PositiveSpecialistNegativeCustomer.wav",
+    "timestamp": "2024-04-25T06:13:26Z",
+    "durationInTicks": 2427300000,
+    "duration": "PT4M2.73S",
+    "combinedRecognizedPhrases": [
+      {
+        "channel": 0,
+        "lexical": "hi may i speak to emily please yep this is emily hi emily this is bobby calling from ICBC how are you doing i'm OK i'm kind of busy what do you need oh i'm sorry to hear that is there a better time to reach her do you have a few minutes now to talk about your claim yeah i guess we can talk now if we have to OK and how are things going with you right now not good like every morning i wake up i'm in so much pain i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment my doctor agrees i need treatment too what's going on i'm actually really sorry to hear that emily i can understand that you'd be frustrated if you haven't heard back can i ask when the last time was that you did hear an update i don't know it feels like a really long time like at least eight weeks or so OK yeah that that shouldn't happen and let's look into that right now so we can sort things out for you if you have a few minutes i'm just going to ask you from the last couple of physios that you did how you felt things were going i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do honestly it's been like a year and a half and i don't feel like i've made any progress at all like i you know it's so disruptive to my life i go to treatment three times a week now i've been paying for it out of pocket the last two months and i'm not feeling any better OK i'm i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening so let's take care of that for you i'll get that information from you in a second but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist i'm just wondering why you were thinking you weren't able to go for a reason yeah they told me that the treatment was cut off by ACDC and i had to pay sorry who who told you that the physiotherapist i'm really sorry to hear that OK we can clear that up with them but there there are some sessions left but you know what i don't want you to have to worry about this you leave that with me i will contact your physiotherapist and follow up with you i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery is there anything else that's going on right now that i can help with yeah i mean you know whatever if my treatment is going to be cut off like you know that's annoying it's unfair because i still need treatment but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that ICBC doesn't supply compensation for your claim since we started with enhanced care we talked about this in the beginning of your claim so i wanted to make sure that you understand and please ask me any questions about it but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment you mentioned that you've been going to physio for about a year and a half so that's part of the benefits that you get with your claim and i know that we followed up with your doctor as well to check on your recovery and how you're doing those are are the things that we want to do to support you there isn't any compensation amount what there's no more compensation so i've been struggling with this injury i have been wasting all my time going to treatment and i'm not even going to get any money for it we we don't have compensation anymore emily that is correct OK whatever bye",
+        "itn": "hi may i speak to emily please yep this is emily hi emily this is bobby calling from ICBC how are you doing i'm OK i'm kind of busy what do you need oh i'm sorry to hear that is there a better time to reach her do you have a few minutes now to talk about your claim yeah i guess we can talk now if we have to OK and how are things going with you right now not good like every morning i wake up i'm in so much pain i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment my doctor agrees i need treatment too what's going on i'm actually really sorry to hear that emily i can understand that you'd be frustrated if you haven't heard back can i ask when the last time was that you did hear an update i don't know it feels like a really long time like at least eight weeks or so OK yeah that that shouldn't happen and let's look into that right now so we can sort things out for you if you have a few minutes i'm just going to ask you from the last couple of physios that you did how you felt things were going i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do honestly it's been like a year and a half and i don't feel like i've made any progress at all like i you know it's so disruptive to my life i go to treatment three times a week now i've been paying for it out of pocket the last two months and i'm not feeling any better OK i'm i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening so let's take care of that for you i'll get that information from you in a second but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist i'm just wondering why you were thinking you weren't able to go for a reason yeah they told me that the treatment was cut off by ACDC and i had to pay sorry who who told you that the physiotherapist i'm really sorry to hear that OK we can clear that up with them but there there are some sessions left but you know what i don't want you to have to worry about this you leave that with me i will contact your physiotherapist and follow up with you i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery is there anything else that's going on right now that i can help with yeah i mean you know whatever if my treatment is going to be cut off like you know that's annoying it's unfair because i still need treatment but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that ICBC doesn't supply compensation for your claim since we started with enhanced care we talked about this in the beginning of your claim so i wanted to make sure that you understand and please ask me any questions about it but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment you mentioned that you've been going to physio for about a year and a half so that's part of the benefits that you get with your claim and i know that we followed up with your doctor as well to check on your recovery and how you're doing those are are the things that we want to do to support you there isn't any compensation amount what there's no more compensation so i've been struggling with this injury i have been wasting all my time going to treatment and i'm not even going to get any money for it we we don't have compensation anymore emily that is correct OK whatever bye",
+        "maskedITN": "Hi May I speak to Emily please Yep this is Emily Hi Emily This is Bobby calling from ICBC How are you doing I'm OK I'm kind of busy What do you need Oh I'm sorry to hear that Is there a better time to reach her Do you have a few minutes now to talk about your claim Yeah I guess we can talk now if we have to OK And how are things going with you right now Not good Like every morning I wake up I'm in so much pain I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment My doctor agrees I need treatment too What's going on I'm actually really sorry to hear that Emily I can understand that you'd be frustrated if you haven't heard back Can I ask when the last time was that you did hear an update I don't know It feels like a really long time like at least eight weeks or so OK Yeah that that shouldn't happen And let's look into that right now so we can sort things out for you if you have a few minutes I'm just going to ask you from the last couple of physios that you did how you felt things were going I'm just looking at your file here and it looks like you were finding that it was a little bit helpful but I just wanted to check now to see what your thoughts were and see what we can do Honestly it's been like a year and a half and I don't feel like I've made any progress at all Like I you know it's so disruptive to my life I go to treatment three times a week now I've been paying for it out of pocket the last two months and I'm not feeling any better OK I'm I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening So let's take care of that for you I'll get that information from you in a second But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist I'm just wondering why you were thinking you weren't able to go for a reason Yeah They told me that the treatment was cut off by ACDC and I had to pay Sorry Who Who told you that The physiotherapist I'm really sorry to hear that OK we can clear that up with them But there there are some sessions left But you know what I don't want you to have to worry about this You leave that with me I will contact your physiotherapist and follow up with you I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery Is there anything else that's going on right now that I can help with Yeah I mean you know whatever If my treatment is going to be cut off like you know that's annoying It's unfair because I still need treatment But I guess you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today You know Emily I just wanted to clarify I know we've talked about this before as well but I just wanted to make sure that you are clear that we actually don't do that ICBC doesn't supply compensation for your claim since we started with enhanced care We talked about this in the beginning of your claim So I wanted to make sure that you understand and please ask me any questions about it But overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment You mentioned that you've been going to physio for about a year and a half So that's part of the benefits that you get with your claim And I know that we followed up with your doctor as well to check on your recovery and how you're doing Those are are the things that we want to do to support you There isn't any compensation amount What there's no more compensation So I've been struggling with this injury I have been wasting all my time going to treatment and I'm not even going to get any money for it We we don't have compensation anymore Emily that is correct OK whatever Bye",
+        "display": "Hi. May I speak to Emily, please? Yep, this is Emily. Hi, Emily. This is Bobby calling from ICBC. How are you doing? I'm OK. I'm kind of busy. What do you need? Oh, I'm sorry to hear that. Is there a better time to reach her? Do you have a few minutes now to talk about your claim? Yeah, I guess we can talk now if we have to. OK. And how are things going with you right now? Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment. My doctor agrees I need treatment too. What's going on? I'm actually really sorry to hear that, Emily. I can understand that you'd be frustrated if you haven't heard back. Can I ask, when the last time was that you did hear an update? I don't know. It feels like a really long time, like at least eight weeks or so. OK, Yeah, that that shouldn't happen. And let's look into that right now so we can sort things out for you if you have a few minutes. I'm just going to ask you from the last couple of physios that you did, how you felt things were going. I'm just looking at your file here and it looks like you were finding that it was a little bit helpful, but I just wanted to check now to see what your thoughts were and see what we can do. Honestly, it's been like a year and a half and I don't feel like I've made any progress at all. Like I, you know, it's so disruptive to my life. I go to treatment three times a week now. I've been paying for it out of pocket the last two months and I'm not feeling any better. OK, I'm. I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening. So let's take care of that for you. I'll get that information from you in a second. But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go. I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist. I'm just wondering why you were thinking you weren't able to go for a reason. Yeah. They told me that the treatment was cut off by ACDC and I had to pay. Sorry. Who? Who told you that? The physiotherapist. I'm really sorry to hear that. OK, we can clear that up with them. But there there are some sessions left. But you know what? I don't want you to have to worry about this. You leave that with me. I will contact your physiotherapist and follow up with you. I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery. Is there anything else that's going on right now that I can help with? Yeah, I mean, you know, whatever. If my treatment is going to be cut off, like, you know, that's annoying. It's unfair because I still need treatment. But I guess, you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today? You know, Emily, I just wanted to clarify, I know we've talked about this before as well, but I just wanted to make sure that you are clear that we actually don't do that. ICBC doesn't supply compensation for your claim since we started with enhanced care. We talked about this in the beginning of your claim. So I wanted to make sure that you understand and please ask me any questions about it. But overall what it is, is when you are in an accident, we want to make sure that we're doing everything to help you recover and that's including the treatment. You mentioned that you've been going to physio for about a year and a half. So that's part of the benefits that you get with your claim. And I know that we followed up with your doctor as well to check on your recovery and how you're doing. Those are are the things that we want to do to support you. There isn't any compensation amount. What there's no more compensation. So I've been struggling with this injury. I have been wasting all my time going to treatment and I'm not even going to get any money for it. We we don't have compensation anymore. Emily, that is correct. OK, whatever. Bye."
+      },
+      {
+        "channel": 1,
+        "lexical": "hi may i speak to emily please yep this is emily hi emily this is bobby calling from ICBC how are you doing i'm OK i'm kind of busy what do you need oh i'm sorry to hear that is there a better time to reach her do you have a few minutes now to talk about your claim yeah i guess we can talk now if we have to OK and how are things going with you right now not good like every morning i wake up i'm in so much pain i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment my doctor agrees i need treatment too what's going on i'm actually really sorry to hear that emily i can understand that you'd be frustrated if you haven't heard back can i ask when the last time was that you did hear an update i don't know it feels like a really long time like at least eight weeks or so OK yeah that that shouldn't happen and let's look into that right now so we can sort things out for you if you have a few minutes i'm just going to ask you from the last couple of physios that you did how you felt things were going i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do honestly it's been like a year and a half and i don't feel like i've made any progress at all like i you know it's so disruptive to my life i go to treatment three times a week now i've been paying for it out of pocket the last two months and i'm not feeling any better OK i'm i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening so let's take care of that for you i'll get that information from you in a second but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist i'm just wondering why you were thinking you weren't able to go for a reason yeah they told me that the treatment was cut off by ACDC and i had to pay sorry who who told you that the physiotherapist i'm really sorry to hear that OK we can clear that up with them but there there are some sessions left but you know what i don't want you to have to worry about this you leave that with me i will contact your physiotherapist and follow up with you i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery is there anything else that's going on right now that i can help with yeah i mean you know whatever if my treatment is going to be cut off like you know that's annoying it's unfair because i still need treatment but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that ICBC doesn't supply compensation for your claim since we started with enhanced care we talked about this in the beginning of your claim so i wanted to make sure that you understand and please ask me any questions about it but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment you mentioned that you've been going to physio for about a year and a half so that's part of the benefits that you get with your claim and i know that we followed up with your doctor as well to check on your recovery and how you're doing those are are the things that we want to do to support you there isn't any compensation amount what there's no more compensation so i've been struggling with this injury i have been wasting all my time going to treatment and i'm not even going to get any money for it we we don't have compensation anymore emily that is correct OK whatever bye",
+        "itn": "hi may i speak to emily please yep this is emily hi emily this is bobby calling from ICBC how are you doing i'm OK i'm kind of busy what do you need oh i'm sorry to hear that is there a better time to reach her do you have a few minutes now to talk about your claim yeah i guess we can talk now if we have to OK and how are things going with you right now not good like every morning i wake up i'm in so much pain i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment my doctor agrees i need treatment too what's going on i'm actually really sorry to hear that emily i can understand that you'd be frustrated if you haven't heard back can i ask when the last time was that you did hear an update i don't know it feels like a really long time like at least eight weeks or so OK yeah that that shouldn't happen and let's look into that right now so we can sort things out for you if you have a few minutes i'm just going to ask you from the last couple of physios that you did how you felt things were going i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do honestly it's been like a year and a half and i don't feel like i've made any progress at all like i you know it's so disruptive to my life i go to treatment three times a week now i've been paying for it out of pocket the last two months and i'm not feeling any better OK i'm i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening so let's take care of that for you i'll get that information from you in a second but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist i'm just wondering why you were thinking you weren't able to go for a reason yeah they told me that the treatment was cut off by ACDC and i had to pay sorry who who told you that the physiotherapist i'm really sorry to hear that OK we can clear that up with them but there there are some sessions left but you know what i don't want you to have to worry about this you leave that with me i will contact your physiotherapist and follow up with you i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery is there anything else that's going on right now that i can help with yeah i mean you know whatever if my treatment is going to be cut off like you know that's annoying it's unfair because i still need treatment but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that ICBC doesn't supply compensation for your claim since we started with enhanced care we talked about this in the beginning of your claim so i wanted to make sure that you understand and please ask me any questions about it but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment you mentioned that you've been going to physio for about a year and a half so that's part of the benefits that you get with your claim and i know that we followed up with your doctor as well to check on your recovery and how you're doing those are are the things that we want to do to support you there isn't any compensation amount what there's no more compensation so i've been struggling with this injury i have been wasting all my time going to treatment and i'm not even going to get any money for it we we don't have compensation anymore emily that is correct OK whatever bye",
+        "maskedITN": "Hi May I speak to Emily please Yep this is Emily Hi Emily This is Bobby calling from ICBC How are you doing I'm OK I'm kind of busy What do you need Oh I'm sorry to hear that Is there a better time to reach her Do you have a few minutes now to talk about your claim Yeah I guess we can talk now if we have to OK And how are things going with you right now Not good Like every morning I wake up I'm in so much pain I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment My doctor agrees I need treatment too What's going on I'm actually really sorry to hear that Emily I can understand that you'd be frustrated if you haven't heard back Can I ask when the last time was that you did hear an update I don't know It feels like a really long time like at least eight weeks or so OK Yeah that that shouldn't happen And let's look into that right now so we can sort things out for you if you have a few minutes I'm just going to ask you from the last couple of physios that you did how you felt things were going I'm just looking at your file here and it looks like you were finding that it was a little bit helpful but I just wanted to check now to see what your thoughts were and see what we can do Honestly it's been like a year and a half and I don't feel like I've made any progress at all Like I you know it's so disruptive to my life I go to treatment three times a week now I've been paying for it out of pocket the last two months and I'm not feeling any better OK I'm I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening So let's take care of that for you I'll get that information from you in a second But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist I'm just wondering why you were thinking you weren't able to go for a reason Yeah They told me that the treatment was cut off by ACDC and I had to pay Sorry Who Who told you that The physiotherapist I'm really sorry to hear that OK we can clear that up with them But there there are some sessions left But you know what I don't want you to have to worry about this You leave that with me I will contact your physiotherapist and follow up with you I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery Is there anything else that's going on right now that I can help with Yeah I mean you know whatever If my treatment is going to be cut off like you know that's annoying It's unfair because I still need treatment But I guess you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today You know Emily I just wanted to clarify I know we've talked about this before as well but I just wanted to make sure that you are clear that we actually don't do that ICBC doesn't supply compensation for your claim since we started with enhanced care We talked about this in the beginning of your claim So I wanted to make sure that you understand and please ask me any questions about it But overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment You mentioned that you've been going to physio for about a year and a half So that's part of the benefits that you get with your claim And I know that we followed up with your doctor as well to check on your recovery and how you're doing Those are are the things that we want to do to support you There isn't any compensation amount What there's no more compensation So I've been struggling with this injury I have been wasting all my time going to treatment and I'm not even going to get any money for it We we don't have compensation anymore Emily that is correct OK whatever Bye",
+        "display": "Hi. May I speak to Emily, please? Yep, this is Emily. Hi, Emily. This is Bobby calling from ICBC. How are you doing? I'm OK. I'm kind of busy. What do you need? Oh, I'm sorry to hear that. Is there a better time to reach her? Do you have a few minutes now to talk about your claim? Yeah, I guess we can talk now if we have to. OK. And how are things going with you right now? Not good. Like every morning I wake up, I'm in so much pain. I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment. My doctor agrees I need treatment too. What's going on? I'm actually really sorry to hear that, Emily. I can understand that you'd be frustrated if you haven't heard back. Can I ask, when the last time was that you did hear an update? I don't know. It feels like a really long time, like at least eight weeks or so. OK, Yeah, that that shouldn't happen. And let's look into that right now so we can sort things out for you if you have a few minutes. I'm just going to ask you from the last couple of physios that you did, how you felt things were going. I'm just looking at your file here and it looks like you were finding that it was a little bit helpful, but I just wanted to check now to see what your thoughts were and see what we can do. Honestly, it's been like a year and a half and I don't feel like I've made any progress at all. Like I, you know, it's so disruptive to my life. I go to treatment three times a week now. I've been paying for it out of pocket the last two months and I'm not feeling any better. OK, I'm. I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening. So let's take care of that for you. I'll get that information from you in a second. But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go. I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist. I'm just wondering why you were thinking you weren't able to go for a reason. Yeah. They told me that the treatment was cut off by ACDC and I had to pay. Sorry. Who? Who told you that? The physiotherapist. I'm really sorry to hear that. OK, we can clear that up with them. But there there are some sessions left. But you know what? I don't want you to have to worry about this. You leave that with me. I will contact your physiotherapist and follow up with you. I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery. Is there anything else that's going on right now that I can help with? Yeah, I mean, you know, whatever. If my treatment is going to be cut off, like, you know, that's annoying. It's unfair because I still need treatment. But I guess, you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today? You know, Emily, I just wanted to clarify, I know we've talked about this before as well, but I just wanted to make sure that you are clear that we actually don't do that. ICBC doesn't supply compensation for your claim since we started with enhanced care. We talked about this in the beginning of your claim. So I wanted to make sure that you understand and please ask me any questions about it. But overall what it is, is when you are in an accident, we want to make sure that we're doing everything to help you recover and that's including the treatment. You mentioned that you've been going to physio for about a year and a half. So that's part of the benefits that you get with your claim. And I know that we followed up with your doctor as well to check on your recovery and how you're doing. Those are are the things that we want to do to support you. There isn't any compensation amount. What there's no more compensation. So I've been struggling with this injury. I have been wasting all my time going to treatment and I'm not even going to get any money for it. We we don't have compensation anymore. Emily, that is correct. OK, whatever. Bye."
+      }
+    ],
+    "recognizedPhrases": [
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2.88S",
+        "duration": "PT0.28S",
+        "offsetInTicks": 28800000.0,
+        "durationInTicks": 2800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9437071,
+            "lexical": "hi",
+            "itn": "hi",
+            "maskedITN": "Hi",
+            "display": "Hi.",
+            "sentiment": {
+              "positive": 0.16,
+              "neutral": 0.8,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2.88S",
+        "duration": "PT0.28S",
+        "offsetInTicks": 28800000.0,
+        "durationInTicks": 2800000.0,
+        "nBest": [
+          {
+            "confidence": 0.93053186,
+            "lexical": "hi",
+            "itn": "hi",
+            "maskedITN": "Hi",
+            "display": "Hi.",
+            "sentiment": {
+              "positive": 0.16,
+              "neutral": 0.8,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3.16S",
+        "duration": "PT1.36S",
+        "offsetInTicks": 31600000.0,
+        "durationInTicks": 13600000.0,
+        "nBest": [
+          {
+            "confidence": 0.86563975,
+            "lexical": "may i speak to emily please",
+            "itn": "may i speak to emily please",
+            "maskedITN": "May I speak to Emily please",
+            "display": "May I speak to Emily, please?",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.86,
+              "negative": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3.16S",
+        "duration": "PT1.36S",
+        "offsetInTicks": 31600000.0,
+        "durationInTicks": 13600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8899218,
+            "lexical": "may i speak to emily please",
+            "itn": "may i speak to emily please",
+            "maskedITN": "May I speak to Emily please",
+            "display": "May I speak to Emily, please?",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.86,
+              "negative": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT4.68S",
+        "duration": "PT1.16S",
+        "offsetInTicks": 46800000.0,
+        "durationInTicks": 11600000.0,
+        "nBest": [
+          {
+            "confidence": 0.7512417,
+            "lexical": "yep this is emily",
+            "itn": "yep this is emily",
+            "maskedITN": "Yep this is Emily",
+            "display": "Yep, this is Emily.",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.94,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT4.68S",
+        "duration": "PT1.16S",
+        "offsetInTicks": 46800000.0,
+        "durationInTicks": 11600000.0,
+        "nBest": [
+          {
+            "confidence": 0.72893906,
+            "lexical": "yep this is emily",
+            "itn": "yep this is emily",
+            "maskedITN": "Yep this is Emily",
+            "display": "Yep, this is Emily.",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.94,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT6.24S",
+        "duration": "PT0.72S",
+        "offsetInTicks": 62400000.0,
+        "durationInTicks": 7200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9092696,
+            "lexical": "hi emily",
+            "itn": "hi emily",
+            "maskedITN": "Hi Emily",
+            "display": "Hi, Emily.",
+            "sentiment": {
+              "positive": 0.19,
+              "neutral": 0.76,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT6.24S",
+        "duration": "PT0.72S",
+        "offsetInTicks": 62400000.0,
+        "durationInTicks": 7200000.0,
+        "nBest": [
+          {
+            "confidence": 0.927262,
+            "lexical": "hi emily",
+            "itn": "hi emily",
+            "maskedITN": "Hi Emily",
+            "display": "Hi, Emily.",
+            "sentiment": {
+              "positive": 0.19,
+              "neutral": 0.76,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT6.96S",
+        "duration": "PT1.72S",
+        "offsetInTicks": 69600000.0,
+        "durationInTicks": 17200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9051591,
+            "lexical": "this is bobby calling from ICBC",
+            "itn": "this is bobby calling from ICBC",
+            "maskedITN": "This is Bobby calling from ICBC",
+            "display": "This is Bobby calling from ICBC.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.99,
+              "negative": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT6.96S",
+        "duration": "PT1.72S",
+        "offsetInTicks": 69600000.0,
+        "durationInTicks": 17200000.0,
+        "nBest": [
+          {
+            "confidence": 0.90150267,
+            "lexical": "this is bobby calling from ICBC",
+            "itn": "this is bobby calling from ICBC",
+            "maskedITN": "This is Bobby calling from ICBC",
+            "display": "This is Bobby calling from ICBC.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.99,
+              "negative": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT8.68S",
+        "duration": "PT0.76S",
+        "offsetInTicks": 86800000.0,
+        "durationInTicks": 7600000.0,
+        "nBest": [
+          {
+            "confidence": 0.97374713,
+            "lexical": "how are you doing",
+            "itn": "how are you doing",
+            "maskedITN": "How are you doing",
+            "display": "How are you doing?",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.88,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT8.68S",
+        "duration": "PT0.76S",
+        "offsetInTicks": 86800000.0,
+        "durationInTicks": 7600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9709842,
+            "lexical": "how are you doing",
+            "itn": "how are you doing",
+            "maskedITN": "How are you doing",
+            "display": "How are you doing?",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.88,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT10.92S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 109200000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.94321966,
+            "lexical": "i'm OK",
+            "itn": "i'm OK",
+            "maskedITN": "I'm OK",
+            "display": "I'm OK.",
+            "sentiment": {
+              "positive": 0.2,
+              "neutral": 0.71,
+              "negative": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT10.96S",
+        "duration": "PT0.4S",
+        "offsetInTicks": 109600000.0,
+        "durationInTicks": 4000000.0,
+        "nBest": [
+          {
+            "confidence": 0.93666327,
+            "lexical": "i'm OK",
+            "itn": "i'm OK",
+            "maskedITN": "I'm OK",
+            "display": "I'm OK.",
+            "sentiment": {
+              "positive": 0.2,
+              "neutral": 0.71,
+              "negative": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT11.36S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 113600000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9090486,
+            "lexical": "i'm kind of busy",
+            "itn": "i'm kind of busy",
+            "maskedITN": "I'm kind of busy",
+            "display": "I'm kind of busy.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.72,
+              "negative": 0.23
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT11.36S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 113600000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.90496814,
+            "lexical": "i'm kind of busy",
+            "itn": "i'm kind of busy",
+            "maskedITN": "I'm kind of busy",
+            "display": "I'm kind of busy.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.72,
+              "negative": 0.23
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT12.24S",
+        "duration": "PT0.64S",
+        "offsetInTicks": 122400000.0,
+        "durationInTicks": 6400000.0,
+        "nBest": [
+          {
+            "confidence": 0.95850545,
+            "lexical": "what do you need",
+            "itn": "what do you need",
+            "maskedITN": "What do you need",
+            "display": "What do you need?",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.94,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT12.24S",
+        "duration": "PT0.64S",
+        "offsetInTicks": 122400000.0,
+        "durationInTicks": 6400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9622505,
+            "lexical": "what do you need",
+            "itn": "what do you need",
+            "maskedITN": "What do you need",
+            "display": "What do you need?",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.94,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT13.64S",
+        "duration": "PT1.28S",
+        "offsetInTicks": 136400000.0,
+        "durationInTicks": 12800000.0,
+        "nBest": [
+          {
+            "confidence": 0.7997146,
+            "lexical": "oh i'm sorry to hear that",
+            "itn": "oh i'm sorry to hear that",
+            "maskedITN": "Oh I'm sorry to hear that",
+            "display": "Oh, I'm sorry to hear that.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.05,
+              "negative": 0.92
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT13.64S",
+        "duration": "PT1.28S",
+        "offsetInTicks": 136400000.0,
+        "durationInTicks": 12800000.0,
+        "nBest": [
+          {
+            "confidence": 0.7997102,
+            "lexical": "oh i'm sorry to hear that",
+            "itn": "oh i'm sorry to hear that",
+            "maskedITN": "Oh I'm sorry to hear that",
+            "display": "Oh, I'm sorry to hear that.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.05,
+              "negative": 0.92
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT14.92S",
+        "duration": "PT1.2S",
+        "offsetInTicks": 149200000.0,
+        "durationInTicks": 12000000.0,
+        "nBest": [
+          {
+            "confidence": 0.87947285,
+            "lexical": "is there a better time to reach her",
+            "itn": "is there a better time to reach her",
+            "maskedITN": "Is there a better time to reach her",
+            "display": "Is there a better time to reach her?",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.91,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT14.92S",
+        "duration": "PT1.2S",
+        "offsetInTicks": 149200000.0,
+        "durationInTicks": 12000000.0,
+        "nBest": [
+          {
+            "confidence": 0.90727335,
+            "lexical": "is there a better time to reach her",
+            "itn": "is there a better time to reach her",
+            "maskedITN": "Is there a better time to reach her",
+            "display": "Is there a better time to reach her?",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.91,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT16.12S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 161200000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9318125,
+            "lexical": "do you have a few minutes now to talk about your claim",
+            "itn": "do you have a few minutes now to talk about your claim",
+            "maskedITN": "Do you have a few minutes now to talk about your claim",
+            "display": "Do you have a few minutes now to talk about your claim?",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT16.12S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 161200000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.93921983,
+            "lexical": "do you have a few minutes now to talk about your claim",
+            "itn": "do you have a few minutes now to talk about your claim",
+            "maskedITN": "Do you have a few minutes now to talk about your claim",
+            "display": "Do you have a few minutes now to talk about your claim?",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT18.2S",
+        "duration": "PT2.44S",
+        "offsetInTicks": 182000000.0,
+        "durationInTicks": 24400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9638122,
+            "lexical": "yeah i guess we can talk now if we have to",
+            "itn": "yeah i guess we can talk now if we have to",
+            "maskedITN": "Yeah I guess we can talk now if we have to",
+            "display": "Yeah, I guess we can talk now if we have to.",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.93,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT18.2S",
+        "duration": "PT2.44S",
+        "offsetInTicks": 182000000.0,
+        "durationInTicks": 24400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9651416,
+            "lexical": "yeah i guess we can talk now if we have to",
+            "itn": "yeah i guess we can talk now if we have to",
+            "maskedITN": "Yeah I guess we can talk now if we have to",
+            "display": "Yeah, I guess we can talk now if we have to.",
+            "sentiment": {
+              "positive": 0.06,
+              "neutral": 0.93,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT21.96S",
+        "duration": "PT0.56S",
+        "offsetInTicks": 219600000.0,
+        "durationInTicks": 5600000.0,
+        "nBest": [
+          {
+            "confidence": 0.7774918,
+            "lexical": "OK",
+            "itn": "OK",
+            "maskedITN": "OK",
+            "display": "OK.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.9,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT21.96S",
+        "duration": "PT0.56S",
+        "offsetInTicks": 219600000.0,
+        "durationInTicks": 5600000.0,
+        "nBest": [
+          {
+            "confidence": 0.79460377,
+            "lexical": "OK",
+            "itn": "OK",
+            "maskedITN": "OK",
+            "display": "OK.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.9,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT22.52S",
+        "duration": "PT2.08S",
+        "offsetInTicks": 225200000.0,
+        "durationInTicks": 20800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9755057,
+            "lexical": "and how are things going with you right now",
+            "itn": "and how are things going with you right now",
+            "maskedITN": "And how are things going with you right now",
+            "display": "And how are things going with you right now?",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.94,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT22.52S",
+        "duration": "PT2.08S",
+        "offsetInTicks": 225200000.0,
+        "durationInTicks": 20800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9768235,
+            "lexical": "and how are things going with you right now",
+            "itn": "and how are things going with you right now",
+            "maskedITN": "And how are things going with you right now",
+            "display": "And how are things going with you right now?",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.94,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT24.8S",
+        "duration": "PT0.8S",
+        "offsetInTicks": 248000000.0,
+        "durationInTicks": 8000000.0,
+        "nBest": [
+          {
+            "confidence": 0.9690535,
+            "lexical": "not good",
+            "itn": "not good",
+            "maskedITN": "Not good",
+            "display": "Not good.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.01,
+              "negative": 0.98
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT24.8S",
+        "duration": "PT0.8S",
+        "offsetInTicks": 248000000.0,
+        "durationInTicks": 8000000.0,
+        "nBest": [
+          {
+            "confidence": 0.970397,
+            "lexical": "not good",
+            "itn": "not good",
+            "maskedITN": "Not good",
+            "display": "Not good.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.01,
+              "negative": 0.98
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT25.6S",
+        "duration": "PT3.12S",
+        "offsetInTicks": 256000000.0,
+        "durationInTicks": 31200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9681473,
+            "lexical": "like every morning i wake up i'm in so much pain",
+            "itn": "like every morning i wake up i'm in so much pain",
+            "maskedITN": "Like every morning I wake up I'm in so much pain",
+            "display": "Like every morning I wake up, I'm in so much pain.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.05,
+              "negative": 0.94
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT25.6S",
+        "duration": "PT3.12S",
+        "offsetInTicks": 256000000.0,
+        "durationInTicks": 31200000.0,
+        "nBest": [
+          {
+            "confidence": 0.97015387,
+            "lexical": "like every morning i wake up i'm in so much pain",
+            "itn": "like every morning i wake up i'm in so much pain",
+            "maskedITN": "Like every morning I wake up I'm in so much pain",
+            "display": "Like every morning I wake up, I'm in so much pain.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.05,
+              "negative": 0.94
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT29.08S",
+        "duration": "PT7.12S",
+        "offsetInTicks": 290800000.0,
+        "durationInTicks": 71200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9306106,
+            "lexical": "i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment",
+            "itn": "i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment",
+            "maskedITN": "I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment",
+            "display": "I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.91,
+              "negative": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT29.08S",
+        "duration": "PT7.12S",
+        "offsetInTicks": 290800000.0,
+        "durationInTicks": 71200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9306106,
+            "lexical": "i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment",
+            "itn": "i know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like i need treatment",
+            "maskedITN": "I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment",
+            "display": "I know that my physio and my massage therapist has put a new treatment plan in and haven't heard anything like I need treatment.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.91,
+              "negative": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT36.2S",
+        "duration": "PT1.96S",
+        "offsetInTicks": 362000000.0,
+        "durationInTicks": 19600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8742485,
+            "lexical": "my doctor agrees i need treatment too",
+            "itn": "my doctor agrees i need treatment too",
+            "maskedITN": "My doctor agrees I need treatment too",
+            "display": "My doctor agrees I need treatment too.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.8,
+              "negative": 0.17
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT36.2S",
+        "duration": "PT1.96S",
+        "offsetInTicks": 362000000.0,
+        "durationInTicks": 19600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8742485,
+            "lexical": "my doctor agrees i need treatment too",
+            "itn": "my doctor agrees i need treatment too",
+            "maskedITN": "My doctor agrees I need treatment too",
+            "display": "My doctor agrees I need treatment too.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.8,
+              "negative": 0.17
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT38.16S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 381600000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.96910393,
+            "lexical": "what's going on",
+            "itn": "what's going on",
+            "maskedITN": "What's going on",
+            "display": "What's going on?",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.76,
+              "negative": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT38.16S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 381600000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.96910393,
+            "lexical": "what's going on",
+            "itn": "what's going on",
+            "maskedITN": "What's going on",
+            "display": "What's going on?",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.76,
+              "negative": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT39.08S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 390800000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.89951,
+            "lexical": "i'm actually really sorry to hear that emily",
+            "itn": "i'm actually really sorry to hear that emily",
+            "maskedITN": "I'm actually really sorry to hear that Emily",
+            "display": "I'm actually really sorry to hear that, Emily.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.06,
+              "negative": 0.92
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT39.08S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 390800000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.89951,
+            "lexical": "i'm actually really sorry to hear that emily",
+            "itn": "i'm actually really sorry to hear that emily",
+            "maskedITN": "I'm actually really sorry to hear that Emily",
+            "display": "I'm actually really sorry to hear that, Emily.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.06,
+              "negative": 0.92
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT41.12S",
+        "duration": "PT3.2S",
+        "offsetInTicks": 411200000.0,
+        "durationInTicks": 32000000.0,
+        "nBest": [
+          {
+            "confidence": 0.88941836,
+            "lexical": "i can understand that you'd be frustrated if you haven't heard back",
+            "itn": "i can understand that you'd be frustrated if you haven't heard back",
+            "maskedITN": "I can understand that you'd be frustrated if you haven't heard back",
+            "display": "I can understand that you'd be frustrated if you haven't heard back.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.18,
+              "negative": 0.8
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT41.12S",
+        "duration": "PT3.2S",
+        "offsetInTicks": 411200000.0,
+        "durationInTicks": 32000000.0,
+        "nBest": [
+          {
+            "confidence": 0.88941836,
+            "lexical": "i can understand that you'd be frustrated if you haven't heard back",
+            "itn": "i can understand that you'd be frustrated if you haven't heard back",
+            "maskedITN": "I can understand that you'd be frustrated if you haven't heard back",
+            "display": "I can understand that you'd be frustrated if you haven't heard back.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.18,
+              "negative": 0.8
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT45.4S",
+        "duration": "PT3.52S",
+        "offsetInTicks": 454000000.0,
+        "durationInTicks": 35200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9195928,
+            "lexical": "can i ask when the last time was that you did hear an update",
+            "itn": "can i ask when the last time was that you did hear an update",
+            "maskedITN": "Can I ask when the last time was that you did hear an update",
+            "display": "Can I ask, when the last time was that you did hear an update?",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.97,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT45.4S",
+        "duration": "PT3.52S",
+        "offsetInTicks": 454000000.0,
+        "durationInTicks": 35200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9195928,
+            "lexical": "can i ask when the last time was that you did hear an update",
+            "itn": "can i ask when the last time was that you did hear an update",
+            "maskedITN": "Can I ask when the last time was that you did hear an update",
+            "display": "Can I ask, when the last time was that you did hear an update?",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.97,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT50.6S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 506000000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9631167,
+            "lexical": "i don't know",
+            "itn": "i don't know",
+            "maskedITN": "I don't know",
+            "display": "I don't know.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.9,
+              "negative": 0.09
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT50.6S",
+        "duration": "PT0.44S",
+        "offsetInTicks": 506000000.0,
+        "durationInTicks": 4400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9631167,
+            "lexical": "i don't know",
+            "itn": "i don't know",
+            "maskedITN": "I don't know",
+            "display": "I don't know.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.9,
+              "negative": 0.09
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT51.04S",
+        "duration": "PT3.28S",
+        "offsetInTicks": 510400000.0,
+        "durationInTicks": 32800000.0,
+        "nBest": [
+          {
+            "confidence": 0.936815,
+            "lexical": "it feels like a really long time like at least eight weeks or so",
+            "itn": "it feels like a really long time like at least eight weeks or so",
+            "maskedITN": "It feels like a really long time like at least eight weeks or so",
+            "display": "It feels like a really long time, like at least eight weeks or so.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.86,
+              "negative": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT51.04S",
+        "duration": "PT3.28S",
+        "offsetInTicks": 510400000.0,
+        "durationInTicks": 32800000.0,
+        "nBest": [
+          {
+            "confidence": 0.936815,
+            "lexical": "it feels like a really long time like at least eight weeks or so",
+            "itn": "it feels like a really long time like at least eight weeks or so",
+            "maskedITN": "It feels like a really long time like at least eight weeks or so",
+            "display": "It feels like a really long time, like at least eight weeks or so.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.86,
+              "negative": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT54.52S",
+        "duration": "PT1.96S",
+        "offsetInTicks": 545200000.0,
+        "durationInTicks": 19600000.0,
+        "nBest": [
+          {
+            "confidence": 0.80114144,
+            "lexical": "OK yeah that that shouldn't happen",
+            "itn": "OK yeah that that shouldn't happen",
+            "maskedITN": "OK Yeah that that shouldn't happen",
+            "display": "OK, Yeah, that that shouldn't happen.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.68,
+              "negative": 0.21
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT54.52S",
+        "duration": "PT1.96S",
+        "offsetInTicks": 545200000.0,
+        "durationInTicks": 19600000.0,
+        "nBest": [
+          {
+            "confidence": 0.80114144,
+            "lexical": "OK yeah that that shouldn't happen",
+            "itn": "OK yeah that that shouldn't happen",
+            "maskedITN": "OK Yeah that that shouldn't happen",
+            "display": "OK, Yeah, that that shouldn't happen.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.68,
+              "negative": 0.21
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT56.48S",
+        "duration": "PT4.6S",
+        "offsetInTicks": 564800000.0,
+        "durationInTicks": 46000000.0,
+        "nBest": [
+          {
+            "confidence": 0.9124719,
+            "lexical": "and let's look into that right now so we can sort things out for you if you have a few minutes",
+            "itn": "and let's look into that right now so we can sort things out for you if you have a few minutes",
+            "maskedITN": "And let's look into that right now so we can sort things out for you if you have a few minutes",
+            "display": "And let's look into that right now so we can sort things out for you if you have a few minutes.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.9,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT56.48S",
+        "duration": "PT4.6S",
+        "offsetInTicks": 564800000.0,
+        "durationInTicks": 46000000.0,
+        "nBest": [
+          {
+            "confidence": 0.9124719,
+            "lexical": "and let's look into that right now so we can sort things out for you if you have a few minutes",
+            "itn": "and let's look into that right now so we can sort things out for you if you have a few minutes",
+            "maskedITN": "And let's look into that right now so we can sort things out for you if you have a few minutes",
+            "display": "And let's look into that right now so we can sort things out for you if you have a few minutes.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.9,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M1.52S",
+        "duration": "PT6.44S",
+        "offsetInTicks": 615200000.0,
+        "durationInTicks": 64400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9074248,
+            "lexical": "i'm just going to ask you from the last couple of physios that you did how you felt things were going",
+            "itn": "i'm just going to ask you from the last couple of physios that you did how you felt things were going",
+            "maskedITN": "I'm just going to ask you from the last couple of physios that you did how you felt things were going",
+            "display": "I'm just going to ask you from the last couple of physios that you did, how you felt things were going.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M1.52S",
+        "duration": "PT6.44S",
+        "offsetInTicks": 615200000.0,
+        "durationInTicks": 64400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9074248,
+            "lexical": "i'm just going to ask you from the last couple of physios that you did how you felt things were going",
+            "itn": "i'm just going to ask you from the last couple of physios that you did how you felt things were going",
+            "maskedITN": "I'm just going to ask you from the last couple of physios that you did how you felt things were going",
+            "display": "I'm just going to ask you from the last couple of physios that you did, how you felt things were going.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M7.96S",
+        "duration": "PT11.24S",
+        "offsetInTicks": 679600000.0,
+        "durationInTicks": 112400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9559715,
+            "lexical": "i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do",
+            "itn": "i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do",
+            "maskedITN": "I'm just looking at your file here and it looks like you were finding that it was a little bit helpful but I just wanted to check now to see what your thoughts were and see what we can do",
+            "display": "I'm just looking at your file here and it looks like you were finding that it was a little bit helpful, but I just wanted to check now to see what your thoughts were and see what we can do.",
+            "sentiment": {
+              "positive": 0.29,
+              "neutral": 0.67,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M7.96S",
+        "duration": "PT11.24S",
+        "offsetInTicks": 679600000.0,
+        "durationInTicks": 112400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9559715,
+            "lexical": "i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do",
+            "itn": "i'm just looking at your file here and it looks like you were finding that it was a little bit helpful but i just wanted to check now to see what your thoughts were and see what we can do",
+            "maskedITN": "I'm just looking at your file here and it looks like you were finding that it was a little bit helpful but I just wanted to check now to see what your thoughts were and see what we can do",
+            "display": "I'm just looking at your file here and it looks like you were finding that it was a little bit helpful, but I just wanted to check now to see what your thoughts were and see what we can do.",
+            "sentiment": {
+              "positive": 0.29,
+              "neutral": 0.67,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M19.68S",
+        "duration": "PT5.04S",
+        "offsetInTicks": 796800000.0,
+        "durationInTicks": 50400000.0,
+        "nBest": [
+          {
+            "confidence": 0.97040397,
+            "lexical": "honestly it's been like a year and a half and i don't feel like i've made any progress at all",
+            "itn": "honestly it's been like a year and a half and i don't feel like i've made any progress at all",
+            "maskedITN": "Honestly it's been like a year and a half and I don't feel like I've made any progress at all",
+            "display": "Honestly, it's been like a year and a half and I don't feel like I've made any progress at all.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.41,
+              "negative": 0.58
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M19.68S",
+        "duration": "PT5.04S",
+        "offsetInTicks": 796800000.0,
+        "durationInTicks": 50400000.0,
+        "nBest": [
+          {
+            "confidence": 0.97040397,
+            "lexical": "honestly it's been like a year and a half and i don't feel like i've made any progress at all",
+            "itn": "honestly it's been like a year and a half and i don't feel like i've made any progress at all",
+            "maskedITN": "Honestly it's been like a year and a half and I don't feel like I've made any progress at all",
+            "display": "Honestly, it's been like a year and a half and I don't feel like I've made any progress at all.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.41,
+              "negative": 0.58
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M25.28S",
+        "duration": "PT2.48S",
+        "offsetInTicks": 852800000.0,
+        "durationInTicks": 24800000.0,
+        "nBest": [
+          {
+            "confidence": 0.8923666,
+            "lexical": "like i you know it's so disruptive to my life",
+            "itn": "like i you know it's so disruptive to my life",
+            "maskedITN": "Like I you know it's so disruptive to my life",
+            "display": "Like I, you know, it's so disruptive to my life.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.3,
+              "negative": 0.66
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M25.28S",
+        "duration": "PT2.48S",
+        "offsetInTicks": 852800000.0,
+        "durationInTicks": 24800000.0,
+        "nBest": [
+          {
+            "confidence": 0.8923666,
+            "lexical": "like i you know it's so disruptive to my life",
+            "itn": "like i you know it's so disruptive to my life",
+            "maskedITN": "Like I you know it's so disruptive to my life",
+            "display": "Like I, you know, it's so disruptive to my life.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.3,
+              "negative": 0.66
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M27.76S",
+        "duration": "PT2.44S",
+        "offsetInTicks": 877600000.0,
+        "durationInTicks": 24400000.0,
+        "nBest": [
+          {
+            "confidence": 0.97499484,
+            "lexical": "i go to treatment three times a week now",
+            "itn": "i go to treatment three times a week now",
+            "maskedITN": "I go to treatment three times a week now",
+            "display": "I go to treatment three times a week now.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M27.76S",
+        "duration": "PT2.44S",
+        "offsetInTicks": 877600000.0,
+        "durationInTicks": 24400000.0,
+        "nBest": [
+          {
+            "confidence": 0.97499484,
+            "lexical": "i go to treatment three times a week now",
+            "itn": "i go to treatment three times a week now",
+            "maskedITN": "I go to treatment three times a week now",
+            "display": "I go to treatment three times a week now.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M30.2S",
+        "duration": "PT6.28S",
+        "offsetInTicks": 902000000.0,
+        "durationInTicks": 62800000.0,
+        "nBest": [
+          {
+            "confidence": 0.96435344,
+            "lexical": "i've been paying for it out of pocket the last two months and i'm not feeling any better",
+            "itn": "i've been paying for it out of pocket the last two months and i'm not feeling any better",
+            "maskedITN": "I've been paying for it out of pocket the last two months and I'm not feeling any better",
+            "display": "I've been paying for it out of pocket the last two months and I'm not feeling any better.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.04,
+              "negative": 0.95
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M30.2S",
+        "duration": "PT6.28S",
+        "offsetInTicks": 902000000.0,
+        "durationInTicks": 62800000.0,
+        "nBest": [
+          {
+            "confidence": 0.96435344,
+            "lexical": "i've been paying for it out of pocket the last two months and i'm not feeling any better",
+            "itn": "i've been paying for it out of pocket the last two months and i'm not feeling any better",
+            "maskedITN": "I've been paying for it out of pocket the last two months and I'm not feeling any better",
+            "display": "I've been paying for it out of pocket the last two months and I'm not feeling any better.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.04,
+              "negative": 0.95
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M36.6S",
+        "duration": "PT0.96S",
+        "offsetInTicks": 966000000.0,
+        "durationInTicks": 9600000.0,
+        "nBest": [
+          {
+            "confidence": 0.76494753,
+            "lexical": "OK i'm",
+            "itn": "OK i'm",
+            "maskedITN": "OK I'm",
+            "display": "OK, I'm.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.92,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M36.6S",
+        "duration": "PT0.96S",
+        "offsetInTicks": 966000000.0,
+        "durationInTicks": 9600000.0,
+        "nBest": [
+          {
+            "confidence": 0.76494753,
+            "lexical": "OK i'm",
+            "itn": "OK i'm",
+            "maskedITN": "OK I'm",
+            "display": "OK, I'm.",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.92,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M37.84S",
+        "duration": "PT5.28S",
+        "offsetInTicks": 978400000.0,
+        "durationInTicks": 52800000.0,
+        "nBest": [
+          {
+            "confidence": 0.79559684,
+            "lexical": "i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening",
+            "itn": "i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening",
+            "maskedITN": "I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening",
+            "display": "I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.06,
+              "negative": 0.92
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M37.84S",
+        "duration": "PT5.28S",
+        "offsetInTicks": 978400000.0,
+        "durationInTicks": 52800000.0,
+        "nBest": [
+          {
+            "confidence": 0.79559684,
+            "lexical": "i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening",
+            "itn": "i'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening",
+            "maskedITN": "I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening",
+            "display": "I'm sorry again to hear about the your paying out of pocket that technically we that shouldn't be happening.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.06,
+              "negative": 0.92
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M43.12S",
+        "duration": "PT1.36S",
+        "offsetInTicks": 1031200000.0,
+        "durationInTicks": 13600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9669555,
+            "lexical": "so let's take care of that for you",
+            "itn": "so let's take care of that for you",
+            "maskedITN": "So let's take care of that for you",
+            "display": "So let's take care of that for you.",
+            "sentiment": {
+              "positive": 0.26,
+              "neutral": 0.72,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M43.12S",
+        "duration": "PT1.36S",
+        "offsetInTicks": 1031200000.0,
+        "durationInTicks": 13600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9669555,
+            "lexical": "so let's take care of that for you",
+            "itn": "so let's take care of that for you",
+            "maskedITN": "So let's take care of that for you",
+            "display": "So let's take care of that for you.",
+            "sentiment": {
+              "positive": 0.26,
+              "neutral": 0.72,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M44.48S",
+        "duration": "PT2.68S",
+        "offsetInTicks": 1044800000.0,
+        "durationInTicks": 26800000.0,
+        "nBest": [
+          {
+            "confidence": 0.96166503,
+            "lexical": "i'll get that information from you in a second",
+            "itn": "i'll get that information from you in a second",
+            "maskedITN": "I'll get that information from you in a second",
+            "display": "I'll get that information from you in a second.",
+            "sentiment": {
+              "positive": 0.17,
+              "neutral": 0.81,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M44.48S",
+        "duration": "PT2.68S",
+        "offsetInTicks": 1044800000.0,
+        "durationInTicks": 26800000.0,
+        "nBest": [
+          {
+            "confidence": 0.96166503,
+            "lexical": "i'll get that information from you in a second",
+            "itn": "i'll get that information from you in a second",
+            "maskedITN": "I'll get that information from you in a second",
+            "display": "I'll get that information from you in a second.",
+            "sentiment": {
+              "positive": 0.17,
+              "neutral": 0.81,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M47.16S",
+        "duration": "PT5.32S",
+        "offsetInTicks": 1071600000.0,
+        "durationInTicks": 53200000.0,
+        "nBest": [
+          {
+            "confidence": 0.94222295,
+            "lexical": "but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go",
+            "itn": "but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go",
+            "maskedITN": "But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go",
+            "display": "But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.34,
+              "negative": 0.64
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M47.16S",
+        "duration": "PT5.32S",
+        "offsetInTicks": 1071600000.0,
+        "durationInTicks": 53200000.0,
+        "nBest": [
+          {
+            "confidence": 0.94222295,
+            "lexical": "but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go",
+            "itn": "but also i'm i'm a little concerned for you about your treatment and that you haven't been able to go",
+            "maskedITN": "But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go",
+            "display": "But also I'm I'm a little concerned for you about your treatment and that you haven't been able to go.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.34,
+              "negative": 0.64
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M53.6S",
+        "duration": "PT7.36S",
+        "offsetInTicks": 1136000000.0,
+        "durationInTicks": 73600000.0,
+        "nBest": [
+          {
+            "confidence": 0.95112085,
+            "lexical": "i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist",
+            "itn": "i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist",
+            "maskedITN": "I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist",
+            "display": "I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT1M53.6S",
+        "duration": "PT7.36S",
+        "offsetInTicks": 1136000000.0,
+        "durationInTicks": 73600000.0,
+        "nBest": [
+          {
+            "confidence": 0.95112085,
+            "lexical": "i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist",
+            "itn": "i'm looking at the information i have here and it looks like you still have some sessions left with your physiotherapist",
+            "maskedITN": "I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist",
+            "display": "I'm looking at the information I have here and it looks like you still have some sessions left with your physiotherapist.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M1.24S",
+        "duration": "PT5.84S",
+        "offsetInTicks": 1212400000.0,
+        "durationInTicks": 58400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8066553,
+            "lexical": "i'm just wondering why you were thinking you weren't able to go for a reason",
+            "itn": "i'm just wondering why you were thinking you weren't able to go for a reason",
+            "maskedITN": "I'm just wondering why you were thinking you weren't able to go for a reason",
+            "display": "I'm just wondering why you were thinking you weren't able to go for a reason.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.69,
+              "negative": 0.29
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M1.24S",
+        "duration": "PT5.84S",
+        "offsetInTicks": 1212400000.0,
+        "durationInTicks": 58400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8066553,
+            "lexical": "i'm just wondering why you were thinking you weren't able to go for a reason",
+            "itn": "i'm just wondering why you were thinking you weren't able to go for a reason",
+            "maskedITN": "I'm just wondering why you were thinking you weren't able to go for a reason",
+            "display": "I'm just wondering why you were thinking you weren't able to go for a reason.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.69,
+              "negative": 0.29
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M7.28S",
+        "duration": "PT0.28S",
+        "offsetInTicks": 1272800000.0,
+        "durationInTicks": 2800000.0,
+        "nBest": [
+          {
+            "confidence": 0.8655474,
+            "lexical": "yeah",
+            "itn": "yeah",
+            "maskedITN": "Yeah",
+            "display": "Yeah.",
+            "sentiment": {
+              "positive": 0.15,
+              "neutral": 0.81,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M7.28S",
+        "duration": "PT0.28S",
+        "offsetInTicks": 1272800000.0,
+        "durationInTicks": 2800000.0,
+        "nBest": [
+          {
+            "confidence": 0.8655474,
+            "lexical": "yeah",
+            "itn": "yeah",
+            "maskedITN": "Yeah",
+            "display": "Yeah.",
+            "sentiment": {
+              "positive": 0.15,
+              "neutral": 0.81,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M7.6S",
+        "duration": "PT3.28S",
+        "offsetInTicks": 1276000000.0,
+        "durationInTicks": 32800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9107346,
+            "lexical": "they told me that the treatment was cut off by ACDC and i had to pay",
+            "itn": "they told me that the treatment was cut off by ACDC and i had to pay",
+            "maskedITN": "They told me that the treatment was cut off by ACDC and I had to pay",
+            "display": "They told me that the treatment was cut off by ACDC and I had to pay.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.52,
+              "negative": 0.47
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M7.6S",
+        "duration": "PT3.28S",
+        "offsetInTicks": 1276000000.0,
+        "durationInTicks": 32800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9107346,
+            "lexical": "they told me that the treatment was cut off by ACDC and i had to pay",
+            "itn": "they told me that the treatment was cut off by ACDC and i had to pay",
+            "maskedITN": "They told me that the treatment was cut off by ACDC and I had to pay",
+            "display": "They told me that the treatment was cut off by ACDC and I had to pay.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.52,
+              "negative": 0.47
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M11.32S",
+        "duration": "PT0.32S",
+        "offsetInTicks": 1313200000.0,
+        "durationInTicks": 3200000.0,
+        "nBest": [
+          {
+            "confidence": 0.8417847,
+            "lexical": "sorry",
+            "itn": "sorry",
+            "maskedITN": "Sorry",
+            "display": "Sorry.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.15,
+              "negative": 0.81
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M11.32S",
+        "duration": "PT0.32S",
+        "offsetInTicks": 1313200000.0,
+        "durationInTicks": 3200000.0,
+        "nBest": [
+          {
+            "confidence": 0.8417847,
+            "lexical": "sorry",
+            "itn": "sorry",
+            "maskedITN": "Sorry",
+            "display": "Sorry.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.15,
+              "negative": 0.81
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M11.64S",
+        "duration": "PT0.24S",
+        "offsetInTicks": 1316400000.0,
+        "durationInTicks": 2400000.0,
+        "nBest": [
+          {
+            "confidence": 0.6634989,
+            "lexical": "who",
+            "itn": "who",
+            "maskedITN": "Who",
+            "display": "Who?",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.9,
+              "negative": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M11.64S",
+        "duration": "PT0.24S",
+        "offsetInTicks": 1316400000.0,
+        "durationInTicks": 2400000.0,
+        "nBest": [
+          {
+            "confidence": 0.6634989,
+            "lexical": "who",
+            "itn": "who",
+            "maskedITN": "Who",
+            "display": "Who?",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.9,
+              "negative": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M11.96S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 1319600000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.84499705,
+            "lexical": "who told you that",
+            "itn": "who told you that",
+            "maskedITN": "Who told you that",
+            "display": "Who told you that?",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.83,
+              "negative": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M11.96S",
+        "duration": "PT0.84S",
+        "offsetInTicks": 1319600000.0,
+        "durationInTicks": 8400000.0,
+        "nBest": [
+          {
+            "confidence": 0.84499705,
+            "lexical": "who told you that",
+            "itn": "who told you that",
+            "maskedITN": "Who told you that",
+            "display": "Who told you that?",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.83,
+              "negative": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M12.92S",
+        "duration": "PT1.16S",
+        "offsetInTicks": 1329200000.0,
+        "durationInTicks": 11600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8164802,
+            "lexical": "the physiotherapist",
+            "itn": "the physiotherapist",
+            "maskedITN": "The physiotherapist",
+            "display": "The physiotherapist.",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.94,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M12.92S",
+        "duration": "PT1.16S",
+        "offsetInTicks": 1329200000.0,
+        "durationInTicks": 11600000.0,
+        "nBest": [
+          {
+            "confidence": 0.8164802,
+            "lexical": "the physiotherapist",
+            "itn": "the physiotherapist",
+            "maskedITN": "The physiotherapist",
+            "display": "The physiotherapist.",
+            "sentiment": {
+              "positive": 0.05,
+              "neutral": 0.94,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M14.4S",
+        "duration": "PT1.36S",
+        "offsetInTicks": 1344000000.0,
+        "durationInTicks": 13600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9121654,
+            "lexical": "i'm really sorry to hear that",
+            "itn": "i'm really sorry to hear that",
+            "maskedITN": "I'm really sorry to hear that",
+            "display": "I'm really sorry to hear that.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.04,
+              "negative": 0.95
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M14.4S",
+        "duration": "PT1.36S",
+        "offsetInTicks": 1344000000.0,
+        "durationInTicks": 13600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9121654,
+            "lexical": "i'm really sorry to hear that",
+            "itn": "i'm really sorry to hear that",
+            "maskedITN": "I'm really sorry to hear that",
+            "display": "I'm really sorry to hear that.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.04,
+              "negative": 0.95
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M15.76S",
+        "duration": "PT1.56S",
+        "offsetInTicks": 1357600000.0,
+        "durationInTicks": 15600000.0,
+        "nBest": [
+          {
+            "confidence": 0.93043697,
+            "lexical": "OK we can clear that up with them",
+            "itn": "OK we can clear that up with them",
+            "maskedITN": "OK we can clear that up with them",
+            "display": "OK, we can clear that up with them.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.88,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M15.76S",
+        "duration": "PT1.56S",
+        "offsetInTicks": 1357600000.0,
+        "durationInTicks": 15600000.0,
+        "nBest": [
+          {
+            "confidence": 0.93043697,
+            "lexical": "OK we can clear that up with them",
+            "itn": "OK we can clear that up with them",
+            "maskedITN": "OK we can clear that up with them",
+            "display": "OK, we can clear that up with them.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.88,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M17.32S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 1373200000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.80961156,
+            "lexical": "but there there are some sessions left",
+            "itn": "but there there are some sessions left",
+            "maskedITN": "But there there are some sessions left",
+            "display": "But there there are some sessions left.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.96,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M17.32S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 1373200000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.80961156,
+            "lexical": "but there there are some sessions left",
+            "itn": "but there there are some sessions left",
+            "maskedITN": "But there there are some sessions left",
+            "display": "But there there are some sessions left.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.96,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M20.24S",
+        "duration": "PT0.72S",
+        "offsetInTicks": 1402400000.0,
+        "durationInTicks": 7200000.0,
+        "nBest": [
+          {
+            "confidence": 0.91563475,
+            "lexical": "but you know what",
+            "itn": "but you know what",
+            "maskedITN": "But you know what",
+            "display": "But you know what?",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.8,
+              "negative": 0.13
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M20.24S",
+        "duration": "PT0.72S",
+        "offsetInTicks": 1402400000.0,
+        "durationInTicks": 7200000.0,
+        "nBest": [
+          {
+            "confidence": 0.91563475,
+            "lexical": "but you know what",
+            "itn": "but you know what",
+            "maskedITN": "But you know what",
+            "display": "But you know what?",
+            "sentiment": {
+              "positive": 0.07,
+              "neutral": 0.8,
+              "negative": 0.13
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M20.96S",
+        "duration": "PT2.2S",
+        "offsetInTicks": 1409600000.0,
+        "durationInTicks": 22000000.0,
+        "nBest": [
+          {
+            "confidence": 0.9663841,
+            "lexical": "i don't want you to have to worry about this",
+            "itn": "i don't want you to have to worry about this",
+            "maskedITN": "I don't want you to have to worry about this",
+            "display": "I don't want you to have to worry about this.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.35,
+              "negative": 0.56
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M20.96S",
+        "duration": "PT2.2S",
+        "offsetInTicks": 1409600000.0,
+        "durationInTicks": 22000000.0,
+        "nBest": [
+          {
+            "confidence": 0.9663841,
+            "lexical": "i don't want you to have to worry about this",
+            "itn": "i don't want you to have to worry about this",
+            "maskedITN": "I don't want you to have to worry about this",
+            "display": "I don't want you to have to worry about this.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.35,
+              "negative": 0.56
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M23.16S",
+        "duration": "PT1.04S",
+        "offsetInTicks": 1431600000.0,
+        "durationInTicks": 10400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9751466,
+            "lexical": "you leave that with me",
+            "itn": "you leave that with me",
+            "maskedITN": "You leave that with me",
+            "display": "You leave that with me.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.77,
+              "negative": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M23.16S",
+        "duration": "PT1.04S",
+        "offsetInTicks": 1431600000.0,
+        "durationInTicks": 10400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9751466,
+            "lexical": "you leave that with me",
+            "itn": "you leave that with me",
+            "maskedITN": "You leave that with me",
+            "display": "You leave that with me.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.77,
+              "negative": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M24.48S",
+        "duration": "PT3.56S",
+        "offsetInTicks": 1444800000.0,
+        "durationInTicks": 35600000.0,
+        "nBest": [
+          {
+            "confidence": 0.91179335,
+            "lexical": "i will contact your physiotherapist and follow up with you",
+            "itn": "i will contact your physiotherapist and follow up with you",
+            "maskedITN": "I will contact your physiotherapist and follow up with you",
+            "display": "I will contact your physiotherapist and follow up with you.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M24.48S",
+        "duration": "PT3.56S",
+        "offsetInTicks": 1444800000.0,
+        "durationInTicks": 35600000.0,
+        "nBest": [
+          {
+            "confidence": 0.91179335,
+            "lexical": "i will contact your physiotherapist and follow up with you",
+            "itn": "i will contact your physiotherapist and follow up with you",
+            "maskedITN": "I will contact your physiotherapist and follow up with you",
+            "display": "I will contact your physiotherapist and follow up with you.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M28.08S",
+        "duration": "PT7.44S",
+        "offsetInTicks": 1480800000.0,
+        "durationInTicks": 74400000.0,
+        "nBest": [
+          {
+            "confidence": 0.89397573,
+            "lexical": "i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery",
+            "itn": "i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery",
+            "maskedITN": "I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery",
+            "display": "I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery.",
+            "sentiment": {
+              "positive": 0.21,
+              "neutral": 0.76,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M28.08S",
+        "duration": "PT7.44S",
+        "offsetInTicks": 1480800000.0,
+        "durationInTicks": 74400000.0,
+        "nBest": [
+          {
+            "confidence": 0.89397573,
+            "lexical": "i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery",
+            "itn": "i can do that today because i want to make sure that you're still able to go for treatment and this is not interrupting your recovery",
+            "maskedITN": "I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery",
+            "display": "I can do that today because I want to make sure that you're still able to go for treatment and this is not interrupting your recovery.",
+            "sentiment": {
+              "positive": 0.21,
+              "neutral": 0.76,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M35.92S",
+        "duration": "PT2.92S",
+        "offsetInTicks": 1559200000.0,
+        "durationInTicks": 29200000.0,
+        "nBest": [
+          {
+            "confidence": 0.85698164,
+            "lexical": "is there anything else that's going on right now that i can help with",
+            "itn": "is there anything else that's going on right now that i can help with",
+            "maskedITN": "Is there anything else that's going on right now that I can help with",
+            "display": "Is there anything else that's going on right now that I can help with?",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.86,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M35.92S",
+        "duration": "PT2.92S",
+        "offsetInTicks": 1559200000.0,
+        "durationInTicks": 29200000.0,
+        "nBest": [
+          {
+            "confidence": 0.85698164,
+            "lexical": "is there anything else that's going on right now that i can help with",
+            "itn": "is there anything else that's going on right now that i can help with",
+            "maskedITN": "Is there anything else that's going on right now that I can help with",
+            "display": "Is there anything else that's going on right now that I can help with?",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.86,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M39S",
+        "duration": "PT2S",
+        "offsetInTicks": 1590000000.0,
+        "durationInTicks": 20000000.0,
+        "nBest": [
+          {
+            "confidence": 0.94199115,
+            "lexical": "yeah i mean you know whatever",
+            "itn": "yeah i mean you know whatever",
+            "maskedITN": "Yeah I mean you know whatever",
+            "display": "Yeah, I mean, you know, whatever.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.94,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M39S",
+        "duration": "PT2S",
+        "offsetInTicks": 1590000000.0,
+        "durationInTicks": 20000000.0,
+        "nBest": [
+          {
+            "confidence": 0.94199115,
+            "lexical": "yeah i mean you know whatever",
+            "itn": "yeah i mean you know whatever",
+            "maskedITN": "Yeah I mean you know whatever",
+            "display": "Yeah, I mean, you know, whatever.",
+            "sentiment": {
+              "positive": 0.04,
+              "neutral": 0.94,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M41S",
+        "duration": "PT4.72S",
+        "offsetInTicks": 1610000000.0,
+        "durationInTicks": 47200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9249219,
+            "lexical": "if my treatment is going to be cut off like you know that's annoying",
+            "itn": "if my treatment is going to be cut off like you know that's annoying",
+            "maskedITN": "If my treatment is going to be cut off like you know that's annoying",
+            "display": "If my treatment is going to be cut off, like, you know, that's annoying.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.03,
+              "negative": 0.97
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M41S",
+        "duration": "PT4.72S",
+        "offsetInTicks": 1610000000.0,
+        "durationInTicks": 47200000.0,
+        "nBest": [
+          {
+            "confidence": 0.9249219,
+            "lexical": "if my treatment is going to be cut off like you know that's annoying",
+            "itn": "if my treatment is going to be cut off like you know that's annoying",
+            "maskedITN": "If my treatment is going to be cut off like you know that's annoying",
+            "display": "If my treatment is going to be cut off, like, you know, that's annoying.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.03,
+              "negative": 0.97
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M45.72S",
+        "duration": "PT1.84S",
+        "offsetInTicks": 1657200000.0,
+        "durationInTicks": 18400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9212968,
+            "lexical": "it's unfair because i still need treatment",
+            "itn": "it's unfair because i still need treatment",
+            "maskedITN": "It's unfair because I still need treatment",
+            "display": "It's unfair because I still need treatment.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.13,
+              "negative": 0.87
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M45.72S",
+        "duration": "PT1.84S",
+        "offsetInTicks": 1657200000.0,
+        "durationInTicks": 18400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9212968,
+            "lexical": "it's unfair because i still need treatment",
+            "itn": "it's unfair because i still need treatment",
+            "maskedITN": "It's unfair because I still need treatment",
+            "display": "It's unfair because I still need treatment.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.13,
+              "negative": 0.87
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M48.16S",
+        "duration": "PT6.68S",
+        "offsetInTicks": 1681600000.0,
+        "durationInTicks": 66800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9062713,
+            "lexical": "but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today",
+            "itn": "but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today",
+            "maskedITN": "But I guess you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today",
+            "display": "But I guess, you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today?",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.94,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M48.16S",
+        "duration": "PT6.68S",
+        "offsetInTicks": 1681600000.0,
+        "durationInTicks": 66800000.0,
+        "nBest": [
+          {
+            "confidence": 0.9062713,
+            "lexical": "but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today",
+            "itn": "but i guess you know we can also just settle the claim up and and i can have my compensation now what it what's your offer today",
+            "maskedITN": "But I guess you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today",
+            "display": "But I guess, you know we can also just settle the claim up and and I can have my compensation Now what it what's your offer today?",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.94,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT2M56.52S",
+        "duration": "PT7.84S",
+        "offsetInTicks": 1765200000.0,
+        "durationInTicks": 78400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8967706,
+            "lexical": "you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that",
+            "itn": "you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that",
+            "maskedITN": "You know Emily I just wanted to clarify I know we've talked about this before as well but I just wanted to make sure that you are clear that we actually don't do that",
+            "display": "You know, Emily, I just wanted to clarify, I know we've talked about this before as well, but I just wanted to make sure that you are clear that we actually don't do that.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.81,
+              "negative": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT2M56.52S",
+        "duration": "PT7.84S",
+        "offsetInTicks": 1765200000.0,
+        "durationInTicks": 78400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8967706,
+            "lexical": "you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that",
+            "itn": "you know emily i just wanted to clarify i know we've talked about this before as well but i just wanted to make sure that you are clear that we actually don't do that",
+            "maskedITN": "You know Emily I just wanted to clarify I know we've talked about this before as well but I just wanted to make sure that you are clear that we actually don't do that",
+            "display": "You know, Emily, I just wanted to clarify, I know we've talked about this before as well, but I just wanted to make sure that you are clear that we actually don't do that.",
+            "sentiment": {
+              "positive": 0.09,
+              "neutral": 0.81,
+              "negative": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M4.36S",
+        "duration": "PT7.16S",
+        "offsetInTicks": 1843600000.0,
+        "durationInTicks": 71600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9125328,
+            "lexical": "ICBC doesn't supply compensation for your claim since we started with enhanced care",
+            "itn": "ICBC doesn't supply compensation for your claim since we started with enhanced care",
+            "maskedITN": "ICBC doesn't supply compensation for your claim since we started with enhanced care",
+            "display": "ICBC doesn't supply compensation for your claim since we started with enhanced care.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.4,
+              "negative": 0.59
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M4.36S",
+        "duration": "PT7.16S",
+        "offsetInTicks": 1843600000.0,
+        "durationInTicks": 71600000.0,
+        "nBest": [
+          {
+            "confidence": 0.9125328,
+            "lexical": "ICBC doesn't supply compensation for your claim since we started with enhanced care",
+            "itn": "ICBC doesn't supply compensation for your claim since we started with enhanced care",
+            "maskedITN": "ICBC doesn't supply compensation for your claim since we started with enhanced care",
+            "display": "ICBC doesn't supply compensation for your claim since we started with enhanced care.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.4,
+              "negative": 0.59
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M12S",
+        "duration": "PT1.68S",
+        "offsetInTicks": 1920000000.0,
+        "durationInTicks": 16800000.0,
+        "nBest": [
+          {
+            "confidence": 0.7001154,
+            "lexical": "we talked about this in the beginning of your claim",
+            "itn": "we talked about this in the beginning of your claim",
+            "maskedITN": "We talked about this in the beginning of your claim",
+            "display": "We talked about this in the beginning of your claim.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M12S",
+        "duration": "PT1.68S",
+        "offsetInTicks": 1920000000.0,
+        "durationInTicks": 16800000.0,
+        "nBest": [
+          {
+            "confidence": 0.7001154,
+            "lexical": "we talked about this in the beginning of your claim",
+            "itn": "we talked about this in the beginning of your claim",
+            "maskedITN": "We talked about this in the beginning of your claim",
+            "display": "We talked about this in the beginning of your claim.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.96,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M13.68S",
+        "duration": "PT3.84S",
+        "offsetInTicks": 1936800000.0,
+        "durationInTicks": 38400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9044693,
+            "lexical": "so i wanted to make sure that you understand and please ask me any questions about it",
+            "itn": "so i wanted to make sure that you understand and please ask me any questions about it",
+            "maskedITN": "So I wanted to make sure that you understand and please ask me any questions about it",
+            "display": "So I wanted to make sure that you understand and please ask me any questions about it.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.89,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M13.68S",
+        "duration": "PT3.84S",
+        "offsetInTicks": 1936800000.0,
+        "durationInTicks": 38400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9044693,
+            "lexical": "so i wanted to make sure that you understand and please ask me any questions about it",
+            "itn": "so i wanted to make sure that you understand and please ask me any questions about it",
+            "maskedITN": "So I wanted to make sure that you understand and please ask me any questions about it",
+            "display": "So I wanted to make sure that you understand and please ask me any questions about it.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.89,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M17.52S",
+        "duration": "PT8S",
+        "offsetInTicks": 1975200000.0,
+        "durationInTicks": 80000000.0,
+        "nBest": [
+          {
+            "confidence": 0.92725337,
+            "lexical": "but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment",
+            "itn": "but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment",
+            "maskedITN": "But overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment",
+            "display": "But overall what it is, is when you are in an accident, we want to make sure that we're doing everything to help you recover and that's including the treatment.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.69,
+              "negative": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M17.52S",
+        "duration": "PT8S",
+        "offsetInTicks": 1975200000.0,
+        "durationInTicks": 80000000.0,
+        "nBest": [
+          {
+            "confidence": 0.92725337,
+            "lexical": "but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment",
+            "itn": "but overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment",
+            "maskedITN": "But overall what it is is when you are in an accident we want to make sure that we're doing everything to help you recover and that's including the treatment",
+            "display": "But overall what it is, is when you are in an accident, we want to make sure that we're doing everything to help you recover and that's including the treatment.",
+            "sentiment": {
+              "positive": 0.11,
+              "neutral": 0.69,
+              "negative": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M25.8S",
+        "duration": "PT2.24S",
+        "offsetInTicks": 2058000000.0,
+        "durationInTicks": 22400000.0,
+        "nBest": [
+          {
+            "confidence": 0.86521447,
+            "lexical": "you mentioned that you've been going to physio for about a year and a half",
+            "itn": "you mentioned that you've been going to physio for about a year and a half",
+            "maskedITN": "You mentioned that you've been going to physio for about a year and a half",
+            "display": "You mentioned that you've been going to physio for about a year and a half.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M25.8S",
+        "duration": "PT2.24S",
+        "offsetInTicks": 2058000000.0,
+        "durationInTicks": 22400000.0,
+        "nBest": [
+          {
+            "confidence": 0.86521447,
+            "lexical": "you mentioned that you've been going to physio for about a year and a half",
+            "itn": "you mentioned that you've been going to physio for about a year and a half",
+            "maskedITN": "You mentioned that you've been going to physio for about a year and a half",
+            "display": "You mentioned that you've been going to physio for about a year and a half.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M28.04S",
+        "duration": "PT3.04S",
+        "offsetInTicks": 2080400000.0,
+        "durationInTicks": 30400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9046181,
+            "lexical": "so that's part of the benefits that you get with your claim",
+            "itn": "so that's part of the benefits that you get with your claim",
+            "maskedITN": "So that's part of the benefits that you get with your claim",
+            "display": "So that's part of the benefits that you get with your claim.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.91,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M28.04S",
+        "duration": "PT3.04S",
+        "offsetInTicks": 2080400000.0,
+        "durationInTicks": 30400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9046181,
+            "lexical": "so that's part of the benefits that you get with your claim",
+            "itn": "so that's part of the benefits that you get with your claim",
+            "maskedITN": "So that's part of the benefits that you get with your claim",
+            "display": "So that's part of the benefits that you get with your claim.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.91,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M31.4S",
+        "duration": "PT5.44S",
+        "offsetInTicks": 2114000000.0,
+        "durationInTicks": 54400000.0,
+        "nBest": [
+          {
+            "confidence": 0.930166,
+            "lexical": "and i know that we followed up with your doctor as well to check on your recovery and how you're doing",
+            "itn": "and i know that we followed up with your doctor as well to check on your recovery and how you're doing",
+            "maskedITN": "And I know that we followed up with your doctor as well to check on your recovery and how you're doing",
+            "display": "And I know that we followed up with your doctor as well to check on your recovery and how you're doing.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.95,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M31.4S",
+        "duration": "PT5.44S",
+        "offsetInTicks": 2114000000.0,
+        "durationInTicks": 54400000.0,
+        "nBest": [
+          {
+            "confidence": 0.930166,
+            "lexical": "and i know that we followed up with your doctor as well to check on your recovery and how you're doing",
+            "itn": "and i know that we followed up with your doctor as well to check on your recovery and how you're doing",
+            "maskedITN": "And I know that we followed up with your doctor as well to check on your recovery and how you're doing",
+            "display": "And I know that we followed up with your doctor as well to check on your recovery and how you're doing.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.95,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M37.16S",
+        "duration": "PT2.24S",
+        "offsetInTicks": 2171600000.0,
+        "durationInTicks": 22400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8560495,
+            "lexical": "those are are the things that we want to do to support you",
+            "itn": "those are are the things that we want to do to support you",
+            "maskedITN": "Those are are the things that we want to do to support you",
+            "display": "Those are are the things that we want to do to support you.",
+            "sentiment": {
+              "positive": 0.49,
+              "neutral": 0.48,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M37.16S",
+        "duration": "PT2.24S",
+        "offsetInTicks": 2171600000.0,
+        "durationInTicks": 22400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8560495,
+            "lexical": "those are are the things that we want to do to support you",
+            "itn": "those are are the things that we want to do to support you",
+            "maskedITN": "Those are are the things that we want to do to support you",
+            "display": "Those are are the things that we want to do to support you.",
+            "sentiment": {
+              "positive": 0.49,
+              "neutral": 0.48,
+              "negative": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M39.4S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 2194000000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9241029,
+            "lexical": "there isn't any compensation amount",
+            "itn": "there isn't any compensation amount",
+            "maskedITN": "There isn't any compensation amount",
+            "display": "There isn't any compensation amount.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.73,
+              "negative": 0.26
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M39.4S",
+        "duration": "PT2.04S",
+        "offsetInTicks": 2194000000.0,
+        "durationInTicks": 20400000.0,
+        "nBest": [
+          {
+            "confidence": 0.9241029,
+            "lexical": "there isn't any compensation amount",
+            "itn": "there isn't any compensation amount",
+            "maskedITN": "There isn't any compensation amount",
+            "display": "There isn't any compensation amount.",
+            "sentiment": {
+              "positive": 0.01,
+              "neutral": 0.73,
+              "negative": 0.26
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M41.52S",
+        "duration": "PT2.84S",
+        "offsetInTicks": 2215200000.0,
+        "durationInTicks": 28400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8655437,
+            "lexical": "what there's no more compensation",
+            "itn": "what there's no more compensation",
+            "maskedITN": "What there's no more compensation",
+            "display": "What there's no more compensation.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.63,
+              "negative": 0.35
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M41.52S",
+        "duration": "PT2.84S",
+        "offsetInTicks": 2215200000.0,
+        "durationInTicks": 28400000.0,
+        "nBest": [
+          {
+            "confidence": 0.8655437,
+            "lexical": "what there's no more compensation",
+            "itn": "what there's no more compensation",
+            "maskedITN": "What there's no more compensation",
+            "display": "What there's no more compensation.",
+            "sentiment": {
+              "positive": 0.02,
+              "neutral": 0.63,
+              "negative": 0.35
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M44.8S",
+        "duration": "PT3.24S",
+        "offsetInTicks": 2248000000.0,
+        "durationInTicks": 32400000.0,
+        "nBest": [
+          {
+            "confidence": 0.82243294,
+            "lexical": "so i've been struggling with this injury",
+            "itn": "so i've been struggling with this injury",
+            "maskedITN": "So I've been struggling with this injury",
+            "display": "So I've been struggling with this injury.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.03,
+              "negative": 0.96
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M44.8S",
+        "duration": "PT3.24S",
+        "offsetInTicks": 2248000000.0,
+        "durationInTicks": 32400000.0,
+        "nBest": [
+          {
+            "confidence": 0.82243294,
+            "lexical": "so i've been struggling with this injury",
+            "itn": "so i've been struggling with this injury",
+            "maskedITN": "So I've been struggling with this injury",
+            "display": "So I've been struggling with this injury.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.03,
+              "negative": 0.96
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M48.04S",
+        "duration": "PT4.84S",
+        "offsetInTicks": 2280400000.0,
+        "durationInTicks": 48400000.0,
+        "nBest": [
+          {
+            "confidence": 0.91572714,
+            "lexical": "i have been wasting all my time going to treatment and i'm not even going to get any money for it",
+            "itn": "i have been wasting all my time going to treatment and i'm not even going to get any money for it",
+            "maskedITN": "I have been wasting all my time going to treatment and I'm not even going to get any money for it",
+            "display": "I have been wasting all my time going to treatment and I'm not even going to get any money for it.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.04,
+              "negative": 0.96
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M48.04S",
+        "duration": "PT4.84S",
+        "offsetInTicks": 2280400000.0,
+        "durationInTicks": 48400000.0,
+        "nBest": [
+          {
+            "confidence": 0.91572714,
+            "lexical": "i have been wasting all my time going to treatment and i'm not even going to get any money for it",
+            "itn": "i have been wasting all my time going to treatment and i'm not even going to get any money for it",
+            "maskedITN": "I have been wasting all my time going to treatment and I'm not even going to get any money for it",
+            "display": "I have been wasting all my time going to treatment and I'm not even going to get any money for it.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.04,
+              "negative": 0.96
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M53.76S",
+        "duration": "PT1.8S",
+        "offsetInTicks": 2337600000.0,
+        "durationInTicks": 18000000.0,
+        "nBest": [
+          {
+            "confidence": 0.82976806,
+            "lexical": "we we don't have compensation anymore",
+            "itn": "we we don't have compensation anymore",
+            "maskedITN": "We we don't have compensation anymore",
+            "display": "We we don't have compensation anymore.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.65,
+              "negative": 0.32
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M53.76S",
+        "duration": "PT1.8S",
+        "offsetInTicks": 2337600000.0,
+        "durationInTicks": 18000000.0,
+        "nBest": [
+          {
+            "confidence": 0.82976806,
+            "lexical": "we we don't have compensation anymore",
+            "itn": "we we don't have compensation anymore",
+            "maskedITN": "We we don't have compensation anymore",
+            "display": "We we don't have compensation anymore.",
+            "sentiment": {
+              "positive": 0.03,
+              "neutral": 0.65,
+              "negative": 0.32
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M55.56S",
+        "duration": "PT1.24S",
+        "offsetInTicks": 2355600000.0,
+        "durationInTicks": 12400000.0,
+        "nBest": [
+          {
+            "confidence": 0.90595454,
+            "lexical": "emily that is correct",
+            "itn": "emily that is correct",
+            "maskedITN": "Emily that is correct",
+            "display": "Emily, that is correct.",
+            "sentiment": {
+              "positive": 0.49,
+              "neutral": 0.49,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M55.56S",
+        "duration": "PT1.24S",
+        "offsetInTicks": 2355600000.0,
+        "durationInTicks": 12400000.0,
+        "nBest": [
+          {
+            "confidence": 0.90595454,
+            "lexical": "emily that is correct",
+            "itn": "emily that is correct",
+            "maskedITN": "Emily that is correct",
+            "display": "Emily, that is correct.",
+            "sentiment": {
+              "positive": 0.49,
+              "neutral": 0.49,
+              "negative": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M57.92S",
+        "duration": "PT1.2S",
+        "offsetInTicks": 2379200000.0,
+        "durationInTicks": 12000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8762555,
+            "lexical": "OK whatever",
+            "itn": "OK whatever",
+            "maskedITN": "OK whatever",
+            "display": "OK, whatever.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.89,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M57.92S",
+        "duration": "PT1.2S",
+        "offsetInTicks": 2379200000.0,
+        "durationInTicks": 12000000.0,
+        "nBest": [
+          {
+            "confidence": 0.8762555,
+            "lexical": "OK whatever",
+            "itn": "OK whatever",
+            "maskedITN": "OK whatever",
+            "display": "OK, whatever.",
+            "sentiment": {
+              "positive": 0.08,
+              "neutral": 0.89,
+              "negative": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT3M59.36S",
+        "duration": "PT0.32S",
+        "offsetInTicks": 2393600000.0,
+        "durationInTicks": 3200000.0,
+        "nBest": [
+          {
+            "confidence": 0.7800385,
+            "lexical": "bye",
+            "itn": "bye",
+            "maskedITN": "Bye",
+            "display": "Bye.",
+            "sentiment": {
+              "positive": 0.25,
+              "neutral": 0.7,
+              "negative": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 1,
+        "offset": "PT3M59.36S",
+        "duration": "PT0.32S",
+        "offsetInTicks": 2393600000.0,
+        "durationInTicks": 3200000.0,
+        "nBest": [
+          {
+            "confidence": 0.7800385,
+            "lexical": "bye",
+            "itn": "bye",
+            "maskedITN": "Bye",
+            "display": "Bye.",
+            "sentiment": {
+              "positive": 0.25,
+              "neutral": 0.7,
+              "negative": 0.05
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

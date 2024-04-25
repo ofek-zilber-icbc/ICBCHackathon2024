@@ -3,11 +3,31 @@ import { useEffect, useState } from 'react'
 import "../App.css";
 import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 
 
 const DataTable = (props) => {
-    
+    const [summaryDialogOpen, setSummaryDialogOpen] = useState(false);
+    const [summaryText, setSummaryText] = useState('');
+
+   // Function to open the summary dialog
+   const openSummaryDialog = (text) => {
+        console.log("open")
+        setSummaryText(text);
+        setSummaryDialogOpen(true);
+
+
+
+
+        
+    };
+    // Function to close the summary dialog
+    const closeSummaryDialog = () => {
+        console.log("close")
+        setSummaryDialogOpen(false);
+    };
     return (
+        <>
             <table>
                 <thead>
                     <tr>
@@ -35,7 +55,12 @@ const DataTable = (props) => {
                             <tr key={i}>
                                 <td>{record.short.representativeName}</td>
                                 <td>{record.short.customerName}</td>
-                                <td>{record.short.summary}</td>                                  
+                                <td
+                                    className="summary"
+                                    onClick={() => openSummaryDialog(record.short.summary)}
+                                >
+                                    <a href="#">Summary</a>
+                                </td>                              
                                 <td>{record.short.date}</td>
                                 <td>{record.short.callLength + "mins"}</td>
                                 <td className={getFlagClassName(record.short.flags)}>{getFlagText(record.short.flags)}</td>
@@ -46,7 +71,16 @@ const DataTable = (props) => {
                     }
                 </tbody>
             </table>
-      
+             <Dialog open={summaryDialogOpen}>
+                <DialogTitle>Summary</DialogTitle>
+                <DialogContent>
+                    <p>{summaryText}</p>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={closeSummaryDialog}>Close</Button>
+                </DialogActions>
+            </Dialog>
+            </>
     )
 }
 
