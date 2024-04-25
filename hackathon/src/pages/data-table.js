@@ -12,13 +12,12 @@ const DataTable = (props) => {
                 <thead>
                     <tr>
                         <th>Representative Name</th>
-                        <th>Transcription</th>
                         <th>Customer Name</th>
-                        {/* <th>Transcription</th> */}
                         <th>Summary</th>
-                        <th>Date</th> 
-                        <th>Call Length</th>
+                        <th>Date</th>
+                        <th>Call Length</th> 
                         <th>Flag</th>
+                        <th>Details</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,13 +32,13 @@ const DataTable = (props) => {
                             };
                             return (
                             <tr key={i}>
-                                <td>{record.representativeName}</td>
-                                <td>{record.customerName}</td>
-                                <td>{record.summary}</td>                                  
-                                <td>{record.date}</td>
-                                <td>{record.callLength + "mins"}</td>
-                                <td className={getFlagClassName(record.flags)}>{getFlagText(record.flags)}</td>
-                                <td><Link to='/details' state={record}>Show details</Link></td> 
+                                <td>{record.short.representativeName}</td>
+                                <td>{record.short.customerName}</td>
+                                <td>{record.short.summary}</td>                                  
+                                <td>{record.short.date}</td>
+                                <td>{record.short.callLength + "mins"}</td>
+                                <td className={getFlagClassName(record.short.flags)}>{getFlagText(record.short.flags)}</td>
+                                <td><Link to='/details' state={record.short}>Show details</Link></td> 
                             </tr>)
                         })
                     }
