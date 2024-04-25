@@ -87,10 +87,10 @@ const ListPage = () => {
                 console.log("HII",item.short.flags)
                 console.log("BYE",searchValues.flag)
 
-                if (searchValues.flag.toLowerCase() === 'flagged' && item.short.flags.length === 0) {
+                if (searchValues.flag === 'flagged' && item.short.flags.length === 0) {
                     return false;
                 }
-                if (searchValues.flag.toLowerCase() === 'not-flagged' && item.short.flags.length !==0) {
+                if (searchValues.flag === 'not-flagged' && item.short.flags.length !==0) {
                     return false;
                 }
             // }
