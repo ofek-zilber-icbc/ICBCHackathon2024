@@ -19,17 +19,10 @@ const DetailsPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('/call2_display.json');
-                // const recognizedPhrases = response.data.recognizedPhrases || [];
-                // const newDisplayWords = recognizedPhrases.reduce((acc, phrase) => {
-                //     if (phrase.nBest[0].displayWords !== undefined) {
-                //         const newWords = phrase.nBest[0].displayWords;
-                //         return [...acc, ...newWords];
-                //     }
-                //     return acc;
-                // }, []);
-                // console.log("END!!!!!!!!!!!!!")
-                setTranscriptData( response.data.conversations);
+                const response = await axios.get('/everything_call2.json');
+                const displayArray = response.data.long.transcription.recognizedPhrases.filter((_, index) => index % 2 === 0);
+                console.log(displayArray)
+                setTranscriptData(displayArray);
             } catch (error) {
                 console.error('Error fetching JSON:', error);
             }
@@ -166,15 +159,16 @@ const DetailsPage = () => {
                     key={index}
                     style={{
                         backgroundColor:
-                        currentTime >= word.offset_in_ticks / 10000000 &&
-                        currentTime <= (word.offset_in_ticks + word.duration_in_ticks) / 10000000
+                        currentTime >= word.offsetInTicks / 10000000 &&
+                        currentTime <= (word.offsetInTicks + word.durationInTicks) / 10000000
                          ? 'yellow'
                         : 'transparent',
+                        color: word.nBest[0].sentiment.negative >= 0.85 ? 'red' : 'inherit', // Change text color to red if sentiment is negative
                         cursor: 'pointer',
                     }}
-                    onClick={() => handleTranscriptClick(word.offset_in_ticks / 10000000)}
+                    onClick={() => handleTranscriptClick(word.offsetInTicks / 10000000)}
                 >
-                {word.text}{' '}
+                {word.nBest[0].display}{' '}
                 </div>
                 
                  ))}
